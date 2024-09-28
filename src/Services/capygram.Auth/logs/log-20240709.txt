@@ -1,0 +1,75 @@
+2024-07-09 19:46:10.756 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-09 19:46:12.496 +07:00 [DBG] Hosting starting
+2024-07-09 19:46:12.888 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-09 19:46:13.382 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-07-09 19:46:13.596 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-07-09 19:46:13.646 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-07-09 19:46:13.681 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-07-09 19:46:13.714 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-07-09 19:46:13.754 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-07-09 19:46:13.763 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-07-09 19:46:13.764 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-07-09 19:46:13.764 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-07-09 19:46:13.776 +07:00 [DBG] Considering key {97575500-6a39-4aec-a5f7-bc1ac2a50231} with expiration date 2024-09-23 17:58:26Z as default key.
+2024-07-09 19:46:13.781 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-09 19:46:13.785 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-09 19:46:13.788 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-09 19:46:13.796 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-09 19:46:13.799 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-09 19:46:13.801 +07:00 [DBG] Using key {97575500-6a39-4aec-a5f7-bc1ac2a50231} as the default key.
+2024-07-09 19:46:13.802 +07:00 [DBG] Key ring with default key {97575500-6a39-4aec-a5f7-bc1ac2a50231} was loaded during application startup.
+2024-07-09 19:46:13.806 +07:00 [DBG] Starting bus instances: IBus
+2024-07-09 19:46:13.814 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-07-09 19:46:13.888 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-07-09 19:46:14.016 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 52158)
+2024-07-09 19:46:14.047 +07:00 [INF] Now listening on: https://localhost:7284
+2024-07-09 19:46:14.048 +07:00 [INF] Now listening on: http://localhost:5090
+2024-07-09 19:46:14.050 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-07-09 19:46:14.050 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-09 19:46:14.051 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-09 19:46:14.052 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-09 19:46:14.053 +07:00 [INF] Hosting environment: Development
+2024-07-09 19:46:14.054 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-07-09 19:46:14.054 +07:00 [DBG] Hosting started
+2024-07-09 19:46:14.073 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_8booyyysrsenh1kjbdqkyfe7fw?temporary=true"
+2024-07-09 19:46:14.107 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-07-09 19:46:14.131 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-07-09 19:46:14.140 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-07-09 19:46:14.149 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-07-09 19:46:14.150 +07:00 [DBG] Connection id "0HN502KF3FO35" received FIN.
+2024-07-09 19:46:14.158 +07:00 [DBG] Connection id "0HN502KF3FO35" accepted.
+2024-07-09 19:46:14.159 +07:00 [DBG] Connection id "0HN502KF3FO35" started.
+2024-07-09 19:46:14.182 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-07-09 19:46:14.176 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-07-09 19:46:14.262 +07:00 [DBG] Connection id "0HN502KF3FO35" stopped.
+2024-07-09 19:46:14.266 +07:00 [DBG] Connection id "0HN502KF3FO35" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-09 19:46:14.302 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-nTBdgroUwD_Rz-J_V_IdbQ
+2024-07-09 19:46:14.305 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-07-09 19:46:14.322 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-07-09 19:46:14.410 +07:00 [DBG] Connection id "0HN502KF3FO36" accepted.
+2024-07-09 19:46:14.412 +07:00 [DBG] Connection id "0HN502KF3FO36" started.
+2024-07-09 19:46:14.412 +07:00 [DBG] Connection id "0HN502KF3FO37" accepted.
+2024-07-09 19:46:14.417 +07:00 [DBG] Connection id "0HN502KF3FO37" started.
+2024-07-09 19:46:14.474 +07:00 [DBG] Connection 0HN502KF3FO37 established using the following protocol: "Tls13"
+2024-07-09 19:46:14.474 +07:00 [DBG] Connection 0HN502KF3FO36 established using the following protocol: "Tls13"
+2024-07-09 19:46:14.559 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/index.html - null null
+2024-07-09 19:46:14.684 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-09 19:46:14.734 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-09 19:46:14.736 +07:00 [DBG] Request did not match any endpoints
+2024-07-09 19:46:14.884 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-09 19:46:14.887 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-09 19:46:14.909 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-09 19:46:14.910 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-09 19:46:14.913 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/index.html - 200 null text/html;charset=utf-8 357.8223ms
+2024-07-09 19:46:15.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_vs/browserLink - null null
+2024-07-09 19:46:15.120 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-09 19:46:15.128 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 7.6909ms
+2024-07-09 19:46:15.180 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7284/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.0889ms
+2024-07-09 19:46:15.774 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - null null
+2024-07-09 19:46:15.776 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-09 19:46:15.776 +07:00 [DBG] Request did not match any endpoints
+2024-07-09 19:46:15.981 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7284/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 207.0405ms

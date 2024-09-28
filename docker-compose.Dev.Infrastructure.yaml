@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+  ####################################
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:3-management-alpine
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+      RABBITMQ_DEFAULT_VHOST: "capygram"
+  #####################################
+  neo4j:
+    container_name: neo4j
+    image: neo4j:4.4.10
+    ports:
+      - "7474:7474"   # HTTP access to the Neo4j browser
+      - "7687:7687"   # Bolt protocol for database connections
+    environment:
+      NEO4J_AUTH: neo4j/hieu1234  # Format: NEO4J_AUTH=user/password
+      NEO4J_dbms_default__database: neo4j # Default database (replace `__` with `_`)
+    volumes:
+      - neo4j_data:/data
+  ######################################
+  cassandra:
+    container_name: cassandra
+    image: cassandra:3.11
+    ports:
+      - "9042:9042"
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+  #######################################
+  mongodb:
+    container_name: mongodb
+    image : mongo:latest
+    environment:
+      - MONGO_LOG_DIR=/dev/null
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+volumes:
+  neo4j_data:
+    driver: local
+  cassandra_data:
+    driver: local
+  mongodb_data:
+    driver: local

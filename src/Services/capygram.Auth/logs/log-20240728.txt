@@ -1,0 +1,6 @@
+2024-07-28 01:08:33.512 +07:00 [DBG] Disconnect: guest@localhost:5672/capygram
+2024-07-28 01:08:33.518 +07:00 [DBG] Disconnected: guest@localhost:5672/capygram
+2024-07-28 01:08:33.529 +07:00 [DBG] Consumer Model Shutdown: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-ieXU10DtZLLCjm9jsMqf4w, Concurrent Peak: 1, 320-CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'
+2024-07-28 01:08:33.535 +07:00 [DBG] Consumer Stopping: "rabbitmq://localhost/capygram/user-media-queue" (Consume Loop Exited)
+2024-07-28 01:08:33.540 +07:00 [DBG] Endpoint Completed: "rabbitmq://localhost/capygram/user-media-queue"
+2024-07-28 01:08:33.545 +07:00 [DBG] Consumer Completed: "rabbitmq://localhost/capygram/user-media-queue": 3 received, 1 concurrent, amq.ctag-ieXU10DtZLLCjm9jsMqf4w

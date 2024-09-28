@@ -1,0 +1,6 @@
+@capygram.Newsfeed_HostAddress = http://localhost:5115
+
+GET {{capygram.Newsfeed_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -8,6 +8,7 @@ using capygram.Post.Services;
 using MassTransit;
 using MongoDB.Bson.Serialization.Conventions;
 using RabbitMQ.Client;
+using StackExchange.Redis;
 using System.Reflection;
 
 namespace capygram.Post.DependencyInjection.Extentions
@@ -67,6 +68,19 @@ namespace capygram.Post.DependencyInjection.Extentions
                     bus.ConfigureEndpoints(context);
                 });
             });
+            return services;
+        }
+        public static IServiceCollection AddRedisConfiguration(this IServiceCollection services, IConfiguration configuration)
+        {
+            var redisConfiguration = new RedisOptions();
+            configuration.GetSection("RedisConfiguration").Bind(redisConfiguration);
+            services.AddSingleton(redisConfiguration);
+            if(!redisConfiguration.Enable)
+                return services;
+
+            services.AddSingleton<IConnectionMultiplexer>(_ => ConnectionMultiplexer.Connect(redisConfiguration.ConnectionString));
+            services.AddStackExchangeRedisCache(option => option.Configuration = redisConfiguration.ConnectionString);
+            services.AddSingleton<ICacheService, CacheService>();
             return services;
         }
     }

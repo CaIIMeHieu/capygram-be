@@ -1,6 +1,74 @@
-version: "3.9"
+#version: "3.9"
 
 services:
+  ####################################
+  auth :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Auth
+    container_name: capygram-auth
+    ports:
+      - "8080:8080"
+  ####################################
+  notification :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Notification
+    container_name: capygram-notification
+    ports:
+      - "8082:8082"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8082
+  ####################################
+  graph :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Graph
+    container_name: capygram-graph
+    ports:
+      - "8085:8085"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8085
+  ####################################
+  media :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Media
+    container_name: capygram-media
+    ports:
+      - "8084:8084"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8084
+  ####################################
+  chat :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Chat
+    container_name: capygram-chat
+    ports:
+      - "8083:8083"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8083
+  ####################################
+  post :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Post
+    container_name: capygram-post
+    ports:
+      - "8081:8081"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8081
+  ####################################
+  newsfeed :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Newsfeed
+    container_name: capygram-newsfeed
+    ports:
+      - "8086:8086"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8086
   ####################################
   rabbitmq:
     container_name: rabbitmq
@@ -42,10 +110,20 @@ services:
       - "27017:27017"
     volumes:
       - mongodb_data:/data/db
+  redis:
+    container_name: redis 
+    image : redis:latest  
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
 volumes:
   neo4j_data:
     driver: local
   cassandra_data:
     driver: local
   mongodb_data:
+    driver: local
+  redis_data:
     driver: local

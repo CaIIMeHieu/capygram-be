@@ -3,6 +3,10 @@ using capygram.Graph.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.Graph.json", optional: false, reloadOnChange: true)
+    .AddEnvironmentVariables();
 // Add services to the container.
 builder.Services.AddCors(options =>
 {
@@ -29,11 +33,15 @@ await builder.Services.ConfigurationNeo4j(builder.Configuration);
     var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty;
+});
+//}
 app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseHttpsRedirection();
 app.UseCors("AllowSpecificOrigin");

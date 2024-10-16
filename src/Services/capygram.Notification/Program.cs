@@ -2,7 +2,10 @@
 using capygram.Common.DependencyInjection.Extensions;
 using capygram.Notification.DependencyInjection.Extensions;
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.Notification.Development.json", optional: false, reloadOnChange: true)
+    .AddEnvironmentVariables();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -18,11 +21,15 @@ builder.Services
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty;
+});
+//}
 
 app.UseHttpsRedirection();
 

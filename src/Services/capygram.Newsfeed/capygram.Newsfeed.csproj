@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Services\capygram.Common\capygram.Common.csproj" />
+    <ProjectReference Include="..\capygram.Common\capygram.Common.csproj" />
   </ItemGroup>
 
 </Project>

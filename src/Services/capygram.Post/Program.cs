@@ -1,7 +1,10 @@
 using capygram.Post.DependencyInjection.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.Post.Development.json", optional: false, reloadOnChange: true)
+    .AddEnvironmentVariables();
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -21,17 +24,22 @@ builder.Services.AddConfiguration(builder.Configuration);
 builder.Services.AddServicesCollection();
 builder.Services.ConfigurationMediatR();
 builder.Services.AddMasstransitConfiguration(builder.Configuration);
+builder.Services.AddRedisConfiguration(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty;
+});
+//}
 
 app.UseHttpsRedirection();
 app.UseCors("AllowSpecificOrigin");

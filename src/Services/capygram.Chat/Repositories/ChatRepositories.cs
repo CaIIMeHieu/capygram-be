@@ -39,8 +39,8 @@ namespace capygram.Chat.Repositories
                 }
                 else
                 {
-                    message.IsSenderDeleted = deleteMessageRequest.UserRequest == message.Sender;
-                    message.IsReceiverDeleted = deleteMessageRequest.UserRequest == message.Receiver;
+                    message.IsSenderDeleted = true;
+                    message.IsReceiverDeleted = false;
                 }
                 // Cập nhật thông điệp vào cơ sở dữ liệu
                 var updateQuery = await _context.context.PrepareAsync(

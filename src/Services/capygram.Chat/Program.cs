@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Http.Connections;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.Chat.Development.json", optional: false, reloadOnChange: true)
+    .AddEnvironmentVariables();
 // Add services to the container.
 
 builder.Services.AddCors(options =>
@@ -28,11 +32,15 @@ builder.Services.AddSignalR();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    c.RoutePrefix = string.Empty;
+});
+//}
 
 app.UseHttpsRedirection();
 app.UseCors("AllowSpecificOrigin");

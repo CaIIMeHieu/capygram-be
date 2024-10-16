@@ -1,4 +1,5 @@
 ﻿using capygram.Common.DTOs.Post;
+using capygram.Post.Attributes;
 using capygram.Post.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,10 +11,12 @@ namespace capygram.Post.Controllers
     public class PostsController : ControllerBase
     {
         private readonly IPostService _postService;
+        private readonly ICacheService _cacheService;
 
-        public PostsController(IPostService postService)
+        public PostsController(IPostService postService, ICacheService cacheService)
         {
             _postService = postService;
+            _cacheService = cacheService;
         }
 
         [HttpPost]
@@ -21,6 +24,7 @@ namespace capygram.Post.Controllers
         public async Task<IActionResult> CreatePost([FromForm] PostDTO newPost)
         {
             var result = await _postService.CreatePostAsync(newPost);
+            await _cacheService.RemoveCacheResponseAsync("/api/Posts/GetAll");
             return Ok(result);
         }
 
@@ -49,6 +53,7 @@ namespace capygram.Post.Controllers
 
         [HttpGet]
         [Route("GetAll")]
+        [Cache(1000)]
         public async Task<IActionResult> GetPosts([FromQuery]int pageSize, int pageNumber)
         {
             var result = await _postService.GetPostsAsync(pageSize, pageNumber);

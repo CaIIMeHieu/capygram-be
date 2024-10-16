@@ -5,7 +5,7 @@ source_graph="/home/ubuntu/capygram/capygram-be/src/Services/capygram.Graph"
 source_media="/home/ubuntu/capygram/capygram-be/src/Services/capygram.Media"
 source_notification="/home/ubuntu/capygram/capygram-be/src/Services/capygram.Notification"
 source_post="/home/ubuntu/capygram/capygram-be/src/Services/capygram.Post"
-source_newsfeed="/home/ubuntu/capygram/capygram-be/capygram.Newsfeed"
+source_newsfeed="/home/ubuntu/capygram/capygram-be/src/Services/capygram.Newsfeed"
 source_ocelot="/home/ubuntu/capygram/capygram-be/src/ApiGateways/capygram.Ocelot"
 
 # Di chuyển đến thư mục và chạy dotnet run

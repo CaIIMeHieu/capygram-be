@@ -4,13 +4,12 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
 EXPOSE 8080
-EXPOSE 8081
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["./capygram.Auth/capygram.Auth.csproj", "src/Services/capygram.Auth/"]
-COPY ["./capygram.Common/capygram.Common.csproj", "src/Services/capygram.Common/"]
+COPY ["src/Services/capygram.Auth/capygram.Auth.csproj", "src/Services/capygram.Auth/"]
+COPY ["src/Services/capygram.Common/capygram.Common.csproj", "src/Services/capygram.Common/"]
 RUN dotnet restore "./src/Services/capygram.Auth/capygram.Auth.csproj"
 COPY . .
 WORKDIR "/src/src/Services/capygram.Auth"

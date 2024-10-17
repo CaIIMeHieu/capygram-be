@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Checking out code from GitHub...'
                 // Lấy mã nguồn từ GitHub
-                git branch: 'main', url: 'https://github.com/CaIIMeHieu/capygram-be.git'
+                git branch: 'master', url: 'https://github.com/CaIIMeHieu/capygram-be.git'
             }
         }
 

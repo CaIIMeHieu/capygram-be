@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile.Auth
     container_name: capygram-auth
     ports:
-      - "8080:8080"
+      - "8087:8087"
   ####################################
   notification :
     build : 

@@ -15,9 +15,9 @@ pipeline {
                     def sqScannerMsBuildHome = tool 'SonarScanner'
                     
                     withSonarQubeEnv('SonarCloud') {
-                        bat "${sqScannerMsBuildHome}/SonarQube.Scanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
-                        bat 'MSBuild.exe /t:Rebuild'
-                        bat "${sqScannerMsBuildHome}/SonarQube.Scanner.MSBuild.exe end"
+                        sh "${sqScannerMsBuildHome}/SonarQube.Scanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
+                        sh 'MSBuild.exe /t:Rebuild'
+                        sh "${sqScannerMsBuildHome}/SonarQube.Scanner.MSBuild.exe end"
                     }
                 }
         }

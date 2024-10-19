@@ -12,7 +12,7 @@ pipeline {
         stage('Analysising code with SonaQube') {
             steps {
                 script {
-                    def sqScannerMsBuildHome = tool 'SonarScanner for .NET'
+                    def sqScannerMsBuildHome = tool 'SonarScanner'
                     
                     withSonarQubeEnv('SonarCloud') {
                         // Begin SonarQube analysis, providing the SonarCloud project key

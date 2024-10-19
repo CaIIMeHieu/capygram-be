@@ -4,25 +4,21 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>c251f3c5-31c8-4e08-b48f-2762e0c0c00b</UserSecretsId>
-    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
-    <DockerfileContext>..\..\..</DockerfileContext>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="CloudinaryDotNet" Version="1.26.2" />
-    <PackageReference Include="MassTransit" Version="8.2.3" />
-    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
-    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
-    <PackageReference Include="MediatR" Version="12.3.0" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="CloudinaryDotNet" Version="1.26.2" />
+		<PackageReference Include="MassTransit" Version="8.2.3" />
+		<PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
+		<PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
+		<PackageReference Include="MediatR" Version="12.3.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Constants\" />
-    <Folder Include="Controllers\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Constants\" />
+		<Folder Include="Controllers\" />
+	</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\capygram.Common\capygram.Common.csproj" />

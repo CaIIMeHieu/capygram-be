@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace capygram.Common.Controllers
+namespace capygram.Chat.Controllers
 {
     [ApiController]
     [Route("[controller]")]

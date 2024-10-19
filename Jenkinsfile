@@ -9,7 +9,16 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/CaIIMeHieu/capygram-be.git'
             }
         }
-
+        stage('Analysising code with SonaQube') {
+            steps {
+                def sqScannerMsBuildHome = tool 'Scanner for .Net Framework'
+                withSonarQubeEnv('SonarCloud') {
+                    bat "${sqScannerMsBuildHome}\\SonarQube.Scanner.MSBuild.exe begin /k:myKey"
+                    bat 'MSBuild.exe /t:Rebuild'
+                    bat "${sqScannerMsBuildHome}\\SonarQube.Scanner.MSBuild.exe end"
+                }
+            }
+        }
         stage('Run Docker Script') {
             steps {
                 echo 'Running the Docker script...'

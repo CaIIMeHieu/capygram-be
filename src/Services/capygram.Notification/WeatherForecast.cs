@@ -1,4 +1,4 @@
-namespace capygram.Common
+namespace capygram.Notification
 {
     public class WeatherForecast
     {

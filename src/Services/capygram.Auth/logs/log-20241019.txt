@@ -1,0 +1,255 @@
+2024-10-19 18:50:50.353 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-19 18:53:57.602 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-19 18:55:13.310 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-19 18:55:13.751 +07:00 [DBG] Hosting starting
+2024-10-19 18:55:13.817 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-19 18:55:14.115 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-19 18:55:14.270 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-19 18:55:14.298 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-19 18:55:14.312 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-19 18:55:14.329 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-19 18:55:14.343 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-19 18:55:14.361 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-19 18:55:14.365 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-19 18:55:14.365 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-19 18:55:14.366 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-19 18:55:14.366 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-19 18:55:14.373 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-19 18:55:14.376 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-19 18:55:14.378 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-19 18:55:14.380 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-19 18:55:14.383 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-19 18:55:14.384 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-19 18:55:14.385 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-19 18:55:14.386 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-19 18:55:14.388 +07:00 [DBG] Starting bus instances: IBus
+2024-10-19 18:55:14.393 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-19 18:55:14.435 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-19 18:55:14.481 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-19 18:55:14.481 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-19 18:55:14.481 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-19 18:55:14.482 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-19 18:55:14.482 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-19 18:55:14.543 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-19 18:55:14.543 +07:00 [INF] Hosting environment: Development
+2024-10-19 18:55:14.543 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-19 18:55:14.545 +07:00 [DBG] Hosting started
+2024-10-19 18:55:14.549 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 53298)
+2024-10-19 18:55:14.590 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_8twyyyysrsen7tqubdqxyp8rdr?temporary=true"
+2024-10-19 18:55:14.600 +07:00 [DBG] Connection id "0HN7G6JIBFTKN" received FIN.
+2024-10-19 18:55:14.612 +07:00 [DBG] Connection id "0HN7G6JIBFTKN" accepted.
+2024-10-19 18:55:14.613 +07:00 [DBG] Connection id "0HN7G6JIBFTKO" received FIN.
+2024-10-19 18:55:14.614 +07:00 [DBG] Connection id "0HN7G6JIBFTKO" accepted.
+2024-10-19 18:55:14.615 +07:00 [DBG] Connection id "0HN7G6JIBFTKN" started.
+2024-10-19 18:55:14.621 +07:00 [DBG] Connection id "0HN7G6JIBFTKO" started.
+2024-10-19 18:55:14.622 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-19 18:55:14.624 +07:00 [DBG] Connection id "0HN7G6JIBFTKO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 18:55:14.624 +07:00 [DBG] Connection id "0HN7G6JIBFTKN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 18:55:14.628 +07:00 [DBG] Connection id "0HN7G6JIBFTKO" disconnecting.
+2024-10-19 18:55:14.628 +07:00 [DBG] Connection id "0HN7G6JIBFTKN" disconnecting.
+2024-10-19 18:55:14.631 +07:00 [DBG] Connection id "0HN7G6JIBFTKO" stopped.
+2024-10-19 18:55:14.631 +07:00 [DBG] Connection id "0HN7G6JIBFTKN" stopped.
+2024-10-19 18:55:14.649 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-19 18:55:14.654 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-19 18:55:14.660 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-19 18:55:14.684 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-19 18:55:14.740 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" accepted.
+2024-10-19 18:55:14.741 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" started.
+2024-10-19 18:55:14.741 +07:00 [DBG] Connection id "0HN7G6JIBFTKQ" accepted.
+2024-10-19 18:55:14.742 +07:00 [DBG] Connection id "0HN7G6JIBFTKQ" started.
+2024-10-19 18:55:14.784 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-19 18:55:14.787 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-wWTXnHoCBKFFPrktIyLOKg
+2024-10-19 18:55:14.788 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-19 18:55:14.793 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-19 18:55:14.879 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-19 18:55:14.919 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-19 18:55:14.920 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 18:55:14.933 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-19 18:55:14.934 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-19 18:55:14.935 +07:00 [INF] Start request......!
+2024-10-19 18:55:15.026 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-19 18:55:15.035 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" completed keep alive response.
+2024-10-19 18:55:15.037 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 255.7218ms
+2024-10-19 18:55:15.046 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-19 18:55:15.891 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" received FIN.
+2024-10-19 18:55:15.891 +07:00 [DBG] Connection id "0HN7G6JIBFTKQ" received FIN.
+2024-10-19 18:55:15.892 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 18:55:15.892 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" disconnecting.
+2024-10-19 18:55:15.892 +07:00 [DBG] Connection id "0HN7G6JIBFTKQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 18:55:15.893 +07:00 [DBG] Connection id "0HN7G6JIBFTKQ" disconnecting.
+2024-10-19 18:55:15.894 +07:00 [DBG] Connection id "0HN7G6JIBFTKQ" stopped.
+2024-10-19 18:55:15.894 +07:00 [DBG] Connection id "0HN7G6JIBFTKP" stopped.
+2024-10-19 18:55:17.837 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" accepted.
+2024-10-19 18:55:17.838 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" started.
+2024-10-19 18:55:17.838 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-19 18:55:17.841 +07:00 [DBG] Connection id "0HN7G6JIBFTKS" accepted.
+2024-10-19 18:55:17.842 +07:00 [DBG] Connection id "0HN7G6JIBFTKS" started.
+2024-10-19 18:55:17.844 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-19 18:55:17.845 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 18:55:17.845 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-19 18:55:17.846 +07:00 [INF] Start request......!
+2024-10-19 18:55:17.847 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-19 18:55:17.848 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" completed keep alive response.
+2024-10-19 18:55:17.848 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 9.4389ms
+2024-10-19 18:55:17.848 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-19 18:55:25.913 +07:00 [DBG] Connection id "0HN7G6JIBFTKS" received FIN.
+2024-10-19 18:55:25.913 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" received FIN.
+2024-10-19 18:55:25.914 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" disconnecting.
+2024-10-19 18:55:25.914 +07:00 [DBG] Connection id "0HN7G6JIBFTKS" disconnecting.
+2024-10-19 18:55:25.915 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 18:55:25.915 +07:00 [DBG] Connection id "0HN7G6JIBFTKS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 18:55:25.917 +07:00 [DBG] Connection id "0HN7G6JIBFTKR" stopped.
+2024-10-19 18:55:25.927 +07:00 [DBG] Connection id "0HN7G6JIBFTKS" stopped.
+2024-10-19 18:55:25.996 +07:00 [DBG] Connection id "0HN7G6JIBFTKT" accepted.
+2024-10-19 18:55:25.996 +07:00 [DBG] Connection id "0HN7G6JIBFTKT" started.
+2024-10-19 18:55:25.997 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/index.html - null null
+2024-10-19 18:55:25.999 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-19 18:55:25.999 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 18:55:26.002 +07:00 [DBG] Connection id "0HN7G6JIBFTKU" accepted.
+2024-10-19 18:55:26.002 +07:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-10-19 18:55:26.003 +07:00 [DBG] Connection id "0HN7G6JIBFTKU" started.
+2024-10-19 18:55:26.004 +07:00 [INF] Start request......!
+2024-10-19 18:55:26.007 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-19 18:55:26.008 +07:00 [DBG] Connection id "0HN7G6JIBFTKT" completed keep alive response.
+2024-10-19 18:55:26.008 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/index.html - 404 0 null 11.2736ms
+2024-10-19 18:55:26.009 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger/index.html, Response status code: 404
+2024-10-19 18:55:27.516 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/index.html - null null
+2024-10-19 18:55:27.518 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-19 18:55:27.518 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 18:55:27.519 +07:00 [DBG] The request path /swagger/index.html does not match an existing file
+2024-10-19 18:55:27.519 +07:00 [INF] Start request......!
+2024-10-19 18:55:27.519 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-19 18:55:27.519 +07:00 [DBG] Connection id "0HN7G6JIBFTKT" completed keep alive response.
+2024-10-19 18:55:27.520 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/index.html - 404 0 null 3.2879ms
+2024-10-19 18:55:27.520 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger/index.html, Response status code: 404
+2024-10-19 19:18:42.711 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-19 19:18:42.958 +07:00 [DBG] Hosting starting
+2024-10-19 19:18:42.969 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-19 19:18:43.141 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-19 19:18:43.227 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-19 19:18:43.231 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-19 19:18:43.231 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-19 19:18:43.232 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-19 19:18:43.232 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-19 19:18:43.235 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-19 19:18:43.237 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-19 19:18:43.237 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-19 19:18:43.238 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-19 19:18:43.238 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-19 19:18:43.242 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-19 19:18:43.244 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-19 19:18:43.246 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-19 19:18:43.247 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-19 19:18:43.249 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-19 19:18:43.250 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-19 19:18:43.251 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-19 19:18:43.251 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-19 19:18:43.253 +07:00 [DBG] Starting bus instances: IBus
+2024-10-19 19:18:43.255 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-19 19:18:43.277 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-19 19:18:43.307 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-19 19:18:43.308 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-19 19:18:43.308 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-19 19:18:43.308 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-19 19:18:43.308 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-19 19:18:43.344 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-19 19:18:43.344 +07:00 [INF] Hosting environment: Development
+2024-10-19 19:18:43.344 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-19 19:18:43.345 +07:00 [DBG] Hosting started
+2024-10-19 19:18:43.364 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 53381)
+2024-10-19 19:18:43.387 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_jo1yyyysrsenhi6hbdqxyqbcnb?temporary=true"
+2024-10-19 19:18:43.400 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-19 19:18:43.416 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-19 19:18:43.419 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-19 19:18:43.423 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-19 19:18:43.449 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-19 19:18:43.490 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-HAMdG437xOrzdgTd8UbLfw
+2024-10-19 19:18:43.491 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-19 19:18:43.493 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-19 19:18:43.543 +07:00 [DBG] Connection id "0HN7G70M87IOR" received FIN.
+2024-10-19 19:18:43.547 +07:00 [DBG] Connection id "0HN7G70M87IOR" accepted.
+2024-10-19 19:18:43.547 +07:00 [DBG] Connection id "0HN7G70M87IOR" started.
+2024-10-19 19:18:43.547 +07:00 [DBG] Connection id "0HN7G70M87IOS" received FIN.
+2024-10-19 19:18:43.548 +07:00 [DBG] Connection id "0HN7G70M87IOS" accepted.
+2024-10-19 19:18:43.548 +07:00 [DBG] Connection id "0HN7G70M87IOS" started.
+2024-10-19 19:18:43.553 +07:00 [DBG] Connection id "0HN7G70M87IOS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 19:18:43.553 +07:00 [DBG] Connection id "0HN7G70M87IOR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 19:18:43.555 +07:00 [DBG] Connection id "0HN7G70M87IOS" disconnecting.
+2024-10-19 19:18:43.555 +07:00 [DBG] Connection id "0HN7G70M87IOR" disconnecting.
+2024-10-19 19:18:43.557 +07:00 [DBG] Connection id "0HN7G70M87IOS" stopped.
+2024-10-19 19:18:43.557 +07:00 [DBG] Connection id "0HN7G70M87IOR" stopped.
+2024-10-19 19:18:43.633 +07:00 [DBG] Connection id "0HN7G70M87IOT" accepted.
+2024-10-19 19:18:43.633 +07:00 [DBG] Connection id "0HN7G70M87IOT" started.
+2024-10-19 19:18:43.633 +07:00 [DBG] Connection id "0HN7G70M87IOU" accepted.
+2024-10-19 19:18:43.634 +07:00 [DBG] Connection id "0HN7G70M87IOU" started.
+2024-10-19 19:18:43.654 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-19 19:18:43.700 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-19 19:18:43.716 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-19 19:18:43.716 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:43.724 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-19 19:18:43.725 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-19 19:18:43.726 +07:00 [INF] Start request......!
+2024-10-19 19:18:43.742 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-19 19:18:43.746 +07:00 [DBG] Connection id "0HN7G70M87IOT" completed keep alive response.
+2024-10-19 19:18:43.747 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 94.5954ms
+2024-10-19 19:18:43.751 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-19 19:18:51.789 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/index.html - null null
+2024-10-19 19:18:51.794 +07:00 [DBG] No candidates found for the request path '/index.html'
+2024-10-19 19:18:51.794 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:51.836 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-19 19:18:51.838 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-19 19:18:51.846 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-19 19:18:51.846 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-19 19:18:51.847 +07:00 [DBG] Connection id "0HN7G70M87IOT" completed keep alive response.
+2024-10-19 19:18:51.847 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/index.html - 200 null text/html;charset=utf-8 57.954ms
+2024-10-19 19:18:51.862 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger-ui.css - null null
+2024-10-19 19:18:51.862 +07:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2024-10-19 19:18:51.863 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:51.868 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger-ui-bundle.js - null null
+2024-10-19 19:18:51.869 +07:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2024-10-19 19:18:51.869 +07:00 [DBG] Connection id "0HN7G70M87IOV" accepted.
+2024-10-19 19:18:51.869 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:51.870 +07:00 [DBG] Connection id "0HN7G70M87IOV" started.
+2024-10-19 19:18:51.870 +07:00 [DBG] Connection id "0HN7G70M87IP0" accepted.
+2024-10-19 19:18:51.870 +07:00 [DBG] Connection id "0HN7G70M87IP0" started.
+2024-10-19 19:18:51.870 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger-ui-standalone-preset.js - null null
+2024-10-19 19:18:51.871 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-19 19:18:51.871 +07:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2024-10-19 19:18:51.871 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:51.873 +07:00 [DBG] Connection id "0HN7G70M87IP0" completed keep alive response.
+2024-10-19 19:18:51.873 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.593ms
+2024-10-19 19:18:51.879 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-19 19:18:51.880 +07:00 [DBG] Connection id "0HN7G70M87IOT" completed keep alive response.
+2024-10-19 19:18:51.881 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger-ui.css - 200 143943 text/css 19.0682ms
+2024-10-19 19:18:51.882 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-19 19:18:51.882 +07:00 [DBG] Connection id "0HN7G70M87IOV" completed keep alive response.
+2024-10-19 19:18:51.882 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger-ui-standalone-preset.js - 200 339486 text/javascript 11.796ms
+2024-10-19 19:18:51.892 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-19 19:18:51.892 +07:00 [DBG] Connection id "0HN7G70M87IOU" completed keep alive response.
+2024-10-19 19:18:51.893 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger-ui-bundle.js - 200 1096145 text/javascript 24.937ms
+2024-10-19 19:18:51.923 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_vs/browserLink - null null
+2024-10-19 19:18:51.949 +07:00 [DBG] Connection id "0HN7G70M87IOU" completed keep alive response.
+2024-10-19 19:18:51.950 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.738ms
+2024-10-19 19:18:52.238 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - null null
+2024-10-19 19:18:52.239 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-19 19:18:52.239 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:52.325 +07:00 [DBG] Connection id "0HN7G70M87IOU" completed keep alive response.
+2024-10-19 19:18:52.325 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.3368ms
+2024-10-19 19:18:52.350 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/favicon-32x32.png - null null
+2024-10-19 19:18:52.350 +07:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2024-10-19 19:18:52.351 +07:00 [DBG] Request did not match any endpoints
+2024-10-19 19:18:52.351 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-19 19:18:52.351 +07:00 [DBG] Connection id "0HN7G70M87IOU" completed keep alive response.
+2024-10-19 19:18:52.351 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/favicon-32x32.png - 200 628 image/png 1.0991ms
+2024-10-19 19:21:02.728 +07:00 [DBG] Connection id "0HN7G70M87IOU" disconnecting.
+2024-10-19 19:21:02.728 +07:00 [DBG] Connection id "0HN7G70M87IOT" disconnecting.
+2024-10-19 19:21:02.730 +07:00 [DBG] Connection id "0HN7G70M87IOT" stopped.
+2024-10-19 19:21:02.730 +07:00 [DBG] Connection id "0HN7G70M87IOU" stopped.
+2024-10-19 19:21:02.731 +07:00 [DBG] Connection id "0HN7G70M87IOT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 19:21:02.731 +07:00 [DBG] Connection id "0HN7G70M87IOU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 19:21:03.730 +07:00 [DBG] Connection id "0HN7G70M87IOV" disconnecting.
+2024-10-19 19:21:03.730 +07:00 [DBG] Connection id "0HN7G70M87IP0" disconnecting.
+2024-10-19 19:21:03.731 +07:00 [DBG] Connection id "0HN7G70M87IP0" stopped.
+2024-10-19 19:21:03.731 +07:00 [DBG] Connection id "0HN7G70M87IOV" stopped.
+2024-10-19 19:21:03.731 +07:00 [DBG] Connection id "0HN7G70M87IOV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-19 19:21:03.731 +07:00 [DBG] Connection id "0HN7G70M87IP0" sending FIN because: "The Socket transport's send loop completed gracefully."

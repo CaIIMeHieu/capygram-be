@@ -16,13 +16,13 @@ pipeline {
                     
                     withSonarQubeEnv('SonarCloud') {
                         // Begin SonarQube analysis, providing the SonarCloud project key
-                        bat "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
+                        sh "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
                         
                         // Build the ASP.NET Core project
-                        bat 'dotnet build'
+                        sh 'dotnet build'
                         
                         // End SonarQube analysis
-                        bat "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe end"
+                        sh "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe end"
                     }
                 }
         }

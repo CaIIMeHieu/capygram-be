@@ -15,14 +15,9 @@ pipeline {
                     def sqScannerMsBuildHome = tool 'SonarScanner'
                     
                     withSonarQubeEnv('SonarCloud') {
-                        // Begin SonarQube analysis, providing the SonarCloud project key
-                        sh "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
-                        
-                        // Build the ASP.NET Core project
-                        sh 'dotnet build'
-                        
-                        // End SonarQube analysis
-                        sh "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe end"
+                        bat "${sqScannerMsBuildHome}/SonarQube.Scanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
+                        bat 'MSBuild.exe /t:Rebuild'
+                        bat "${sqScannerMsBuildHome}/SonarQube.Scanner.MSBuild.exe end"
                     }
                 }
         }

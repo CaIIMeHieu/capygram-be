@@ -12,14 +12,20 @@ pipeline {
         stage('Analysising code with SonaQube') {
             steps {
                 script {
-                    def sqScannerMsBuildHome = tool 'SonarScanner'
+                    def sqScannerMsBuildHome = tool 'SonarScanner for .NET'
+                    
                     withSonarQubeEnv('SonarCloud') {
-                    bat "${sqScannerMsBuildHome}\\SonarQube.Scanner.MSBuild.exe begin /k:myKey"
-                    bat 'MSBuild.exe /t:Rebuild'
-                    bat "${sqScannerMsBuildHome}\\SonarQube.Scanner.MSBuild.exe end"
+                        // Begin SonarQube analysis, providing the SonarCloud project key
+                        bat "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe begin /k:CaIIMeHieu_capygram-be"
+                        
+                        // Build the ASP.NET Core project
+                        bat 'dotnet build'
+                        
+                        // End SonarQube analysis
+                        bat "${sqScannerMsBuildHome}\\SonarScanner.MSBuild.exe end"
+                    }
                 }
-                }
-            }
+        }
         }
         stage('Run Docker Script') {
             steps {

@@ -1,4 +1,5 @@
 ﻿using capygram.Common.DTOs.Post;
+using capygram.Common.Identity;
 using capygram.Post.Attributes;
 using capygram.Post.Services;
 using Microsoft.AspNetCore.Http;
@@ -21,6 +22,7 @@ namespace capygram.Post.Controllers
 
         [HttpPost]
         [Route("Create")]
+        [MustHaveRole("Role:USER")]
         public async Task<IActionResult> CreatePost([FromForm] PostDTO newPost)
         {
             var result = await _postService.CreatePostAsync(newPost);

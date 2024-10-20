@@ -1,6 +1,13 @@
 #version: "3.9"
 
 services:
+  apiGateway :
+    build : 
+      context: .
+      dockerfile: Dockerfile.Ocelot
+    container_name: capygram-apiGateway
+    ports:
+      - "5062:5062"
   ####################################
   auth :
     build : 

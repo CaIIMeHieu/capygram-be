@@ -1,0 +1,960 @@
+2024-10-20 16:09:46.143 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:09:47.587 +07:00 [DBG] Hosting starting
+2024-10-20 16:09:47.630 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:09:48.010 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:09:48.164 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:09:48.228 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:09:48.253 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:09:48.275 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:09:48.298 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:09:48.328 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:09:48.334 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:09:48.335 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:09:48.335 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:09:48.335 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:09:48.341 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:09:48.344 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:09:48.346 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:09:48.348 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:09:48.351 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:09:48.353 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:09:48.354 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:09:48.355 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:09:48.357 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:09:48.362 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:09:48.401 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:09:48.433 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:09:48.434 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:09:48.434 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:09:48.434 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:09:48.434 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:09:48.505 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:09:48.507 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:09:48.509 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:09:48.512 +07:00 [DBG] Hosting started
+2024-10-20 16:09:48.502 +07:00 [WRN] Connection Failed: "rabbitmq://localhost/capygram"
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+ ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateConnection(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 85
+2024-10-20 16:09:48.551 +07:00 [DBG] Endpoint Faulted: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_eteyyyysrsenhtugbdqxb3z1dd?temporary=true"
+MassTransit.RabbitMqConnectionException: Broker unreachable: guest@localhost:5672/capygram
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+ ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateConnection(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 85
+   --- End of inner exception stack trace ---
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 111
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext() in /_/src/MassTransit.Abstractions/Internals/Extensions/TaskExtensions.cs:line 72
+--- End of stack trace from previous location ---
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateSharedConnection(Task`1 context, CancellationToken cancellationToken) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 57
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 51
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 61
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 67
+   at MassTransit.SupervisorExtensions.<>c__DisplayClass5_0`2.<<CreateAgent>g__HandleSupervisorTask|0>d.MoveNext() in /_/src/MassTransit/SupervisorExtensions.cs:line 139
+--- End of stack trace from previous location ---
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext() in /_/src/MassTransit.Abstractions/Internals/Extensions/TaskExtensions.cs:line 72
+--- End of stack trace from previous location ---
+   at MassTransit.RabbitMqTransport.ModelContextFactory.CreateSharedModel(Task`1 context, CancellationToken cancellationToken) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ModelContextFactory.cs:line 49
+   at MassTransit.RabbitMqTransport.ModelContextFactory.CreateSharedModel(Task`1 context, CancellationToken cancellationToken) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ModelContextFactory.cs:line 49
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 51
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 51
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 61
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 67
+   at MassTransit.Transports.TransportStartExtensions.OnTransportStartup[T](ReceiveEndpointContext context, ITransportSupervisor`1 supervisor, CancellationToken cancellationToken) in /_/src/MassTransit/Transports/TransportStartExtensions.cs:line 19
+   at MassTransit.Transports.ReceiveTransport`1.ReceiveTransportAgent.RunTransport() in /_/src/MassTransit/Transports/ReceiveTransport.cs:line 192
+2024-10-20 16:09:48.551 +07:00 [DBG] Endpoint Faulted: "rabbitmq://localhost/capygram/user-media-queue"
+MassTransit.RabbitMqConnectionException: Broker unreachable: guest@localhost:5672/capygram
+ ---> RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+ ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateConnection(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 85
+   --- End of inner exception stack trace ---
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 111
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext() in /_/src/MassTransit.Abstractions/Internals/Extensions/TaskExtensions.cs:line 72
+--- End of stack trace from previous location ---
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateSharedConnection(Task`1 context, CancellationToken cancellationToken) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 57
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 51
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 61
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 67
+   at MassTransit.SupervisorExtensions.<>c__DisplayClass5_0`2.<<CreateAgent>g__HandleSupervisorTask|0>d.MoveNext() in /_/src/MassTransit/SupervisorExtensions.cs:line 139
+--- End of stack trace from previous location ---
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at MassTransit.Internals.TaskExtensions.<>c__DisplayClass2_0`1.<<OrCanceled>g__WaitAsync|0>d.MoveNext() in /_/src/MassTransit.Abstractions/Internals/Extensions/TaskExtensions.cs:line 72
+--- End of stack trace from previous location ---
+   at MassTransit.RabbitMqTransport.ModelContextFactory.CreateSharedModel(Task`1 context, CancellationToken cancellationToken) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ModelContextFactory.cs:line 49
+   at MassTransit.RabbitMqTransport.ModelContextFactory.CreateSharedModel(Task`1 context, CancellationToken cancellationToken) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ModelContextFactory.cs:line 49
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 51
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 51
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 61
+   at MassTransit.Agents.PipeContextSupervisor`1.Send(IPipe`1 pipe, CancellationToken cancellationToken) in /_/src/MassTransit/Agents/PipeContextSupervisor.cs:line 67
+   at MassTransit.Transports.TransportStartExtensions.OnTransportStartup[T](ReceiveEndpointContext context, ITransportSupervisor`1 supervisor, CancellationToken cancellationToken) in /_/src/MassTransit/Transports/TransportStartExtensions.cs:line 19
+   at MassTransit.Transports.ReceiveTransport`1.ReceiveTransportAgent.RunTransport() in /_/src/MassTransit/Transports/ReceiveTransport.cs:line 192
+   at MassTransit.Transports.ReceiveTransport`1.ReceiveTransportAgent.RunTransport() in /_/src/MassTransit/Transports/ReceiveTransport.cs:line 200
+   at MassTransit.Transports.ReceiveTransport`1.ReceiveTransportAgent.Run() in /_/src/MassTransit/Transports/ReceiveTransport.cs:line 128
+2024-10-20 16:09:52.699 +07:00 [DBG] Connection id "0HN7GSRQJFQLC" received FIN.
+2024-10-20 16:09:52.726 +07:00 [DBG] Connection id "0HN7GSRQJFQLC" accepted.
+2024-10-20 16:09:52.733 +07:00 [DBG] Connection id "0HN7GSRQJFQLC" started.
+2024-10-20 16:09:52.754 +07:00 [DBG] Connection id "0HN7GSRQJFQLC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:09:52.757 +07:00 [DBG] Connection id "0HN7GSRQJFQLC" disconnecting.
+2024-10-20 16:09:52.764 +07:00 [DBG] Connection id "0HN7GSRQJFQLC" stopped.
+2024-10-20 16:09:53.268 +07:00 [DBG] Connection id "0HN7GSRQJFQLD" accepted.
+2024-10-20 16:09:53.277 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" accepted.
+2024-10-20 16:09:53.279 +07:00 [DBG] Connection id "0HN7GSRQJFQLD" started.
+2024-10-20 16:09:53.285 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" started.
+2024-10-20 16:09:53.547 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:09:53.879 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:09:53.939 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:09:53.940 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:09:53.955 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:09:53.956 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:09:53.958 +07:00 [INF] Start request......!
+2024-10-20 16:09:54.007 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:09:54.013 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" completed keep alive response.
+2024-10-20 16:09:54.020 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 475.3963ms
+2024-10-20 16:09:54.035 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:09:55.050 +07:00 [DBG] Connection id "0HN7GSRQJFQLD" received FIN.
+2024-10-20 16:09:55.057 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" received FIN.
+2024-10-20 16:09:55.075 +07:00 [DBG] Connection id "0HN7GSRQJFQLD" disconnecting.
+2024-10-20 16:09:55.079 +07:00 [DBG] Connection id "0HN7GSRQJFQLD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:09:55.079 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" disconnecting.
+2024-10-20 16:09:55.079 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:09:55.080 +07:00 [DBG] Connection id "0HN7GSRQJFQLD" stopped.
+2024-10-20 16:09:55.082 +07:00 [DBG] Connection id "0HN7GSRQJFQLE" stopped.
+2024-10-20 16:09:55.118 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:09:55.132 +07:00 [WRN] Connection Failed: "rabbitmq://localhost/capygram"
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+ ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateConnection(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 85
+2024-10-20 16:10:04.281 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:10:04.290 +07:00 [WRN] Connection Failed: "rabbitmq://localhost/capygram"
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable
+ ---> System.IO.IOException: connection.start was never received, likely due to a network timeout
+ ---> System.IO.EndOfStreamException: Reached the end of the stream. Possible authentication failure.
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(Stream reader, Byte[] frameHeaderBuffer, ArrayPool`1 pool, UInt32 maxMessageSize)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ReadFrame()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.Connection..ctor(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.Framing.Impl.ProtocolBase.CreateConnection(IConnectionFactory factory, Boolean insist, IFrameHandler frameHandler, ArrayPool`1 memoryPool, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IList`1 hostnames, String clientProvidedName)
+   at MassTransit.RabbitMqTransport.ConnectionContextFactory.CreateConnection(ISupervisor supervisor) in /_/src/Transports/MassTransit.RabbitMqTransport/RabbitMqTransport/ConnectionContextFactory.cs:line 85
+2024-10-20 16:10:18.215 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:10:18.282 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 59204)
+2024-10-20 16:10:18.298 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_eteyyyysrsenhtugbdqxb3z1dd?temporary=true"
+2024-10-20 16:10:18.310 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:10:18.323 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:10:18.325 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:10:18.328 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:10:18.342 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:10:18.367 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-6cWpulvgWWlznR9oJeR0ww
+2024-10-20 16:10:18.367 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:10:18.370 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:10:19.581 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" accepted.
+2024-10-20 16:10:19.581 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" started.
+2024-10-20 16:10:19.582 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/index.html - null null
+2024-10-20 16:10:19.585 +07:00 [DBG] No candidates found for the request path '/index.html'
+2024-10-20 16:10:19.585 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:10:19.588 +07:00 [DBG] Connection id "0HN7GSRQJFQLG" accepted.
+2024-10-20 16:10:19.589 +07:00 [DBG] Connection id "0HN7GSRQJFQLG" started.
+2024-10-20 16:10:19.625 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-20 16:10:19.626 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-20 16:10:19.632 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-20 16:10:19.633 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-20 16:10:19.633 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" completed keep alive response.
+2024-10-20 16:10:19.633 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/index.html - 200 null text/html;charset=utf-8 51.5611ms
+2024-10-20 16:10:19.665 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-20 16:10:19.667 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" completed keep alive response.
+2024-10-20 16:10:19.667 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 2.6716ms
+2024-10-20 16:10:19.685 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_vs/browserLink - null null
+2024-10-20 16:10:19.707 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" completed keep alive response.
+2024-10-20 16:10:19.708 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.332ms
+2024-10-20 16:10:19.937 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - null null
+2024-10-20 16:10:19.937 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-20 16:10:19.937 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:10:20.016 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" completed keep alive response.
+2024-10-20 16:10:20.017 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.9907ms
+2024-10-20 16:10:20.039 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" received FIN.
+2024-10-20 16:10:20.039 +07:00 [DBG] Connection id "0HN7GSRQJFQLG" received FIN.
+2024-10-20 16:10:20.039 +07:00 [DBG] Connection id "0HN7GSRQJFQLG" disconnecting.
+2024-10-20 16:10:20.039 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" disconnecting.
+2024-10-20 16:10:20.039 +07:00 [DBG] Connection id "0HN7GSRQJFQLG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:10:20.039 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:10:20.041 +07:00 [DBG] Connection id "0HN7GSRQJFQLG" stopped.
+2024-10-20 16:10:20.041 +07:00 [DBG] Connection id "0HN7GSRQJFQLF" stopped.
+2024-10-20 16:17:10.472 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:17:10.825 +07:00 [DBG] Hosting starting
+2024-10-20 16:17:10.839 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:17:11.080 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:17:11.201 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:17:11.207 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:17:11.208 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:17:11.209 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:17:11.209 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:17:11.213 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:17:11.216 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:17:11.216 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:17:11.216 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:17:11.217 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:17:11.222 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:17:11.225 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:17:11.227 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:17:11.228 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:17:11.233 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:17:11.234 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:17:11.235 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:17:11.236 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:17:11.239 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:17:11.243 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:17:11.282 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:17:11.318 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:17:11.318 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:17:11.318 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:17:11.318 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:17:11.319 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:17:11.373 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:17:11.376 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:17:11.376 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:17:11.377 +07:00 [DBG] Hosting started
+2024-10-20 16:17:11.377 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 59932)
+2024-10-20 16:17:11.407 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_xtjyyyysrsenhwrubdqxb394dh?temporary=true"
+2024-10-20 16:17:11.424 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:17:11.435 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:17:11.439 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:17:11.444 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:17:11.461 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:17:11.487 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-LSrT4mC02X-Jn-mGb6EiPA
+2024-10-20 16:17:11.488 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:17:11.491 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:17:15.290 +07:00 [DBG] Connection id "0HN7GSVUGBMQF" received FIN.
+2024-10-20 16:17:15.304 +07:00 [DBG] Connection id "0HN7GSVUGBMQF" accepted.
+2024-10-20 16:17:15.306 +07:00 [DBG] Connection id "0HN7GSVUGBMQF" started.
+2024-10-20 16:17:15.316 +07:00 [DBG] Connection id "0HN7GSVUGBMQF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:17:15.324 +07:00 [DBG] Connection id "0HN7GSVUGBMQF" disconnecting.
+2024-10-20 16:17:15.328 +07:00 [DBG] Connection id "0HN7GSVUGBMQF" stopped.
+2024-10-20 16:21:46.835 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:21:47.445 +07:00 [DBG] Hosting starting
+2024-10-20 16:21:47.503 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:21:47.826 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:21:48.008 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:21:48.018 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:21:48.019 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:21:48.020 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:21:48.021 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:21:48.027 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:21:48.032 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:21:48.033 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:21:48.033 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:21:48.034 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:21:48.042 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:21:48.046 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:21:48.048 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:21:48.050 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:21:48.055 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:21:48.057 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:21:48.059 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:21:48.060 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:21:48.062 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:21:48.066 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:21:48.136 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:21:48.373 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60320)
+2024-10-20 16:21:48.392 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:21:48.393 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:21:48.393 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:21:48.393 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:21:48.393 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:21:48.437 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_ebeyyyysrsenh75fbdqxb4r9dk?temporary=true"
+2024-10-20 16:21:48.482 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:21:48.495 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:21:48.501 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:21:48.508 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:21:48.533 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:21:48.543 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:21:48.544 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:21:48.546 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:21:48.547 +07:00 [DBG] Hosting started
+2024-10-20 16:21:48.630 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-BcHFcE0dWct6WzMdqqBnLA
+2024-10-20 16:21:48.636 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:21:48.644 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:21:51.182 +07:00 [DBG] Connection id "0HN7GT2GNF5FS" received FIN.
+2024-10-20 16:21:51.192 +07:00 [DBG] Connection id "0HN7GT2GNF5FS" accepted.
+2024-10-20 16:21:51.195 +07:00 [DBG] Connection id "0HN7GT2GNF5FS" started.
+2024-10-20 16:21:51.209 +07:00 [DBG] Connection id "0HN7GT2GNF5FS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:21:51.212 +07:00 [DBG] Connection id "0HN7GT2GNF5FS" disconnecting.
+2024-10-20 16:21:51.216 +07:00 [DBG] Connection id "0HN7GT2GNF5FS" stopped.
+2024-10-20 16:24:26.317 +07:00 [DBG] Connection id "0HN7GT2GNF5FT" received FIN.
+2024-10-20 16:24:26.393 +07:00 [DBG] Connection id "0HN7GT2GNF5FT" accepted.
+2024-10-20 16:24:26.404 +07:00 [DBG] Connection id "0HN7GT2GNF5FU" received FIN.
+2024-10-20 16:24:26.404 +07:00 [DBG] Connection id "0HN7GT2GNF5FT" started.
+2024-10-20 16:24:26.407 +07:00 [DBG] Connection id "0HN7GT2GNF5FU" accepted.
+2024-10-20 16:24:26.411 +07:00 [DBG] Connection id "0HN7GT2GNF5FT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:24:26.415 +07:00 [DBG] Connection id "0HN7GT2GNF5FT" disconnecting.
+2024-10-20 16:24:26.411 +07:00 [DBG] Connection id "0HN7GT2GNF5FU" started.
+2024-10-20 16:24:31.402 +07:00 [DBG] Connection id "0HN7GT2GNF5FU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:24:31.409 +07:00 [DBG] Connection id "0HN7GT2GNF5FU" disconnecting.
+2024-10-20 16:24:31.423 +07:00 [DBG] Connection id "0HN7GT2GNF5FV" accepted.
+2024-10-20 16:24:31.423 +07:00 [DBG] Connection id "0HN7GT2GNF5FV" started.
+2024-10-20 16:24:31.428 +07:00 [DBG] Connection id "0HN7GT2GNF5FU" stopped.
+2024-10-20 16:24:31.429 +07:00 [DBG] Connection id "0HN7GT2GNF5G0" received FIN.
+2024-10-20 16:24:31.434 +07:00 [DBG] Connection id "0HN7GT2GNF5G0" accepted.
+2024-10-20 16:24:31.435 +07:00 [DBG] Connection id "0HN7GT2GNF5G0" started.
+2024-10-20 16:24:31.436 +07:00 [DBG] Connection id "0HN7GT2GNF5G0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:24:31.438 +07:00 [DBG] Connection id "0HN7GT2GNF5G0" disconnecting.
+2024-10-20 16:24:31.439 +07:00 [DBG] Connection id "0HN7GT2GNF5G0" stopped.
+2024-10-20 16:24:31.476 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/index.html - null null
+2024-10-20 16:24:31.476 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:24:31.679 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:24:31.679 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:24:31.704 +07:00 [DBG] No candidates found for the request path '/index.html'
+2024-10-20 16:24:31.704 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:24:31.705 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:24:31.705 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:24:31.722 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:24:31.725 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:24:31.727 +07:00 [INF] Start request......!
+2024-10-20 16:24:59.422 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:24:59.905 +07:00 [DBG] Hosting starting
+2024-10-20 16:24:59.947 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:25:00.261 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:25:00.405 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:25:00.414 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:25:00.415 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:25:00.416 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:25:00.416 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:25:00.421 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:25:00.425 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:25:00.426 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:25:00.426 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:25:00.426 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:25:00.432 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:25:00.435 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:25:00.437 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:25:00.439 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:25:00.441 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:25:00.442 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:25:00.444 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:25:00.446 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:25:00.447 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:25:00.452 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:25:00.497 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:25:00.589 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:25:00.589 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:25:00.590 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:25:00.590 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:25:00.590 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:25:00.638 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60705)
+2024-10-20 16:25:00.655 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:25:00.656 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:25:00.656 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:25:00.657 +07:00 [DBG] Hosting started
+2024-10-20 16:25:00.710 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_noroyyysrsen7maybdqxb4e1bn?temporary=true"
+2024-10-20 16:25:00.729 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:25:00.742 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:25:00.747 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:25:00.753 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:25:00.776 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:25:00.843 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-AvuFXOHD5cThMa-O1S2a2Q
+2024-10-20 16:25:00.844 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:25:00.848 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:25:04.379 +07:00 [DBG] Connection id "0HN7GT4A9UCGL" received FIN.
+2024-10-20 16:25:04.387 +07:00 [DBG] Connection id "0HN7GT4A9UCGL" accepted.
+2024-10-20 16:25:04.388 +07:00 [DBG] Connection id "0HN7GT4A9UCGL" started.
+2024-10-20 16:25:04.398 +07:00 [DBG] Connection id "0HN7GT4A9UCGL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:25:04.402 +07:00 [DBG] Connection id "0HN7GT4A9UCGL" disconnecting.
+2024-10-20 16:25:04.405 +07:00 [DBG] Connection id "0HN7GT4A9UCGL" stopped.
+2024-10-20 16:25:07.033 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" accepted.
+2024-10-20 16:25:07.034 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" started.
+2024-10-20 16:25:07.075 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:25:07.204 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:25:07.227 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:25:07.228 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:25:07.252 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:25:07.255 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:25:07.258 +07:00 [INF] Start request......!
+2024-10-20 16:25:07.402 +07:00 [DBG] Connection id "0HN7GT4A9UCGN" accepted.
+2024-10-20 16:25:07.403 +07:00 [DBG] Connection id "0HN7GT4A9UCGN" started.
+2024-10-20 16:25:07.403 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:25:07.410 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" completed keep alive response.
+2024-10-20 16:25:07.412 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 344.6715ms
+2024-10-20 16:25:07.414 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:25:12.034 +07:00 [DBG] Connection id "0HN7GT4A9UCGN" received FIN.
+2024-10-20 16:25:12.044 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" received FIN.
+2024-10-20 16:25:12.047 +07:00 [DBG] Connection id "0HN7GT4A9UCGN" disconnecting.
+2024-10-20 16:25:12.051 +07:00 [DBG] Connection id "0HN7GT4A9UCGN" stopped.
+2024-10-20 16:25:12.052 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" disconnecting.
+2024-10-20 16:25:12.060 +07:00 [DBG] Connection id "0HN7GT4A9UCGN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:25:12.062 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:25:12.066 +07:00 [DBG] Connection id "0HN7GT4A9UCGM" stopped.
+2024-10-20 16:27:37.823 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:27:38.340 +07:00 [DBG] Hosting starting
+2024-10-20 16:27:38.379 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:27:38.696 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:27:38.900 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:27:38.912 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:27:38.912 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:27:38.913 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:27:38.914 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:27:38.920 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:27:38.927 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:27:38.927 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:27:38.928 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:27:38.928 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:27:38.937 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:27:38.942 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:27:38.945 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:27:38.947 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:27:38.951 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:27:38.953 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:27:38.955 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:27:38.957 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:27:38.959 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:27:38.965 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:27:39.035 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:27:39.212 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:27:39.213 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:27:39.213 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:27:39.213 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:27:39.213 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:27:39.255 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60927)
+2024-10-20 16:27:39.336 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_c1boyyysrsenh557bdqxb4mort?temporary=true"
+2024-10-20 16:27:39.346 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:27:39.347 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:27:39.347 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:27:39.347 +07:00 [DBG] Hosting started
+2024-10-20 16:27:39.362 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:27:40.646 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:27:40.652 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:27:40.700 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:27:40.723 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:27:40.768 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-Y97wzrI_Ag1tzaYqfaIzvQ
+2024-10-20 16:27:40.770 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:27:40.778 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:27:43.389 +07:00 [DBG] Connection id "0HN7GT5PMCAIV" received FIN.
+2024-10-20 16:27:43.394 +07:00 [DBG] Connection id "0HN7GT5PMCAIV" accepted.
+2024-10-20 16:27:43.396 +07:00 [DBG] Connection id "0HN7GT5PMCAIV" started.
+2024-10-20 16:27:43.405 +07:00 [DBG] Connection id "0HN7GT5PMCAIV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:27:43.407 +07:00 [DBG] Connection id "0HN7GT5PMCAIV" disconnecting.
+2024-10-20 16:27:43.411 +07:00 [DBG] Connection id "0HN7GT5PMCAIV" stopped.
+2024-10-20 16:27:45.546 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" accepted.
+2024-10-20 16:27:45.547 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" started.
+2024-10-20 16:27:45.547 +07:00 [DBG] Connection id "0HN7GT5PMCAJ1" accepted.
+2024-10-20 16:27:45.548 +07:00 [DBG] Connection id "0HN7GT5PMCAJ1" started.
+2024-10-20 16:27:45.602 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:27:45.687 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:27:45.711 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:27:45.711 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:27:45.727 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:27:45.728 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:27:45.731 +07:00 [INF] Start request......!
+2024-10-20 16:27:45.823 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:27:45.829 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" completed keep alive response.
+2024-10-20 16:27:45.832 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 236.0259ms
+2024-10-20 16:27:45.834 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:27:52.285 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" received FIN.
+2024-10-20 16:27:52.285 +07:00 [DBG] Connection id "0HN7GT5PMCAJ1" received FIN.
+2024-10-20 16:27:52.287 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:27:52.287 +07:00 [DBG] Connection id "0HN7GT5PMCAJ1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:27:52.287 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" disconnecting.
+2024-10-20 16:27:52.288 +07:00 [DBG] Connection id "0HN7GT5PMCAJ1" disconnecting.
+2024-10-20 16:27:52.289 +07:00 [DBG] Connection id "0HN7GT5PMCAJ0" stopped.
+2024-10-20 16:27:52.289 +07:00 [DBG] Connection id "0HN7GT5PMCAJ1" stopped.
+2024-10-20 16:31:22.048 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:31:22.594 +07:00 [DBG] Hosting starting
+2024-10-20 16:31:22.650 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:31:22.984 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:31:23.134 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:31:23.142 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:31:23.143 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:31:23.144 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:31:23.144 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:31:23.149 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:31:23.153 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:31:23.154 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:31:23.154 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:31:23.154 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:31:23.159 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:31:23.162 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:31:23.164 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:31:23.166 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:31:23.169 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:31:23.170 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:31:23.172 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:31:23.173 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:31:23.174 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:31:23.179 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:31:23.224 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:31:23.318 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:31:23.319 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:31:23.319 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:31:23.319 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:31:23.319 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:31:23.359 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 61191)
+2024-10-20 16:31:23.410 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_ottoyyysrsenhr31bdqxb4xsb6?temporary=true"
+2024-10-20 16:31:23.419 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:31:23.421 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:31:23.421 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:31:23.422 +07:00 [DBG] Hosting started
+2024-10-20 16:31:23.433 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:31:23.445 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:31:23.450 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:31:23.457 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:31:23.480 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:31:23.520 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-0VsSXL_JBrCILjAqUwdMCw
+2024-10-20 16:31:23.522 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:31:23.526 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:31:27.411 +07:00 [DBG] Connection id "0HN7GT7SEQI88" received FIN.
+2024-10-20 16:31:27.418 +07:00 [DBG] Connection id "0HN7GT7SEQI88" accepted.
+2024-10-20 16:31:27.418 +07:00 [DBG] Connection id "0HN7GT7SEQI88" started.
+2024-10-20 16:31:27.427 +07:00 [DBG] Connection id "0HN7GT7SEQI88" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:31:27.430 +07:00 [DBG] Connection id "0HN7GT7SEQI88" disconnecting.
+2024-10-20 16:31:27.434 +07:00 [DBG] Connection id "0HN7GT7SEQI88" stopped.
+2024-10-20 16:31:29.937 +07:00 [DBG] Connection id "0HN7GT7SEQI89" accepted.
+2024-10-20 16:31:29.938 +07:00 [DBG] Connection id "0HN7GT7SEQI89" started.
+2024-10-20 16:31:29.984 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:31:30.092 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:31:30.120 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:31:30.121 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:31:30.141 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:31:30.142 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:31:30.145 +07:00 [INF] Start request......!
+2024-10-20 16:31:30.264 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:31:30.270 +07:00 [DBG] Connection id "0HN7GT7SEQI89" completed keep alive response.
+2024-10-20 16:31:30.272 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 294.1841ms
+2024-10-20 16:31:30.274 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:31:30.624 +07:00 [DBG] Connection id "0HN7GT7SEQI8A" accepted.
+2024-10-20 16:31:30.624 +07:00 [DBG] Connection id "0HN7GT7SEQI8A" started.
+2024-10-20 16:31:32.325 +07:00 [DBG] Connection id "0HN7GT7SEQI8A" received FIN.
+2024-10-20 16:31:32.332 +07:00 [DBG] Connection id "0HN7GT7SEQI89" received FIN.
+2024-10-20 16:31:32.333 +07:00 [DBG] Connection id "0HN7GT7SEQI8A" disconnecting.
+2024-10-20 16:31:32.355 +07:00 [DBG] Connection id "0HN7GT7SEQI89" disconnecting.
+2024-10-20 16:31:32.358 +07:00 [DBG] Connection id "0HN7GT7SEQI8A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:31:32.362 +07:00 [DBG] Connection id "0HN7GT7SEQI89" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:31:32.366 +07:00 [DBG] Connection id "0HN7GT7SEQI89" stopped.
+2024-10-20 16:31:32.366 +07:00 [DBG] Connection id "0HN7GT7SEQI8A" stopped.
+2024-10-20 16:33:42.902 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:33:43.460 +07:00 [DBG] Hosting starting
+2024-10-20 16:33:43.503 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:33:43.821 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:33:43.964 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:33:43.971 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:33:43.971 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:33:43.972 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:33:43.972 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:33:43.976 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:33:43.981 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:33:43.981 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:33:43.981 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:33:43.982 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:33:43.989 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:33:43.992 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:33:43.994 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:33:43.996 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:33:43.999 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:33:44.000 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:33:44.002 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:33:44.003 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:33:44.004 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:33:44.008 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:33:44.057 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:33:44.167 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:33:44.167 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:33:44.167 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:33:44.167 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:33:44.167 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:33:44.205 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 61455)
+2024-10-20 16:33:44.277 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_1neyyyysrsen75nsbdqxb41kb1?temporary=true"
+2024-10-20 16:33:44.293 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:33:44.293 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:33:44.294 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:33:44.294 +07:00 [DBG] Hosting started
+2024-10-20 16:33:44.302 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:33:44.314 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:33:44.321 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:33:44.328 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:33:44.347 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:33:44.433 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-luez2WPRLLTJ35hNxha_IA
+2024-10-20 16:33:44.435 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:33:44.440 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:33:47.960 +07:00 [DBG] Connection id "0HN7GT96B6K16" received FIN.
+2024-10-20 16:33:47.967 +07:00 [DBG] Connection id "0HN7GT96B6K16" accepted.
+2024-10-20 16:33:47.970 +07:00 [DBG] Connection id "0HN7GT96B6K16" started.
+2024-10-20 16:33:47.996 +07:00 [DBG] Connection id "0HN7GT96B6K16" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:33:48.020 +07:00 [DBG] Connection id "0HN7GT96B6K16" disconnecting.
+2024-10-20 16:33:48.027 +07:00 [DBG] Connection id "0HN7GT96B6K16" stopped.
+2024-10-20 16:37:32.006 +07:00 [DBG] Connection id "0HN7GT96B6K17" accepted.
+2024-10-20 16:37:32.014 +07:00 [DBG] Connection id "0HN7GT96B6K17" started.
+2024-10-20 16:37:32.021 +07:00 [DBG] Connection id "0HN7GT96B6K18" received FIN.
+2024-10-20 16:37:32.023 +07:00 [DBG] Disconnect: guest@localhost:5672/capygram
+2024-10-20 16:37:32.039 +07:00 [DBG] Disconnected: guest@localhost:5672/capygram
+2024-10-20 16:37:32.051 +07:00 [DBG] Connection id "0HN7GT96B6K18" accepted.
+2024-10-20 16:37:32.067 +07:00 [DBG] Consumer Model Shutdown: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-luez2WPRLLTJ35hNxha_IA, Concurrent Peak: 0, 0-End of stream
+2024-10-20 16:37:32.068 +07:00 [DBG] Connection id "0HN7GT96B6K18" started.
+2024-10-20 16:37:32.078 +07:00 [DBG] Connection id "0HN7GT96B6K18" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:37:32.080 +07:00 [DBG] Connection id "0HN7GT96B6K18" disconnecting.
+2024-10-20 16:37:32.086 +07:00 [DBG] Connection id "0HN7GT96B6K18" stopped.
+2024-10-20 16:37:32.099 +07:00 [DBG] Consumer Stopping: "rabbitmq://localhost/capygram/user-media-queue" (Consume Loop Exited)
+2024-10-20 16:37:32.128 +07:00 [DBG] Endpoint Completed: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:37:32.130 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:37:32.156 +07:00 [DBG] Consumer Completed: "rabbitmq://localhost/capygram/user-media-queue": 0 received, 0 concurrent, amq.ctag-luez2WPRLLTJ35hNxha_IA
+2024-10-20 16:37:34.241 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:37:34.269 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 61650)
+2024-10-20 16:37:34.302 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:37:34.322 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:37:34.326 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:37:34.335 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:37:34.353 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:37:59.117 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:37:59.678 +07:00 [DBG] Hosting starting
+2024-10-20 16:37:59.730 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:38:00.022 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:38:00.158 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:38:00.165 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:38:00.166 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:38:00.166 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:38:00.166 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:38:00.171 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:38:00.174 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:38:00.175 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:38:00.175 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:38:00.175 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:38:00.182 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:38:00.185 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:38:00.187 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:38:00.189 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:38:00.192 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:38:00.194 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:38:00.196 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:38:00.197 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:38:00.198 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:38:00.201 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:38:00.249 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:38:00.348 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:38:00.348 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:38:00.348 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:38:00.348 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:38:00.348 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:38:00.388 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 61673)
+2024-10-20 16:38:00.436 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:38:00.436 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:38:00.437 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:38:00.438 +07:00 [DBG] Hosting started
+2024-10-20 16:38:00.438 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_stryyyysrsenh4zqbdqxb4zn88?temporary=true"
+2024-10-20 16:38:00.458 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:38:00.473 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:38:00.480 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:38:00.487 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:38:00.506 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:38:00.544 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-tQ-GD5Zr-vatZNeeWx4ETg
+2024-10-20 16:38:00.546 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:38:00.550 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:38:03.913 +07:00 [DBG] Connection id "0HN7GTBIK5AKT" received FIN.
+2024-10-20 16:38:03.920 +07:00 [DBG] Connection id "0HN7GTBIK5AKT" accepted.
+2024-10-20 16:38:03.921 +07:00 [DBG] Connection id "0HN7GTBIK5AKT" started.
+2024-10-20 16:38:03.937 +07:00 [DBG] Connection id "0HN7GTBIK5AKT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:38:03.941 +07:00 [DBG] Connection id "0HN7GTBIK5AKT" disconnecting.
+2024-10-20 16:38:03.946 +07:00 [DBG] Connection id "0HN7GTBIK5AKT" stopped.
+2024-10-20 16:38:06.183 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" accepted.
+2024-10-20 16:38:06.183 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" started.
+2024-10-20 16:38:06.195 +07:00 [DBG] Connection id "0HN7GTBIK5AKV" accepted.
+2024-10-20 16:38:06.195 +07:00 [DBG] Connection id "0HN7GTBIK5AKV" started.
+2024-10-20 16:38:06.225 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:38:06.323 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:38:06.349 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:38:06.350 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:38:06.364 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:38:06.365 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:38:06.367 +07:00 [INF] Start request......!
+2024-10-20 16:38:06.548 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:38:06.555 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" completed keep alive response.
+2024-10-20 16:38:06.559 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 340.8419ms
+2024-10-20 16:38:06.563 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:38:12.483 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" received FIN.
+2024-10-20 16:38:12.483 +07:00 [DBG] Connection id "0HN7GTBIK5AKV" received FIN.
+2024-10-20 16:38:12.484 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:38:12.485 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" disconnecting.
+2024-10-20 16:38:12.486 +07:00 [DBG] Connection id "0HN7GTBIK5AKV" disconnecting.
+2024-10-20 16:38:12.487 +07:00 [DBG] Connection id "0HN7GTBIK5AKU" stopped.
+2024-10-20 16:38:12.487 +07:00 [DBG] Connection id "0HN7GTBIK5AKV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:38:12.493 +07:00 [DBG] Connection id "0HN7GTBIK5AKV" stopped.
+2024-10-20 16:42:43.411 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:42:43.896 +07:00 [DBG] Hosting starting
+2024-10-20 16:42:43.938 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:42:44.214 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:42:44.444 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:42:44.452 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:42:44.453 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:42:44.453 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:42:44.453 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:42:44.459 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:42:44.465 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:42:44.465 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:42:44.465 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:42:44.465 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:42:44.472 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:42:44.476 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:42:44.477 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:42:44.479 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:42:44.483 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:42:44.484 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:42:44.486 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:42:44.487 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:42:44.489 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:42:44.493 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:42:44.539 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:42:44.649 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:42:44.650 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:42:44.650 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:42:44.650 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:42:44.650 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:42:44.689 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 61965)
+2024-10-20 16:42:44.768 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_wtdyyyysrsenhfgzbdqxb4hcnp?temporary=true"
+2024-10-20 16:42:44.772 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:42:44.773 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:42:44.774 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:42:44.774 +07:00 [DBG] Hosting started
+2024-10-20 16:42:44.794 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:42:44.808 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:42:44.812 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:42:44.818 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:42:44.836 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:42:44.904 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-NX_zobvPTw0nBzlcX9ewXA
+2024-10-20 16:42:44.905 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:42:44.911 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:42:48.020 +07:00 [DBG] Connection id "0HN7GTE79JQMV" received FIN.
+2024-10-20 16:42:48.025 +07:00 [DBG] Connection id "0HN7GTE79JQMV" accepted.
+2024-10-20 16:42:48.027 +07:00 [DBG] Connection id "0HN7GTE79JQMV" started.
+2024-10-20 16:42:48.037 +07:00 [DBG] Connection id "0HN7GTE79JQMV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:42:48.040 +07:00 [DBG] Connection id "0HN7GTE79JQMV" disconnecting.
+2024-10-20 16:42:48.044 +07:00 [DBG] Connection id "0HN7GTE79JQMV" stopped.
+2024-10-20 16:42:50.330 +07:00 [DBG] Connection id "0HN7GTE79JQN0" accepted.
+2024-10-20 16:42:50.330 +07:00 [DBG] Connection id "0HN7GTE79JQN0" started.
+2024-10-20 16:42:50.391 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:42:50.435 +07:00 [DBG] Connection id "0HN7GTE79JQN1" accepted.
+2024-10-20 16:42:50.435 +07:00 [DBG] Connection id "0HN7GTE79JQN1" started.
+2024-10-20 16:42:50.526 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:42:50.548 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:42:50.549 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:42:50.568 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:42:50.570 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:42:50.573 +07:00 [INF] Start request......!
+2024-10-20 16:42:50.684 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:42:50.689 +07:00 [DBG] Connection id "0HN7GTE79JQN0" completed keep alive response.
+2024-10-20 16:42:50.692 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 308.7823ms
+2024-10-20 16:42:50.693 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:45:41.556 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 16:45:42.083 +07:00 [DBG] Hosting starting
+2024-10-20 16:45:42.127 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 16:45:42.452 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 16:45:42.586 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 16:45:42.593 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 16:45:42.593 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 16:45:42.594 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 16:45:42.594 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 16:45:42.597 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 16:45:42.600 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 16:45:42.601 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 16:45:42.601 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 16:45:42.601 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 16:45:42.607 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 16:45:42.609 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:45:42.611 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 16:45:42.613 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 16:45:42.616 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 16:45:42.617 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 16:45:42.619 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 16:45:42.620 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 16:45:42.621 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 16:45:42.624 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 16:45:42.669 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 16:45:42.776 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 16:45:42.776 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 16:45:42.777 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 16:45:42.777 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 16:45:42.777 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 16:45:42.814 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 62111)
+2024-10-20 16:45:42.881 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_xb8oyyysrsen7x5xbdqxb49srj?temporary=true"
+2024-10-20 16:45:42.888 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 16:45:42.889 +07:00 [INF] Hosting environment: Development
+2024-10-20 16:45:42.889 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 16:45:42.889 +07:00 [DBG] Hosting started
+2024-10-20 16:45:42.905 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 16:45:42.919 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 16:45:42.926 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 16:45:42.932 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 16:45:42.954 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 16:45:43.031 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-Y-S2mkxKgQNgzbRFAv0Reg
+2024-10-20 16:45:43.032 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 16:45:43.036 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 16:45:46.690 +07:00 [DBG] Connection id "0HN7GTFSHHLV0" received FIN.
+2024-10-20 16:45:46.696 +07:00 [DBG] Connection id "0HN7GTFSHHLV0" accepted.
+2024-10-20 16:45:46.703 +07:00 [DBG] Connection id "0HN7GTFSHHLV0" started.
+2024-10-20 16:45:46.717 +07:00 [DBG] Connection id "0HN7GTFSHHLV0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:45:46.722 +07:00 [DBG] Connection id "0HN7GTFSHHLV0" disconnecting.
+2024-10-20 16:45:46.728 +07:00 [DBG] Connection id "0HN7GTFSHHLV0" stopped.
+2024-10-20 16:45:48.935 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" accepted.
+2024-10-20 16:45:48.935 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" started.
+2024-10-20 16:45:48.970 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 16:45:49.066 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 16:45:49.090 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 16:45:49.091 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 16:45:49.111 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 16:45:49.112 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 16:45:49.115 +07:00 [INF] Start request......!
+2024-10-20 16:45:49.271 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 16:45:49.277 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" completed keep alive response.
+2024-10-20 16:45:49.280 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 315.3119ms
+2024-10-20 16:45:49.283 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 16:45:49.451 +07:00 [DBG] Connection id "0HN7GTFSHHLV2" accepted.
+2024-10-20 16:45:49.452 +07:00 [DBG] Connection id "0HN7GTFSHHLV2" started.
+2024-10-20 16:46:26.515 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" received FIN.
+2024-10-20 16:46:26.517 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" disconnecting.
+2024-10-20 16:46:26.519 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" stopped.
+2024-10-20 16:46:26.519 +07:00 [DBG] Connection id "0HN7GTFSHHLV2" received FIN.
+2024-10-20 16:46:26.521 +07:00 [DBG] Connection id "0HN7GTFSHHLV2" disconnecting.
+2024-10-20 16:46:26.522 +07:00 [DBG] Connection id "0HN7GTFSHHLV2" stopped.
+2024-10-20 16:46:26.521 +07:00 [DBG] Connection id "0HN7GTFSHHLV1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 16:46:26.522 +07:00 [DBG] Connection id "0HN7GTFSHHLV2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 18:30:43.444 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-20 18:30:44.069 +07:00 [DBG] Hosting starting
+2024-10-20 18:30:44.134 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-20 18:30:44.449 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-20 18:30:44.595 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-20 18:30:44.611 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-20 18:30:44.612 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-20 18:30:44.613 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-20 18:30:44.614 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-20 18:30:44.621 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-20 18:30:44.629 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-20 18:30:44.630 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-20 18:30:44.630 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-20 18:30:44.630 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-20 18:30:44.638 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-20 18:30:44.641 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 18:30:44.644 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-20 18:30:44.646 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-20 18:30:44.650 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-20 18:30:44.652 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-20 18:30:44.653 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-20 18:30:44.654 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-20 18:30:44.656 +07:00 [DBG] Starting bus instances: IBus
+2024-10-20 18:30:44.661 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-20 18:30:44.740 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-20 18:30:44.979 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-20 18:30:44.979 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-20 18:30:44.979 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-20 18:30:44.980 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-20 18:30:44.980 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-20 18:30:45.024 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 50380)
+2024-10-20 18:30:45.090 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-20 18:30:45.102 +07:00 [INF] Hosting environment: Development
+2024-10-20 18:30:45.103 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-20 18:30:45.126 +07:00 [DBG] Hosting started
+2024-10-20 18:30:45.126 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_5nuyyyysrsenh341bdqxb6ingo?temporary=true"
+2024-10-20 18:30:45.185 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-20 18:30:45.200 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-20 18:30:45.207 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-20 18:30:45.246 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-20 18:30:45.268 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-20 18:30:45.314 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-q8aoAoHtgil7VuIxeSZl7w
+2024-10-20 18:30:45.316 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-20 18:30:45.325 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-20 18:30:47.904 +07:00 [DBG] Connection id "0HN7GVAIEJHC5" received FIN.
+2024-10-20 18:30:47.911 +07:00 [DBG] Connection id "0HN7GVAIEJHC5" accepted.
+2024-10-20 18:30:47.912 +07:00 [DBG] Connection id "0HN7GVAIEJHC5" started.
+2024-10-20 18:30:47.926 +07:00 [DBG] Connection id "0HN7GVAIEJHC5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 18:30:47.931 +07:00 [DBG] Connection id "0HN7GVAIEJHC5" disconnecting.
+2024-10-20 18:30:47.937 +07:00 [DBG] Connection id "0HN7GVAIEJHC5" stopped.
+2024-10-20 18:30:50.215 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" accepted.
+2024-10-20 18:30:50.215 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" started.
+2024-10-20 18:30:50.286 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-20 18:30:50.365 +07:00 [DBG] Connection id "0HN7GVAIEJHC7" accepted.
+2024-10-20 18:30:50.382 +07:00 [DBG] Connection id "0HN7GVAIEJHC7" started.
+2024-10-20 18:30:50.636 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-20 18:30:50.673 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-20 18:30:50.689 +07:00 [DBG] Request did not match any endpoints
+2024-10-20 18:30:50.711 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-20 18:30:50.715 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-20 18:30:50.720 +07:00 [INF] Start request......!
+2024-10-20 18:30:51.903 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-20 18:30:51.909 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" completed keep alive response.
+2024-10-20 18:30:51.911 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 1632.7586ms
+2024-10-20 18:30:51.914 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-20 18:30:52.612 +07:00 [DBG] Connection id "0HN7GVAIEJHC7" received FIN.
+2024-10-20 18:30:52.612 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" received FIN.
+2024-10-20 18:30:52.614 +07:00 [DBG] Connection id "0HN7GVAIEJHC7" disconnecting.
+2024-10-20 18:30:52.614 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" disconnecting.
+2024-10-20 18:30:52.616 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" stopped.
+2024-10-20 18:30:52.616 +07:00 [DBG] Connection id "0HN7GVAIEJHC7" stopped.
+2024-10-20 18:30:52.620 +07:00 [DBG] Connection id "0HN7GVAIEJHC6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-20 18:30:52.620 +07:00 [DBG] Connection id "0HN7GVAIEJHC7" sending FIN because: "The Socket transport's send loop completed gracefully."

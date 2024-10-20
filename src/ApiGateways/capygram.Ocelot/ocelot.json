@@ -1,0 +1,271 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Users/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/register",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/logout",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/logout",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/get-user-by-userID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/get-user-by-userID",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/get-user-by-name",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/get-user-by-name",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/refresh-token",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/refresh-token",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/active-account",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/active-account",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/edit",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/edit",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Users/upload-avatar",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8087
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Users/upload-avatar",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{Id}/follower",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8085
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{Id}/follower",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{Id}/following",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8085
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{Id}/following",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{id}/follow/{did}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8085
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{id}/follow/{did}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{id}/unfollow/{did}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8085
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{id}/unfollow/{did}",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{Id}/following/count",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8085
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{Id}/following/count",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/{Id}/follower/count",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8085
+        }
+      ],
+      "UpstreamPathTemplate": "/api/{Id}/follower/count",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/Create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Posts/Create",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/Delete/{postId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Posts/Delete/{postId}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/Get/{postId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Posts/Get/{postId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/GetPostsByUserID",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Posts/GetPostsByUserID",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/GetAll?pageSize={pageSize}&pageNumber={pageNumber}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Posts/GetAll?pageSize={pageSize}&pageNumber={pageNumber}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Posts/Update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8081
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Posts/Update",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Newsfeeds/GetNewsfeed",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "127.0.0.1",
+          "Port": 8086
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Newsfeeds/GetNewsfeed",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://127.0.0.1:5062"
+  }
+}

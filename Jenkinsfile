@@ -10,19 +10,6 @@ pipeline {
             }
         }
         stage('Analysising code with SonaQube') {
-            // steps {
-            //     script {
-            //         def sqScannerMsBuildHome = tool 'SonarScanner'
-                    
-            //         withSonarQubeEnv('SonarQube') {
-            //         sh "${sqScannerMsBuildHome}/sonar-scanner-5.0.1.3006/bin/sonar-scanner \
-            //             -Dsonar.projectKey=CaIIMeHieu_capygram-be \
-            //             -Dsonar.sources=. \
-            //             -Dsonar.host.url=https://sonarcloud.io \
-            //             -Dsonar.login=ac3980b0126c98b08cf76c6f134be18f433c3652"
-            //         }
-            //     }
-            // }
             environment {
                 scannerHome = tool 'SonarQubeTool';
             }

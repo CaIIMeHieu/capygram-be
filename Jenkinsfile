@@ -14,7 +14,7 @@ pipeline {
                 scannerHome = tool 'SonarQubeTool';
             }
             steps {
-              withSonarQubeEnv(credentialsId: 'Secret text', installationName: 'SonarCloud') {
+              withSonarQubeEnv(credentialsId: '3134872e-ceda-4659-92cc-22edbd81314d', installationName: 'SonarCloud') {
                 sh "${scannerHome}/bin/sonar-scanner"
               }
             }

@@ -41,8 +41,8 @@ app.UseHttpsRedirection();
 
 //app.UseAuthentication();
 
-app.UseOcelot().Wait();
 app.UseCors("AllowSpecificOrigin");
+app.UseOcelot().Wait();
 
 //app.UseAuthorization();
 

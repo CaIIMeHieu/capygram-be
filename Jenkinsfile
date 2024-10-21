@@ -9,16 +9,16 @@ pipeline {
                 git branch: 'master', url: 'https://github.com/CaIIMeHieu/capygram-be.git'
             }
         }
-        stage('Analysising code with SonaQube') {
-            environment {
-                scannerHome = tool 'SonarQubeTool';
-            }
-            steps {
-              withSonarQubeEnv(credentialsId: '3134872e-ceda-4659-92cc-22edbd81314d', installationName: 'SonarCloud') {
-                sh "${scannerHome}/bin/sonar-scanner"
-              }
-            }
-        }
+        // stage('Analysising code with SonaQube') {
+        //     environment {
+        //         scannerHome = tool 'SonarQubeTool';
+        //     }
+        //     steps {
+        //       withSonarQubeEnv(credentialsId: '3134872e-ceda-4659-92cc-22edbd81314d', installationName: 'SonarCloud') {
+        //         sh "${scannerHome}/bin/sonar-scanner"
+        //       }
+        //     }
+        // }
         stage('Run Docker Script') {
             steps {
                 echo 'Running the Docker script...'

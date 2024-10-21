@@ -1,13 +1,15 @@
 #version: "3.9"
 
 services:
-  apiGateway :
+  apigateway :
     build : 
       context: .
       dockerfile: Dockerfile.Ocelot
-    container_name: capygram-apiGateway
+    container_name: capygram-gateway
     ports:
-      - "5062:5062"
+      - "8088:8088"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8088
   ####################################
   auth :
     build : 
@@ -16,6 +18,8 @@ services:
     container_name: capygram-auth
     ports:
       - "8087:8087"
+    environment :
+      ASPNETCORE_HTTP_PORTS: 8087
   ####################################
   notification :
     build : 

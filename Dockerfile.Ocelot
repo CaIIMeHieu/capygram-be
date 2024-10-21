@@ -3,14 +3,14 @@
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
 WORKDIR /app
-EXPOSE 5062
+EXPOSE 8088
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["src/ApiGateways/capygram.Ocelot/capygram.Ocelot.csproj", "src/ApiGateways/capygram.Ocelot/"]
 COPY ["src/Services/capygram.Common/capygram.Common.csproj", "src/Services/capygram.Common/"]
-RUN dotnet restore "./src/Services/capygram.Ocelot/capygram.Ocelot.csproj"
+RUN dotnet restore "./src/ApiGateways/capygram.Ocelot/capygram.Ocelot.csproj"
 COPY . .
 WORKDIR "/src/src/ApiGateways/capygram.Ocelot"
 RUN dotnet build "./capygram.Ocelot.csproj" -c $BUILD_CONFIGURATION -o /app/build

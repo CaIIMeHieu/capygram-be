@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("ocelot.json").Build();
+IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("ocelot.production.json").Build();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",

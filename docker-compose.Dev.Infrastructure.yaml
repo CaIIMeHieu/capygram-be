@@ -1,4 +1,4 @@
-#version: "3.9"
+version: "3.9"
 
 services:
   apigateway :
@@ -12,6 +12,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8088
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   auth :
     build : 
@@ -24,6 +30,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8087
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   notification :
     build : 
@@ -36,6 +48,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8082
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   graph :
     build : 
@@ -48,6 +66,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8085
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   media :
     build : 
@@ -60,6 +84,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8084
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   chat :
     build : 
@@ -72,6 +102,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8083
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   post :
     build : 
@@ -84,6 +120,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8081
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   newsfeed :
     build : 
@@ -96,6 +138,12 @@ services:
       ASPNETCORE_HTTP_PORTS: 8086
     networks:
       - capygram-be-cicd_default
+    depends_on:
+      - rabbitmq
+      - neo4j
+      - cassandra
+      - mongodb
+    restart: always
 
   rabbitmq:
     container_name: rabbitmq
@@ -109,20 +157,22 @@ services:
       RABBITMQ_DEFAULT_VHOST: "capygram"
     networks:
       - capygram-be-cicd_default
+    restart: always
 
   neo4j:
     container_name: neo4j
     image: neo4j:4.4.10
     ports:
-      - "7474:7474"   # HTTP access to the Neo4j browser
-      - "7687:7687"   # Bolt protocol for database connections
+      - "7474:7474"
+      - "7687:7687"
     environment:
-      NEO4J_AUTH: neo4j/hieu1234  # Format: NEO4J_AUTH=user/password
-      NEO4J_dbms_default__database: neo4j # Default database (replace `__` with `_`)
+      NEO4J_AUTH: neo4j/hieu1234
+      NEO4J_dbms_default__database: neo4j
     volumes:
       - neo4j_data:/data
     networks:
       - capygram-be-cicd_default
+    restart: always
 
   cassandra:
     container_name: cassandra
@@ -133,6 +183,7 @@ services:
       - cassandra_data:/var/lib/cassandra
     networks:
       - capygram-be-cicd_default
+    restart: always
 
   mongodb:
     container_name: mongodb
@@ -145,6 +196,7 @@ services:
       - mongodb_data:/data/db
     networks:
       - capygram-be-cicd_default
+    restart: always
 
   redis:
     container_name: redis 
@@ -155,6 +207,7 @@ services:
       - redis_data:/data
     networks:
       - capygram-be-cicd_default
+    restart: always
 
 volumes:
   neo4j_data:

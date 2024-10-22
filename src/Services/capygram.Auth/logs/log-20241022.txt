@@ -1,0 +1,1438 @@
+2024-10-22 14:19:25.020 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 14:19:26.437 +07:00 [DBG] Hosting starting
+2024-10-22 14:19:26.481 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 14:19:26.743 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 14:19:26.906 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 14:19:26.941 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 14:19:26.960 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 14:19:26.980 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 14:19:27.000 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 14:19:27.027 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 14:19:27.035 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 14:19:27.036 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 14:19:27.037 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 14:19:27.037 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 14:19:27.045 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 14:19:27.049 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:19:27.051 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 14:19:27.054 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:19:27.058 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 14:19:27.060 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 14:19:27.062 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 14:19:27.064 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 14:19:27.066 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 14:19:27.071 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 14:19:27.144 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 14:19:27.269 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 14:19:27.269 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 14:19:27.269 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 14:19:27.269 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 14:19:27.270 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 14:19:27.371 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 14:19:27.372 +07:00 [INF] Hosting environment: Development
+2024-10-22 14:19:27.373 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 14:19:27.373 +07:00 [DBG] Hosting started
+2024-10-22 14:19:27.664 +07:00 [DBG] Connection id "0HN7ID7EJEBRS" accepted.
+2024-10-22 14:19:27.673 +07:00 [DBG] Connection id "0HN7ID7EJEBRT" received FIN.
+2024-10-22 14:19:27.711 +07:00 [DBG] Connection id "0HN7ID7EJEBRS" started.
+2024-10-22 14:19:27.712 +07:00 [DBG] Connection id "0HN7ID7EJEBRS" received FIN.
+2024-10-22 14:19:27.736 +07:00 [DBG] Connection id "0HN7ID7EJEBRT" accepted.
+2024-10-22 14:19:27.738 +07:00 [DBG] Connection id "0HN7ID7EJEBRT" started.
+2024-10-22 14:19:27.768 +07:00 [DBG] Connection id "0HN7ID7EJEBRS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:19:27.769 +07:00 [DBG] Connection id "0HN7ID7EJEBRT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:19:27.775 +07:00 [DBG] Connection id "0HN7ID7EJEBRS" disconnecting.
+2024-10-22 14:19:27.777 +07:00 [DBG] Connection id "0HN7ID7EJEBRT" disconnecting.
+2024-10-22 14:19:27.781 +07:00 [DBG] Connection id "0HN7ID7EJEBRS" stopped.
+2024-10-22 14:19:27.781 +07:00 [DBG] Connection id "0HN7ID7EJEBRT" stopped.
+2024-10-22 14:19:28.706 +07:00 [DBG] Connection id "0HN7ID7EJEBRU" accepted.
+2024-10-22 14:19:28.711 +07:00 [DBG] Connection id "0HN7ID7EJEBRU" started.
+2024-10-22 14:19:28.715 +07:00 [DBG] Connection id "0HN7ID7EJEBRV" accepted.
+2024-10-22 14:19:28.724 +07:00 [DBG] Connection id "0HN7ID7EJEBRV" started.
+2024-10-22 14:19:28.912 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 14:20:33.193 +07:00 [DBG] Connection id "0HN7ID7EJEBRV" received FIN.
+2024-10-22 14:20:33.250 +07:00 [DBG] Connection id "0HN7ID7EJEBRV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:20:33.258 +07:00 [DBG] Connection id "0HN7ID7EJEBRV" disconnecting.
+2024-10-22 14:20:33.260 +07:00 [DBG] Connection id "0HN7ID7EJEBRV" stopped.
+2024-10-22 14:20:34.568 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 14:20:34.609 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 14:20:34.619 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:20:34.682 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 14:20:34.703 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 14:20:34.713 +07:00 [INF] Start request......!
+2024-10-22 14:22:15.821 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 14:22:16.698 +07:00 [DBG] Hosting starting
+2024-10-22 14:22:16.804 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 14:22:17.186 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 14:22:17.397 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 14:22:17.416 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 14:22:17.417 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 14:22:17.418 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 14:22:17.418 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 14:22:17.427 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 14:22:17.435 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 14:22:17.436 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 14:22:17.436 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 14:22:17.437 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 14:22:17.446 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 14:22:17.450 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:22:17.454 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 14:22:17.457 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:22:17.462 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 14:22:17.465 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 14:22:17.470 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 14:22:17.472 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 14:22:17.474 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 14:22:17.483 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 14:22:17.572 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 14:22:17.865 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 14:22:17.866 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 14:22:17.866 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 14:22:17.866 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 14:22:17.866 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 14:22:17.912 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 52298)
+2024-10-22 14:22:18.033 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_myoyyyysrsen75pcbdqxr41nbs?temporary=true"
+2024-10-22 14:22:18.049 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 14:22:18.050 +07:00 [INF] Hosting environment: Development
+2024-10-22 14:22:18.051 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 14:22:18.053 +07:00 [DBG] Hosting started
+2024-10-22 14:22:18.081 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 14:22:18.095 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 14:22:18.103 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 14:22:18.126 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 14:22:18.150 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 14:22:18.196 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-gZXcAlobnWnEPlNFR4d09Q
+2024-10-22 14:22:18.200 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 14:22:18.204 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 14:22:20.121 +07:00 [DBG] Connection id "0HN7ID92045EL" received FIN.
+2024-10-22 14:22:20.136 +07:00 [DBG] Connection id "0HN7ID92045EL" accepted.
+2024-10-22 14:22:20.141 +07:00 [DBG] Connection id "0HN7ID92045EL" started.
+2024-10-22 14:22:20.157 +07:00 [DBG] Connection id "0HN7ID92045EL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:22:20.168 +07:00 [DBG] Connection id "0HN7ID92045EL" disconnecting.
+2024-10-22 14:22:20.176 +07:00 [DBG] Connection id "0HN7ID92045EL" stopped.
+2024-10-22 14:22:22.200 +07:00 [DBG] Connection id "0HN7ID92045EM" accepted.
+2024-10-22 14:22:22.202 +07:00 [DBG] Connection id "0HN7ID92045EM" started.
+2024-10-22 14:22:22.282 +07:00 [DBG] Connection id "0HN7ID92045EN" accepted.
+2024-10-22 14:22:22.288 +07:00 [DBG] Connection id "0HN7ID92045EN" started.
+2024-10-22 14:22:22.336 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 14:22:22.613 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 14:22:22.661 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 14:22:22.662 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:22:22.681 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 14:22:22.689 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 14:22:22.692 +07:00 [INF] Start request......!
+2024-10-22 14:22:23.154 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:22:23.166 +07:00 [DBG] Connection id "0HN7ID92045EM" completed keep alive response.
+2024-10-22 14:22:23.170 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 857.8896ms
+2024-10-22 14:22:23.172 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 14:22:46.961 +07:00 [DBG] Connection id "0HN7ID92045EN" received FIN.
+2024-10-22 14:22:46.964 +07:00 [DBG] Connection id "0HN7ID92045EM" received FIN.
+2024-10-22 14:22:46.965 +07:00 [DBG] Connection id "0HN7ID92045EM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:22:46.966 +07:00 [DBG] Connection id "0HN7ID92045EN" disconnecting.
+2024-10-22 14:22:46.972 +07:00 [DBG] Connection id "0HN7ID92045EN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:22:46.977 +07:00 [DBG] Connection id "0HN7ID92045EM" disconnecting.
+2024-10-22 14:22:47.009 +07:00 [DBG] Connection id "0HN7ID92045EM" stopped.
+2024-10-22 14:22:47.009 +07:00 [DBG] Connection id "0HN7ID92045EN" stopped.
+2024-10-22 14:27:49.303 +07:00 [DBG] Connection id "0HN7ID92045EO" accepted.
+2024-10-22 14:27:49.304 +07:00 [DBG] Connection id "0HN7ID92045EO" started.
+2024-10-22 14:27:49.304 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/index.html - null null
+2024-10-22 14:27:49.306 +07:00 [DBG] Connection id "0HN7ID92045EP" accepted.
+2024-10-22 14:27:49.311 +07:00 [DBG] Connection id "0HN7ID92045EP" started.
+2024-10-22 14:27:49.327 +07:00 [DBG] No candidates found for the request path '/index.html'
+2024-10-22 14:27:49.327 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:27:49.389 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-22 14:27:49.391 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-22 14:27:49.403 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-22 14:27:49.404 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-22 14:27:49.404 +07:00 [DBG] Connection id "0HN7ID92045EO" completed keep alive response.
+2024-10-22 14:27:49.405 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/index.html - 200 null text/html;charset=utf-8 100.1879ms
+2024-10-22 14:27:49.459 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-22 14:27:49.468 +07:00 [DBG] Connection id "0HN7ID92045EO" completed keep alive response.
+2024-10-22 14:27:49.469 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 10.3863ms
+2024-10-22 14:27:49.504 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_vs/browserLink - null null
+2024-10-22 14:27:49.549 +07:00 [DBG] Connection id "0HN7ID92045EO" completed keep alive response.
+2024-10-22 14:27:49.550 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.7996ms
+2024-10-22 14:27:49.948 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - null null
+2024-10-22 14:27:49.948 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-22 14:27:49.949 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:27:50.113 +07:00 [DBG] Connection id "0HN7ID92045EO" completed keep alive response.
+2024-10-22 14:27:50.114 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 165.8922ms
+2024-10-22 14:28:07.086 +07:00 [DBG] Connection id "0HN7ID92045EO" received FIN.
+2024-10-22 14:28:07.086 +07:00 [DBG] Connection id "0HN7ID92045EP" received FIN.
+2024-10-22 14:28:07.086 +07:00 [DBG] Connection id "0HN7ID92045EO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:28:07.087 +07:00 [DBG] Connection id "0HN7ID92045EP" disconnecting.
+2024-10-22 14:28:07.087 +07:00 [DBG] Connection id "0HN7ID92045EO" disconnecting.
+2024-10-22 14:28:07.087 +07:00 [DBG] Connection id "0HN7ID92045EP" stopped.
+2024-10-22 14:28:07.087 +07:00 [DBG] Connection id "0HN7ID92045EP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:28:07.091 +07:00 [DBG] Connection id "0HN7ID92045EO" stopped.
+2024-10-22 14:28:53.711 +07:00 [DBG] Connection id "0HN7ID92045EQ" accepted.
+2024-10-22 14:28:53.712 +07:00 [DBG] Connection id "0HN7ID92045EQ" started.
+2024-10-22 14:28:53.713 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 55
+2024-10-22 14:28:53.723 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:28:53.727 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:28:53.728 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:28:53.730 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:28:53.731 +07:00 [INF] Start request......!
+2024-10-22 14:28:53.736 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:28:53.744 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:28:53.745 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:28:53.745 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:28:53.748 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:28:53.786 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:28:53.789 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:28:53.789 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:28:53.790 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:28:53.790 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:28:53.791 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:28:53.793 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:28:53.804 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:28:53.811 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:28:53.815 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:28:53.817 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:28:53.824 +07:00 [DBG] Connection id "0HN7ID92045EQ", Request id "0HN7ID92045EQ:00000001": started reading request body.
+2024-10-22 14:28:53.825 +07:00 [DBG] Connection id "0HN7ID92045EQ", Request id "0HN7ID92045EQ:00000001": done reading request body.
+2024-10-22 14:28:53.833 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:28:53.834 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:28:53.834 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:28:53.834 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:28:53.849 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:28:54.145 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 350.1518ms
+2024-10-22 14:28:54.147 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:28:54.245 +07:00 [ERR] User not found by user name: hieunt
+capygram.Common.Exceptions.NotFoundException: User not found by user name: hieunt
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 97
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:28:54.300 +07:00 [DBG] Connection id "0HN7ID92045EQ" completed keep alive response.
+2024-10-22 14:28:54.300 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 404 null application/json 587.1203ms
+2024-10-22 14:29:07.096 +07:00 [DBG] Connection id "0HN7ID92045EQ" received FIN.
+2024-10-22 14:29:07.096 +07:00 [DBG] Connection id "0HN7ID92045EQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:29:07.097 +07:00 [DBG] Connection id "0HN7ID92045EQ" disconnecting.
+2024-10-22 14:29:07.097 +07:00 [DBG] Connection id "0HN7ID92045EQ" stopped.
+2024-10-22 14:29:13.823 +07:00 [DBG] Connection id "0HN7ID92045ER" accepted.
+2024-10-22 14:29:13.823 +07:00 [DBG] Connection id "0HN7ID92045ER" started.
+2024-10-22 14:29:13.824 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 59
+2024-10-22 14:29:13.826 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:29:13.827 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:29:13.827 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:13.827 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:29:13.829 +07:00 [INF] Start request......!
+2024-10-22 14:29:13.832 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:29:13.832 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:29:13.832 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:29:13.833 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:29:13.833 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:13.833 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:29:13.834 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:29:13.834 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:29:13.834 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:29:13.835 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:29:13.835 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:29:13.835 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:29:13.839 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:29:13.839 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:29:13.840 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:29:13.840 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:29:13.841 +07:00 [DBG] Connection id "0HN7ID92045ER", Request id "0HN7ID92045ER:00000001": started reading request body.
+2024-10-22 14:29:13.841 +07:00 [DBG] Connection id "0HN7ID92045ER", Request id "0HN7ID92045ER:00000001": done reading request body.
+2024-10-22 14:29:13.842 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:29:13.842 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:13.842 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:13.842 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:29:13.843 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:13.888 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 52.3409ms
+2024-10-22 14:29:13.888 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:13.931 +07:00 [ERR] User not found by user name: CallMeHieu
+capygram.Common.Exceptions.NotFoundException: User not found by user name: CallMeHieu
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 97
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:29:13.935 +07:00 [DBG] Connection id "0HN7ID92045ER" completed keep alive response.
+2024-10-22 14:29:13.935 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 404 null application/json 111.4285ms
+2024-10-22 14:29:25.471 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 57
+2024-10-22 14:29:25.471 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:29:25.472 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:29:25.472 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:25.472 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:29:25.473 +07:00 [INF] Start request......!
+2024-10-22 14:29:25.473 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:29:25.474 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:29:25.474 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:29:25.474 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:29:25.475 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:25.475 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:29:25.475 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:29:25.476 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:29:25.476 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:29:25.476 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:29:25.476 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:29:25.477 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:29:25.487 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:29:25.488 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:29:25.488 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:29:25.489 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:29:25.489 +07:00 [DBG] Connection id "0HN7ID92045ER", Request id "0HN7ID92045ER:00000002": started reading request body.
+2024-10-22 14:29:25.489 +07:00 [DBG] Connection id "0HN7ID92045ER", Request id "0HN7ID92045ER:00000002": done reading request body.
+2024-10-22 14:29:25.490 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:29:25.490 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:25.490 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:25.490 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:29:25.491 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:25.548 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 71.1621ms
+2024-10-22 14:29:25.549 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:25.600 +07:00 [ERR] User not found by user name: CallMeHieu
+capygram.Common.Exceptions.NotFoundException: User not found by user name: CallMeHieu
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 97
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:29:25.603 +07:00 [DBG] Connection id "0HN7ID92045ER" completed keep alive response.
+2024-10-22 14:29:25.604 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 404 null application/json 132.8941ms
+2024-10-22 14:29:32.099 +07:00 [DBG] Connection id "0HN7ID92045ER" received FIN.
+2024-10-22 14:29:32.100 +07:00 [DBG] Connection id "0HN7ID92045ER" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:29:32.100 +07:00 [DBG] Connection id "0HN7ID92045ER" disconnecting.
+2024-10-22 14:29:32.100 +07:00 [DBG] Connection id "0HN7ID92045ER" stopped.
+2024-10-22 14:29:56.349 +07:00 [DBG] Connection id "0HN7ID92045ES" accepted.
+2024-10-22 14:29:56.350 +07:00 [DBG] Connection id "0HN7ID92045ES" started.
+2024-10-22 14:29:56.355 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 52
+2024-10-22 14:29:56.356 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:29:56.357 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:29:56.358 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:56.358 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:29:56.358 +07:00 [INF] Start request......!
+2024-10-22 14:29:56.358 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:29:56.359 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:29:56.359 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:29:56.359 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:29:56.359 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:56.359 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:29:56.360 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:29:56.360 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:29:56.360 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:29:56.361 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:29:56.361 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:29:56.361 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:29:56.363 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:29:56.364 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:29:56.364 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:29:56.364 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:29:56.365 +07:00 [DBG] Connection id "0HN7ID92045ES", Request id "0HN7ID92045ES:00000001": started reading request body.
+2024-10-22 14:29:56.365 +07:00 [DBG] Connection id "0HN7ID92045ES", Request id "0HN7ID92045ES:00000001": done reading request body.
+2024-10-22 14:29:56.365 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:29:56.366 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:56.366 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:56.366 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:29:56.366 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:29:56.543 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 182.1316ms
+2024-10-22 14:29:56.544 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:29:56.622 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:29:56.626 +07:00 [DBG] Connection id "0HN7ID92045ES" completed keep alive response.
+2024-10-22 14:29:56.627 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 275.602ms
+2024-10-22 14:30:02.106 +07:00 [DBG] Connection id "0HN7ID92045ES" received FIN.
+2024-10-22 14:30:02.107 +07:00 [DBG] Connection id "0HN7ID92045ES" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:30:02.107 +07:00 [DBG] Connection id "0HN7ID92045ES" disconnecting.
+2024-10-22 14:30:02.107 +07:00 [DBG] Connection id "0HN7ID92045ES" stopped.
+2024-10-22 14:30:06.524 +07:00 [DBG] Connection id "0HN7ID92045ET" accepted.
+2024-10-22 14:30:06.524 +07:00 [DBG] Connection id "0HN7ID92045ET" started.
+2024-10-22 14:30:06.525 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 49
+2024-10-22 14:30:06.525 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:30:06.525 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:30:06.526 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:06.526 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:30:06.526 +07:00 [INF] Start request......!
+2024-10-22 14:30:06.526 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:30:06.526 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:30:06.527 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:30:06.527 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:30:06.528 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:06.528 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:30:06.528 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:30:06.529 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:30:06.529 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:30:06.529 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:30:06.529 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:30:06.530 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:06.531 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:06.532 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:06.532 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:30:06.533 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:30:06.533 +07:00 [DBG] Connection id "0HN7ID92045ET", Request id "0HN7ID92045ET:00000001": started reading request body.
+2024-10-22 14:30:06.533 +07:00 [DBG] Connection id "0HN7ID92045ET", Request id "0HN7ID92045ET:00000001": done reading request body.
+2024-10-22 14:30:06.533 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:30:06.534 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:06.534 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:06.534 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:06.535 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:06.647 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 117.4642ms
+2024-10-22 14:30:06.648 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:06.724 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:30:06.727 +07:00 [DBG] Connection id "0HN7ID92045ET" completed keep alive response.
+2024-10-22 14:30:06.728 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 202.9802ms
+2024-10-22 14:30:12.108 +07:00 [DBG] Connection id "0HN7ID92045ET" received FIN.
+2024-10-22 14:30:12.108 +07:00 [DBG] Connection id "0HN7ID92045ET" disconnecting.
+2024-10-22 14:30:12.109 +07:00 [DBG] Connection id "0HN7ID92045ET" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:30:12.110 +07:00 [DBG] Connection id "0HN7ID92045ET" stopped.
+2024-10-22 14:30:16.374 +07:00 [DBG] Connection id "0HN7ID92045EU" accepted.
+2024-10-22 14:30:16.374 +07:00 [DBG] Connection id "0HN7ID92045EU" started.
+2024-10-22 14:30:16.375 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 55
+2024-10-22 14:30:16.375 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:30:16.375 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:30:16.376 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:16.376 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:30:16.376 +07:00 [INF] Start request......!
+2024-10-22 14:30:16.376 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:30:16.377 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:30:16.377 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:30:16.377 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:30:16.377 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:16.377 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:30:16.378 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:30:16.378 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:30:16.378 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:30:16.378 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:30:16.379 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:30:16.379 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:16.381 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:16.383 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:16.383 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:30:16.384 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:30:16.384 +07:00 [DBG] Connection id "0HN7ID92045EU", Request id "0HN7ID92045EU:00000001": started reading request body.
+2024-10-22 14:30:16.384 +07:00 [DBG] Connection id "0HN7ID92045EU", Request id "0HN7ID92045EU:00000001": done reading request body.
+2024-10-22 14:30:16.385 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:30:16.385 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:16.385 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:16.385 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:16.386 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:16.496 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 117.2306ms
+2024-10-22 14:30:16.497 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:16.562 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:30:16.565 +07:00 [DBG] Connection id "0HN7ID92045EU" completed keep alive response.
+2024-10-22 14:30:16.566 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 190.8977ms
+2024-10-22 14:30:22.109 +07:00 [DBG] Connection id "0HN7ID92045EU" received FIN.
+2024-10-22 14:30:22.109 +07:00 [DBG] Connection id "0HN7ID92045EU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:30:22.110 +07:00 [DBG] Connection id "0HN7ID92045EU" disconnecting.
+2024-10-22 14:30:22.110 +07:00 [DBG] Connection id "0HN7ID92045EU" stopped.
+2024-10-22 14:30:28.065 +07:00 [DBG] Connection id "0HN7ID92045EV" accepted.
+2024-10-22 14:30:28.065 +07:00 [DBG] Connection id "0HN7ID92045EV" started.
+2024-10-22 14:30:28.066 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 53
+2024-10-22 14:30:28.066 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:30:28.067 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:30:28.068 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:28.068 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:30:28.068 +07:00 [INF] Start request......!
+2024-10-22 14:30:28.068 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:30:28.069 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:30:28.069 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:30:28.069 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:30:28.069 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:28.070 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:30:28.070 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:30:28.070 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:30:28.071 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:30:28.071 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:30:28.073 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:30:28.074 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:28.076 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:28.077 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:28.077 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:30:28.077 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:30:28.078 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000001": started reading request body.
+2024-10-22 14:30:28.079 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000001": done reading request body.
+2024-10-22 14:30:28.079 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:30:28.079 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:28.080 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:28.080 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:28.080 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:28.187 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 114.025ms
+2024-10-22 14:30:28.188 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:28.248 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:30:28.251 +07:00 [DBG] Connection id "0HN7ID92045EV" completed keep alive response.
+2024-10-22 14:30:28.252 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 185.861ms
+2024-10-22 14:30:59.564 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 49
+2024-10-22 14:30:59.564 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:30:59.565 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:30:59.565 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:59.565 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:30:59.565 +07:00 [INF] Start request......!
+2024-10-22 14:30:59.565 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:30:59.566 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:30:59.566 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:30:59.584 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:30:59.584 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:59.585 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:30:59.586 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:30:59.586 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:30:59.586 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:30:59.587 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:30:59.587 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:30:59.587 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:59.589 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:30:59.589 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:59.590 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:30:59.590 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:30:59.590 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000002": started reading request body.
+2024-10-22 14:30:59.591 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000002": done reading request body.
+2024-10-22 14:30:59.594 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:30:59.594 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:59.594 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:59.594 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:30:59.595 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:30:59.705 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 117.7506ms
+2024-10-22 14:30:59.705 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:30:59.778 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:30:59.781 +07:00 [DBG] Connection id "0HN7ID92045EV" completed keep alive response.
+2024-10-22 14:30:59.781 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 216.9317ms
+2024-10-22 14:31:10.417 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 53
+2024-10-22 14:31:10.418 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:31:10.418 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:31:10.418 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:10.418 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:31:10.418 +07:00 [INF] Start request......!
+2024-10-22 14:31:10.419 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:31:10.419 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:31:10.419 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:31:10.419 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:31:10.419 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:10.420 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:31:10.420 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:31:10.420 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:31:10.421 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:31:10.421 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:31:10.421 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:31:10.421 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:31:10.423 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:31:10.424 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:31:10.424 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:31:10.424 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:31:10.425 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000003": started reading request body.
+2024-10-22 14:31:10.425 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000003": done reading request body.
+2024-10-22 14:31:10.425 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:31:10.425 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:10.426 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:10.426 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:31:10.426 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:10.530 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 108.085ms
+2024-10-22 14:31:10.530 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:10.606 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:31:10.610 +07:00 [DBG] Connection id "0HN7ID92045EV" completed keep alive response.
+2024-10-22 14:31:10.611 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 193.9153ms
+2024-10-22 14:31:19.880 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 55
+2024-10-22 14:31:19.880 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:31:19.881 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:31:19.881 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:19.881 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:31:19.881 +07:00 [INF] Start request......!
+2024-10-22 14:31:19.882 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:31:19.882 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:31:19.882 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:31:19.882 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:31:19.883 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:19.883 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:31:19.884 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:31:19.884 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:31:19.884 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:31:19.885 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:31:19.885 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:31:19.885 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:31:19.887 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:31:19.887 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:31:19.887 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:31:19.889 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:31:19.889 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000004": started reading request body.
+2024-10-22 14:31:19.889 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000004": done reading request body.
+2024-10-22 14:31:19.890 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:31:19.890 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:19.890 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:19.890 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:31:19.891 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:20.004 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 118.5982ms
+2024-10-22 14:31:20.004 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:20.068 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:31:20.072 +07:00 [DBG] Connection id "0HN7ID92045EV" completed keep alive response.
+2024-10-22 14:31:20.072 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 192.6095ms
+2024-10-22 14:31:38.710 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 52
+2024-10-22 14:31:38.710 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:31:38.710 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:31:38.711 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:38.711 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:31:38.711 +07:00 [INF] Start request......!
+2024-10-22 14:31:38.711 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:31:38.711 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:31:38.712 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:31:38.712 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:31:38.712 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:38.712 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:31:38.713 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:31:38.713 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:31:38.713 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:31:38.714 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:31:38.714 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:31:38.714 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:31:38.716 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:31:38.716 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:31:38.717 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:31:38.718 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:31:38.722 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000005": started reading request body.
+2024-10-22 14:31:38.722 +07:00 [DBG] Connection id "0HN7ID92045EV", Request id "0HN7ID92045EV:00000005": done reading request body.
+2024-10-22 14:31:38.723 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:31:38.723 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:38.723 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:38.724 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:31:38.724 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:31:38.840 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 126.342ms
+2024-10-22 14:31:38.841 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:31:38.905 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:31:38.908 +07:00 [DBG] Connection id "0HN7ID92045EV" completed keep alive response.
+2024-10-22 14:31:38.909 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 199.1486ms
+2024-10-22 14:32:16.406 +07:00 [DBG] Connection id "0HN7ID92045EV" received FIN.
+2024-10-22 14:32:16.440 +07:00 [DBG] Connection id "0HN7ID92045EV" disconnecting.
+2024-10-22 14:32:16.522 +07:00 [DBG] Connection id "0HN7ID92045EV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:32:16.523 +07:00 [DBG] Connection id "0HN7ID92045EV" stopped.
+2024-10-22 14:32:27.883 +07:00 [DBG] Connection id "0HN7ID92045F0" accepted.
+2024-10-22 14:32:27.884 +07:00 [DBG] Connection id "0HN7ID92045F0" started.
+2024-10-22 14:32:27.887 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 52
+2024-10-22 14:32:27.888 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:32:27.888 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:32:27.889 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:32:27.889 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:32:27.889 +07:00 [INF] Start request......!
+2024-10-22 14:32:27.890 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:32:27.890 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:32:27.891 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:32:27.891 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:32:27.893 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:32:27.893 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:32:27.894 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:32:27.894 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:32:27.894 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:32:27.894 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:32:27.895 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:32:27.895 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:32:27.897 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:32:27.898 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:32:27.899 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:32:27.899 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:32:27.900 +07:00 [DBG] Connection id "0HN7ID92045F0", Request id "0HN7ID92045F0:00000001": started reading request body.
+2024-10-22 14:32:27.900 +07:00 [DBG] Connection id "0HN7ID92045F0", Request id "0HN7ID92045F0:00000001": done reading request body.
+2024-10-22 14:32:27.901 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:32:27.901 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:32:27.901 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:32:27.901 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:32:27.902 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:32:28.035 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 140.1089ms
+2024-10-22 14:32:28.036 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:32:28.098 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:32:28.101 +07:00 [DBG] Connection id "0HN7ID92045F0" completed keep alive response.
+2024-10-22 14:32:28.101 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 214.2432ms
+2024-10-22 14:32:44.713 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 52
+2024-10-22 14:32:44.714 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:32:44.714 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:32:44.714 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:32:44.715 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:32:44.715 +07:00 [INF] Start request......!
+2024-10-22 14:32:44.715 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:32:44.715 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:32:44.716 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:32:44.716 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:32:44.716 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:32:44.716 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:32:44.717 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:32:44.717 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:32:44.717 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:32:44.717 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:32:44.718 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:32:44.718 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:32:44.720 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:32:44.720 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:32:44.720 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:32:44.720 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:32:44.721 +07:00 [DBG] Connection id "0HN7ID92045F0", Request id "0HN7ID92045F0:00000002": started reading request body.
+2024-10-22 14:32:44.721 +07:00 [DBG] Connection id "0HN7ID92045F0", Request id "0HN7ID92045F0:00000002": done reading request body.
+2024-10-22 14:32:44.721 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:32:44.721 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:32:44.722 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:32:44.722 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:32:44.722 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:32:44.839 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 121.5025ms
+2024-10-22 14:32:44.841 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:32:44.912 +07:00 [ERR] Password is invalid
+capygram.Common.Exceptions.BadRequestException: Password is invalid
+   at capygram.Auth.Services.UserServices.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Services\UserServices.cs:line 102
+   at capygram.Auth.Controllers.UsersController.Login(UserAuthenticationDto request) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\Controllers\UsersController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at capygram.Common.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\coode\Hit_Product\capygram-be\src\Services\capygram.Common\Middlewares\ExceptionHandlingMiddleware.cs:line 19
+2024-10-22 14:32:44.915 +07:00 [DBG] Connection id "0HN7ID92045F0" completed keep alive response.
+2024-10-22 14:32:44.915 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 400 null application/json 202.0076ms
+2024-10-22 14:33:59.045 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 14:33:59.664 +07:00 [DBG] Hosting starting
+2024-10-22 14:33:59.710 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 14:34:00.078 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 14:34:00.228 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 14:34:00.245 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 14:34:00.246 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 14:34:00.247 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 14:34:00.248 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 14:34:00.253 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 14:34:00.259 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 14:34:00.260 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 14:34:00.260 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 14:34:00.260 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 14:34:00.268 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 14:34:00.271 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:34:00.274 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 14:34:00.276 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:34:00.280 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 14:34:00.282 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 14:34:00.284 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 14:34:00.286 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 14:34:00.287 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 14:34:00.294 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 14:34:00.370 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 14:34:01.438 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 14:34:01.439 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 14:34:01.439 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 14:34:01.439 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 14:34:01.439 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 14:34:01.488 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 55454)
+2024-10-22 14:34:01.575 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_it6oyyysrsen7mu4bdqxr49fbc?temporary=true"
+2024-10-22 14:34:01.575 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 14:34:01.575 +07:00 [INF] Hosting environment: Development
+2024-10-22 14:34:01.576 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 14:34:01.577 +07:00 [DBG] Hosting started
+2024-10-22 14:34:01.610 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 14:34:01.625 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 14:34:01.632 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 14:34:01.640 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 14:34:01.702 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 14:34:01.747 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-9lRb6Fb43UEQAfYeJr58lA
+2024-10-22 14:34:01.750 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 14:34:01.758 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 14:34:04.095 +07:00 [DBG] Connection id "0HN7IDFJPO0G7" received FIN.
+2024-10-22 14:34:04.101 +07:00 [DBG] Connection id "0HN7IDFJPO0G7" accepted.
+2024-10-22 14:34:04.104 +07:00 [DBG] Connection id "0HN7IDFJPO0G7" started.
+2024-10-22 14:34:04.116 +07:00 [DBG] Connection id "0HN7IDFJPO0G7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:34:04.120 +07:00 [DBG] Connection id "0HN7IDFJPO0G7" disconnecting.
+2024-10-22 14:34:04.124 +07:00 [DBG] Connection id "0HN7IDFJPO0G7" stopped.
+2024-10-22 14:34:06.015 +07:00 [DBG] Connection id "0HN7IDFJPO0G8" accepted.
+2024-10-22 14:34:06.020 +07:00 [DBG] Connection id "0HN7IDFJPO0G8" started.
+2024-10-22 14:34:06.021 +07:00 [DBG] Connection id "0HN7IDFJPO0G9" accepted.
+2024-10-22 14:34:06.025 +07:00 [DBG] Connection id "0HN7IDFJPO0G9" started.
+2024-10-22 14:34:06.088 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 14:34:06.189 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 14:34:06.248 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 14:34:06.250 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:34:06.286 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 14:34:06.290 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 14:34:06.293 +07:00 [INF] Start request......!
+2024-10-22 14:34:07.119 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:34:07.135 +07:00 [DBG] Connection id "0HN7IDFJPO0G9" completed keep alive response.
+2024-10-22 14:34:07.140 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 1058.7038ms
+2024-10-22 14:34:07.143 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 14:42:58.336 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 14:42:58.892 +07:00 [DBG] Hosting starting
+2024-10-22 14:42:58.951 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 14:42:59.231 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 14:42:59.357 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 14:42:59.362 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 14:42:59.362 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 14:42:59.363 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 14:42:59.363 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 14:42:59.366 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 14:42:59.370 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 14:42:59.370 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 14:42:59.370 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 14:42:59.371 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 14:42:59.376 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 14:42:59.379 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:42:59.381 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 14:42:59.383 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 14:42:59.385 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 14:42:59.386 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 14:42:59.387 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 14:42:59.388 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 14:42:59.390 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 14:42:59.393 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 14:42:59.444 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 14:43:00.242 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 14:43:00.242 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 14:43:00.243 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 14:43:00.243 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 14:43:00.243 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 14:43:00.289 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 55602)
+2024-10-22 14:43:00.336 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 14:43:00.336 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_ethoyyysrsenhxxxbdqxr5jgrc?temporary=true"
+2024-10-22 14:43:00.336 +07:00 [INF] Hosting environment: Development
+2024-10-22 14:43:00.337 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 14:43:00.337 +07:00 [DBG] Hosting started
+2024-10-22 14:43:00.359 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 14:43:00.372 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 14:43:00.377 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 14:43:00.382 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 14:43:00.401 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 14:43:00.436 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-NDfzJJu0aVmFWuplVa1mEA
+2024-10-22 14:43:00.437 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 14:43:00.441 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 14:43:02.604 +07:00 [DBG] Connection id "0HN7IDKK9BRE7" received FIN.
+2024-10-22 14:43:02.613 +07:00 [DBG] Connection id "0HN7IDKK9BRE7" accepted.
+2024-10-22 14:43:02.615 +07:00 [DBG] Connection id "0HN7IDKK9BRE7" started.
+2024-10-22 14:43:02.632 +07:00 [DBG] Connection id "0HN7IDKK9BRE7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:43:02.635 +07:00 [DBG] Connection id "0HN7IDKK9BRE7" disconnecting.
+2024-10-22 14:43:02.640 +07:00 [DBG] Connection id "0HN7IDKK9BRE7" stopped.
+2024-10-22 14:43:04.712 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" accepted.
+2024-10-22 14:43:04.712 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" started.
+2024-10-22 14:43:04.767 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 14:43:04.860 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 14:43:04.886 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 14:43:04.887 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:43:04.909 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 14:43:04.914 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 14:43:04.919 +07:00 [INF] Start request......!
+2024-10-22 14:43:04.934 +07:00 [DBG] Connection id "0HN7IDKK9BRE9" accepted.
+2024-10-22 14:43:04.935 +07:00 [DBG] Connection id "0HN7IDKK9BRE9" started.
+2024-10-22 14:43:05.373 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:43:05.380 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" completed keep alive response.
+2024-10-22 14:43:05.391 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 636.842ms
+2024-10-22 14:43:05.395 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 14:43:19.055 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/index.html - null null
+2024-10-22 14:43:19.063 +07:00 [DBG] No candidates found for the request path '/index.html'
+2024-10-22 14:43:19.068 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:43:19.120 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-22 14:43:19.122 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-22 14:43:19.131 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-22 14:43:19.131 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-22 14:43:19.132 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" completed keep alive response.
+2024-10-22 14:43:19.132 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/index.html - 200 null text/html;charset=utf-8 76.869ms
+2024-10-22 14:43:19.173 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-22 14:43:19.176 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" completed keep alive response.
+2024-10-22 14:43:19.177 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 3.8506ms
+2024-10-22 14:43:19.206 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_vs/browserLink - null null
+2024-10-22 14:43:19.242 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" completed keep alive response.
+2024-10-22 14:43:19.242 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.7761ms
+2024-10-22 14:43:19.446 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - null null
+2024-10-22 14:43:19.446 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-22 14:43:19.446 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 14:43:19.548 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" completed keep alive response.
+2024-10-22 14:43:19.548 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 102.7571ms
+2024-10-22 14:43:46.322 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 51
+2024-10-22 14:43:46.328 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 14:43:46.331 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 14:43:46.332 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:43:46.333 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:43:46.333 +07:00 [INF] Start request......!
+2024-10-22 14:43:46.334 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 14:43:46.342 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 14:43:46.343 +07:00 [INF] CORS policy execution failed.
+2024-10-22 14:43:46.343 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 14:43:46.345 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:43:46.371 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 14:43:46.373 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:43:46.373 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:43:46.373 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:43:46.374 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:43:46.374 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:43:46.376 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:43:46.384 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 14:43:46.388 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:43:46.390 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 14:43:46.392 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:43:46.396 +07:00 [DBG] Connection id "0HN7IDKK9BRE8", Request id "0HN7IDKK9BRE8:00000006": started reading request body.
+2024-10-22 14:43:46.396 +07:00 [DBG] Connection id "0HN7IDKK9BRE8", Request id "0HN7IDKK9BRE8:00000006": done reading request body.
+2024-10-22 14:43:46.401 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 14:43:46.401 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:43:46.402 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:43:46.402 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 14:43:46.410 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 14:43:46.660 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:43:46.662 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-10-22 14:43:46.662 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:43:46.662 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:43:46.663 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:43:46.664 +07:00 [INF] Executing OkObjectResult, writing value of type 'capygram.Common.Shared.Result`1[[capygram.Common.DTOs.User.UserAuthenticationResponse, capygram.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:43:46.679 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 301.4559ms
+2024-10-22 14:43:46.680 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 14:43:46.682 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" completed keep alive response.
+2024-10-22 14:43:46.682 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 200 null application/json; charset=utf-8 359.9783ms
+2024-10-22 14:44:10.226 +07:00 [DBG] Connection id "0HN7IDKK9BRE9" received FIN.
+2024-10-22 14:44:10.228 +07:00 [DBG] Connection id "0HN7IDKK9BRE9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:44:10.228 +07:00 [DBG] Connection id "0HN7IDKK9BRE9" disconnecting.
+2024-10-22 14:44:10.229 +07:00 [DBG] Connection id "0HN7IDKK9BRE9" stopped.
+2024-10-22 14:45:41.819 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" received FIN.
+2024-10-22 14:45:41.843 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" disconnecting.
+2024-10-22 14:45:41.862 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:45:41.882 +07:00 [DBG] Connection id "0HN7IDKK9BRE8" stopped.
+2024-10-22 17:24:05.934 +07:00 [DBG] Connection id "0HN7IDKK9BREA" accepted.
+2024-10-22 17:24:05.934 +07:00 [DBG] Connection id "0HN7IDKK9BREA" started.
+2024-10-22 17:24:05.935 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 51
+2024-10-22 17:24:05.937 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 17:24:05.937 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 17:24:05.938 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 17:24:05.938 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 17:24:05.939 +07:00 [INF] Start request......!
+2024-10-22 17:24:05.941 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 17:24:05.941 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 17:24:05.941 +07:00 [INF] CORS policy execution failed.
+2024-10-22 17:24:05.942 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 17:24:05.942 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 17:24:05.942 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 17:24:05.943 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 17:24:05.943 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 17:24:05.943 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 17:24:05.943 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 17:24:05.944 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 17:24:05.944 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 17:24:05.949 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 17:24:05.954 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 17:24:05.955 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 17:24:05.955 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 17:24:05.956 +07:00 [DBG] Connection id "0HN7IDKK9BREA", Request id "0HN7IDKK9BREA:00000001": started reading request body.
+2024-10-22 17:24:05.956 +07:00 [DBG] Connection id "0HN7IDKK9BREA", Request id "0HN7IDKK9BREA:00000001": done reading request body.
+2024-10-22 17:24:05.956 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 17:24:05.956 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 17:24:05.957 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 17:24:05.957 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 17:24:05.957 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 17:24:05.995 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 17:24:05.995 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-10-22 17:24:05.996 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 17:24:05.996 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 17:24:05.996 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 17:24:05.998 +07:00 [INF] Executing OkObjectResult, writing value of type 'capygram.Common.Shared.Result`1[[capygram.Common.DTOs.User.UserAuthenticationResponse, capygram.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 17:24:06.002 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 57.9612ms
+2024-10-22 17:24:06.002 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 17:24:06.003 +07:00 [DBG] Connection id "0HN7IDKK9BREA" completed keep alive response.
+2024-10-22 17:24:06.003 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 200 null application/json; charset=utf-8 68.167ms
+2024-10-22 17:24:26.422 +07:00 [DBG] Connection id "0HN7IDKK9BREA" received FIN.
+2024-10-22 17:24:26.447 +07:00 [DBG] Connection id "0HN7IDKK9BREA" disconnecting.
+2024-10-22 17:24:26.543 +07:00 [DBG] Connection id "0HN7IDKK9BREA" stopped.
+2024-10-22 17:24:26.677 +07:00 [DBG] Connection id "0HN7IDKK9BREA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 18:00:52.492 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 18:00:53.478 +07:00 [DBG] Hosting starting
+2024-10-22 18:00:53.588 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 18:00:54.112 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 18:00:55.753 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 18:00:55.771 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 18:00:55.772 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 18:00:55.773 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 18:00:55.774 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 18:00:55.781 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 18:00:55.788 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 18:00:55.788 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 18:00:55.789 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 18:00:55.789 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 18:00:55.798 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 18:00:55.803 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 18:00:55.808 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 18:00:55.812 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 18:00:55.817 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 18:00:55.820 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 18:00:55.823 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 18:00:55.825 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 18:00:55.828 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 18:00:55.836 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 18:00:55.996 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 18:00:56.281 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 18:00:56.282 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 18:00:56.282 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 18:00:56.282 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 18:00:56.283 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 18:00:56.329 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60405)
+2024-10-22 18:00:56.443 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_joioyyysrsen794ibdqxfngcdh?temporary=true"
+2024-10-22 18:00:56.465 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 18:00:56.467 +07:00 [INF] Hosting environment: Development
+2024-10-22 18:00:56.468 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 18:00:56.469 +07:00 [DBG] Hosting started
+2024-10-22 18:00:56.484 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 18:00:56.499 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 18:00:56.507 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 18:00:56.543 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 18:00:56.571 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 18:00:56.626 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-RdigPzBV8bxMUGKX4u_grw
+2024-10-22 18:00:56.627 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 18:00:56.635 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 18:00:59.765 +07:00 [DBG] Connection id "0HN7IH37UPN3G" received FIN.
+2024-10-22 18:00:59.779 +07:00 [DBG] Connection id "0HN7IH37UPN3G" accepted.
+2024-10-22 18:00:59.784 +07:00 [DBG] Connection id "0HN7IH37UPN3G" started.
+2024-10-22 18:00:59.823 +07:00 [DBG] Connection id "0HN7IH37UPN3G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 18:00:59.839 +07:00 [DBG] Connection id "0HN7IH37UPN3G" disconnecting.
+2024-10-22 18:00:59.850 +07:00 [DBG] Connection id "0HN7IH37UPN3G" stopped.
+2024-10-22 18:01:03.908 +07:00 [DBG] Connection id "0HN7IH37UPN3H" accepted.
+2024-10-22 18:01:03.909 +07:00 [DBG] Connection id "0HN7IH37UPN3H" started.
+2024-10-22 18:01:04.007 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 18:01:04.205 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 18:01:04.282 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 18:01:04.283 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 18:01:04.311 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 18:01:04.314 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 18:01:04.318 +07:00 [INF] Start request......!
+2024-10-22 18:01:04.337 +07:00 [DBG] Connection id "0HN7IH37UPN3I" accepted.
+2024-10-22 18:01:04.338 +07:00 [DBG] Connection id "0HN7IH37UPN3I" started.
+2024-10-22 18:01:04.981 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 18:01:05.006 +07:00 [DBG] Connection id "0HN7IH37UPN3H" completed keep alive response.
+2024-10-22 18:01:05.013 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 1030.5775ms
+2024-10-22 18:01:05.018 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 18:01:27.454 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/index.html - null null
+2024-10-22 18:01:27.461 +07:00 [DBG] No candidates found for the request path '/index.html'
+2024-10-22 18:01:27.461 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 18:01:27.542 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-10-22 18:01:27.544 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-22 18:01:27.560 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-10-22 18:01:27.560 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-22 18:01:27.561 +07:00 [DBG] Connection id "0HN7IH37UPN3H" completed keep alive response.
+2024-10-22 18:01:27.561 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/index.html - 200 null text/html;charset=utf-8 107.234ms
+2024-10-22 18:01:27.620 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-22 18:01:27.625 +07:00 [DBG] Connection id "0HN7IH37UPN3H" completed keep alive response.
+2024-10-22 18:01:27.625 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 5.7705ms
+2024-10-22 18:01:27.678 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/_vs/browserLink - null null
+2024-10-22 18:01:27.730 +07:00 [DBG] Connection id "0HN7IH37UPN3H" completed keep alive response.
+2024-10-22 18:01:27.730 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.724ms
+2024-10-22 18:01:28.229 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - null null
+2024-10-22 18:01:28.230 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-22 18:01:28.231 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 18:01:28.420 +07:00 [DBG] Connection id "0HN7IH37UPN3H" completed keep alive response.
+2024-10-22 18:01:28.421 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 191.4023ms
+2024-10-22 18:01:44.795 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/login - application/json 51
+2024-10-22 18:01:44.806 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/login'
+2024-10-22 18:01:44.811 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)' with route pattern 'api/Users/login' is valid for the request path '/api/Users/login'
+2024-10-22 18:01:44.813 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 18:01:44.815 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 18:01:44.816 +07:00 [INF] Start request......!
+2024-10-22 18:01:44.820 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 18:01:44.829 +07:00 [DBG] The request has an origin header: 'http://localhost:5090'.
+2024-10-22 18:01:44.832 +07:00 [INF] CORS policy execution failed.
+2024-10-22 18:01:44.832 +07:00 [INF] Request origin http://localhost:5090 does not have permission to access the resource.
+2024-10-22 18:01:44.841 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 18:01:44.881 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
+2024-10-22 18:01:44.884 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 18:01:44.885 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 18:01:44.885 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 18:01:44.886 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 18:01:44.886 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 18:01:44.889 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 18:01:44.902 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
+2024-10-22 18:01:44.908 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 18:01:44.912 +07:00 [DBG] Attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' using the name '' in request data ...
+2024-10-22 18:01:44.915 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 18:01:44.924 +07:00 [DBG] Connection id "0HN7IH37UPN3H", Request id "0HN7IH37UPN3H:00000006": started reading request body.
+2024-10-22 18:01:44.925 +07:00 [DBG] Connection id "0HN7IH37UPN3H", Request id "0HN7IH37UPN3H:00000006": done reading request body.
+2024-10-22 18:01:44.935 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'capygram.Common.DTOs.User.UserAuthenticationDto'
+2024-10-22 18:01:44.936 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 18:01:44.936 +07:00 [DBG] Done attempting to bind parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 18:01:44.937 +07:00 [DBG] Attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto' ...
+2024-10-22 18:01:44.953 +07:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'capygram.Common.DTOs.User.UserAuthenticationDto'.
+2024-10-22 18:01:45.352 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 18:01:45.356 +07:00 [DBG] No information found on request to perform content negotiation.
+2024-10-22 18:01:45.357 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 18:01:45.357 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 18:01:45.360 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 18:01:45.361 +07:00 [INF] Executing OkObjectResult, writing value of type 'capygram.Common.Shared.Result`1[[capygram.Common.DTOs.User.UserAuthenticationResponse, capygram.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 18:01:45.385 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.Login (capygram.Auth) in 493.439ms
+2024-10-22 18:01:45.386 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
+2024-10-22 18:01:45.391 +07:00 [DBG] Connection id "0HN7IH37UPN3H" completed keep alive response.
+2024-10-22 18:01:45.392 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/api/Users/login - 200 null application/json; charset=utf-8 596.7792ms
+2024-10-22 18:02:34.794 +07:00 [DBG] Connection id "0HN7IH37UPN3I" received FIN.
+2024-10-22 18:02:34.814 +07:00 [DBG] Connection id "0HN7IH37UPN3I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 18:02:34.823 +07:00 [DBG] Connection id "0HN7IH37UPN3I" disconnecting.
+2024-10-22 18:02:34.834 +07:00 [DBG] Connection id "0HN7IH37UPN3I" stopped.
+2024-10-22 18:04:31.105 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 18:04:31.982 +07:00 [DBG] Hosting starting
+2024-10-22 18:04:32.055 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 18:04:32.532 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 18:04:32.757 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 18:04:32.770 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 18:04:32.771 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 18:04:32.772 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 18:04:32.772 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 18:04:32.780 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 18:04:32.789 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 18:04:32.790 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 18:04:32.790 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 18:04:32.791 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 18:04:32.803 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 18:04:32.809 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 18:04:32.813 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 18:04:32.816 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 18:04:32.822 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 18:04:32.826 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 18:04:32.830 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 18:04:32.832 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 18:04:32.835 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 18:04:32.844 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 18:04:34.388 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 18:04:34.725 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 18:04:34.726 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 18:04:34.726 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 18:04:34.727 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 18:04:34.727 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 18:04:34.770 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60509)
+2024-10-22 18:04:34.918 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_yt4oyyysrsenh69zbdqxfnkqfq?temporary=true"
+2024-10-22 18:04:34.983 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 18:04:34.984 +07:00 [INF] Hosting environment: Development
+2024-10-22 18:04:34.985 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 18:04:34.985 +07:00 [DBG] Hosting started
+2024-10-22 18:04:34.991 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 18:04:35.007 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 18:04:35.029 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 18:04:35.052 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 18:04:35.081 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 18:04:35.156 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-ant73OvCcMLWy1hGReLOvg
+2024-10-22 18:04:35.159 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 18:04:35.172 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 18:04:39.371 +07:00 [DBG] Connection id "0HN7IH59D40J3" received FIN.
+2024-10-22 18:04:39.381 +07:00 [DBG] Connection id "0HN7IH59D40J3" accepted.
+2024-10-22 18:04:39.384 +07:00 [DBG] Connection id "0HN7IH59D40J3" started.
+2024-10-22 18:04:39.402 +07:00 [DBG] Connection id "0HN7IH59D40J3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 18:04:39.408 +07:00 [DBG] Connection id "0HN7IH59D40J3" disconnecting.
+2024-10-22 18:04:39.414 +07:00 [DBG] Connection id "0HN7IH59D40J3" stopped.
+2024-10-22 18:04:43.104 +07:00 [DBG] Connection id "0HN7IH59D40J4" accepted.
+2024-10-22 18:04:43.105 +07:00 [DBG] Connection id "0HN7IH59D40J4" started.
+2024-10-22 18:04:43.128 +07:00 [DBG] Connection id "0HN7IH59D40J5" accepted.
+2024-10-22 18:04:43.129 +07:00 [DBG] Connection id "0HN7IH59D40J5" started.
+2024-10-22 18:04:43.180 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 18:04:43.373 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 18:04:43.423 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 18:04:43.426 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 18:04:43.474 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 18:04:43.477 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 18:04:43.480 +07:00 [INF] Start request......!
+2024-10-22 18:04:44.077 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 18:04:44.087 +07:00 [DBG] Connection id "0HN7IH59D40J4" completed keep alive response.
+2024-10-22 18:04:44.098 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 930.4836ms
+2024-10-22 18:04:44.117 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 18:06:28.298 +07:00 [DBG] Connection id "0HN7IH59D40J5" received FIN.
+2024-10-22 18:06:28.324 +07:00 [DBG] Connection id "0HN7IH59D40J4" received FIN.
+2024-10-22 18:06:28.346 +07:00 [DBG] Connection id "0HN7IH59D40J5" disconnecting.
+2024-10-22 18:06:28.367 +07:00 [DBG] Connection id "0HN7IH59D40J5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 18:06:28.385 +07:00 [DBG] Connection id "0HN7IH59D40J4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 18:06:28.386 +07:00 [DBG] Connection id "0HN7IH59D40J5" stopped.
+2024-10-22 18:06:28.387 +07:00 [DBG] Connection id "0HN7IH59D40J4" disconnecting.
+2024-10-22 18:06:28.400 +07:00 [DBG] Connection id "0HN7IH59D40J4" stopped.
+2024-10-22 19:06:52.345 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 19:07:47.308 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 19:10:45.908 +07:00 [DBG] Hosting starting
+2024-10-22 19:10:45.948 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 19:10:46.271 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 19:10:46.490 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 19:10:46.535 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 19:10:46.560 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 19:10:46.592 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 19:10:46.638 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 19:10:46.701 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 19:10:46.714 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 19:10:46.717 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 19:10:46.724 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 19:10:46.728 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 19:10:46.736 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 19:10:46.747 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 19:10:46.755 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 19:10:46.760 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 19:10:46.764 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 19:10:56.556 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 19:10:56.570 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 19:10:56.571 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 19:10:56.573 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 19:10:56.578 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 19:10:59.047 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 19:11:16.663 +07:00 [DBG] Connection id "0HN7IIAGM8VLK" received FIN.
+2024-10-22 19:11:16.674 +07:00 [DBG] Connection id "0HN7IIAGM8VLK" accepted.
+2024-10-22 19:11:16.680 +07:00 [DBG] Connection id "0HN7IIAGM8VLK" started.
+2024-10-22 19:11:16.681 +07:00 [DBG] Connection id "0HN7IIAGM8VLL" accepted.
+2024-10-22 19:11:16.684 +07:00 [DBG] Connection id "0HN7IIAGM8VLM" accepted.
+2024-10-22 19:11:16.686 +07:00 [DBG] Connection id "0HN7IIAGM8VLL" started.
+2024-10-22 19:11:16.689 +07:00 [DBG] Connection id "0HN7IIAGM8VLM" started.
+2024-10-22 19:11:16.698 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 19:11:16.698 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 19:11:16.698 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 19:11:16.698 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 19:11:16.699 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 19:11:16.704 +07:00 [DBG] Connection id "0HN7IIAGM8VLK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 19:11:16.709 +07:00 [DBG] Connection id "0HN7IIAGM8VLK" disconnecting.
+2024-10-22 19:11:16.711 +07:00 [DBG] Connection id "0HN7IIAGM8VLK" stopped.
+2024-10-22 19:11:16.711 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60854)
+2024-10-22 19:11:16.775 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 19:11:16.785 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_attoyyysrsen7pksbdqxfrwxb5?temporary=true"
+2024-10-22 19:11:16.831 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 19:11:16.844 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 19:11:16.844 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 19:11:16.845 +07:00 [INF] Hosting environment: Development
+2024-10-22 19:11:16.846 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 19:11:16.846 +07:00 [DBG] Hosting started
+2024-10-22 19:11:16.852 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 19:11:16.862 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 19:11:16.891 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 19:11:16.924 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 19:11:16.961 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 19:11:16.963 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 19:11:16.966 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-XJrIutSAajm9m6YWVI1ewg
+2024-10-22 19:11:16.967 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 19:11:16.973 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 19:11:16.981 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 19:11:16.983 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 19:11:16.987 +07:00 [INF] Start request......!
+2024-10-22 19:11:17.121 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 19:11:17.129 +07:00 [DBG] Connection id "0HN7IIAGM8VLL" completed keep alive response.
+2024-10-22 19:11:17.132 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 367.856ms
+2024-10-22 19:11:17.134 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 19:12:53.484 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 19:13:31.397 +07:00 [DBG] Hosting starting
+2024-10-22 19:13:31.461 +07:00 [INF] User profile is available. Using 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-22 19:13:31.789 +07:00 [INF] Configured endpoint user-media-queue, Consumer: capygram.Auth.MessageBus.Event.UserMediaNotificationConsumer
+2024-10-22 19:13:37.519 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-86acdddc-5ebb-46d0-8da9-a5d2c38b8b42.xml'.
+2024-10-22 19:13:37.529 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-97575500-6a39-4aec-a5f7-bc1ac2a50231.xml'.
+2024-10-22 19:13:37.533 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c1d10d47-675a-4953-a6d0-6a670993d84e.xml'.
+2024-10-22 19:13:37.534 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-c2a8b988-005c-484e-b7d6-5fdefd5ab1ea.xml'.
+2024-10-22 19:13:37.534 +07:00 [DBG] Reading data from file 'C:\Users\ToilaHieu\AppData\Local\ASP.NET\DataProtection-Keys\key-cd53a739-4711-4aeb-9f47-0d2c26453423.xml'.
+2024-10-22 19:13:37.539 +07:00 [DBG] Found key {86acdddc-5ebb-46d0-8da9-a5d2c38b8b42}.
+2024-10-22 19:13:38.003 +07:00 [DBG] Found key {97575500-6a39-4aec-a5f7-bc1ac2a50231}.
+2024-10-22 19:13:38.003 +07:00 [DBG] Found key {c1d10d47-675a-4953-a6d0-6a670993d84e}.
+2024-10-22 19:13:38.003 +07:00 [DBG] Found key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea}.
+2024-10-22 19:13:38.004 +07:00 [DBG] Found key {cd53a739-4711-4aeb-9f47-0d2c26453423}.
+2024-10-22 19:13:38.009 +07:00 [DBG] Considering key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} with expiration date 2024-12-24 17:38:38Z as default key.
+2024-10-22 19:13:38.012 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 19:13:41.149 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-22 19:13:41.151 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-22 19:13:41.155 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-22 19:13:41.156 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-22 19:13:41.159 +07:00 [DBG] Using key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} as the default key.
+2024-10-22 19:13:41.669 +07:00 [DBG] Key ring with default key {c2a8b988-005c-484e-b7d6-5fdefd5ab1ea} was loaded during application startup.
+2024-10-22 19:13:41.671 +07:00 [DBG] Starting bus instances: IBus
+2024-10-22 19:13:41.676 +07:00 [DBG] Starting bus: "rabbitmq://localhost/capygram"
+2024-10-22 19:13:51.292 +07:00 [DBG] Connect: guest@localhost:5672/capygram
+2024-10-22 19:13:54.535 +07:00 [INF] Now listening on: http://[::]:5090
+2024-10-22 19:13:54.535 +07:00 [DBG] Loaded hosting startup assembly capygram.Auth
+2024-10-22 19:13:54.536 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-10-22 19:13:54.536 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-22 19:13:54.536 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-22 19:13:54.564 +07:00 [DBG] Connection id "0HN7IIBVO4DSM" accepted.
+2024-10-22 19:13:54.571 +07:00 [DBG] Connection id "0HN7IIBVO4DSM" started.
+2024-10-22 19:13:54.575 +07:00 [DBG] Connection id "0HN7IIBVO4DSN" received FIN.
+2024-10-22 19:13:54.576 +07:00 [DBG] Connected: guest@localhost:5672/capygram (address: amqp://localhost:5672, local: 60928)
+2024-10-22 19:13:54.593 +07:00 [DBG] Connection id "0HN7IIBVO4DSN" accepted.
+2024-10-22 19:13:54.595 +07:00 [DBG] Connection id "0HN7IIBVO4DSM" received FIN.
+2024-10-22 19:13:54.597 +07:00 [DBG] Connection id "0HN7IIBVO4DSN" started.
+2024-10-22 19:13:54.606 +07:00 [DBG] Connection id "0HN7IIBVO4DSN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 19:13:54.606 +07:00 [DBG] Connection id "0HN7IIBVO4DSM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 19:13:54.620 +07:00 [DBG] Connection id "0HN7IIBVO4DSM" disconnecting.
+2024-10-22 19:13:54.620 +07:00 [DBG] Connection id "0HN7IIBVO4DSN" disconnecting.
+2024-10-22 19:13:54.626 +07:00 [DBG] Connection id "0HN7IIBVO4DSM" stopped.
+2024-10-22 19:13:54.626 +07:00 [DBG] Connection id "0HN7IIBVO4DSN" stopped.
+2024-10-22 19:13:54.663 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/DESKTOPO1721LD_capygramAuth_bus_hbmoyyysrsen79hibdqxfrzt8r?temporary=true"
+2024-10-22 19:13:54.671 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 19:13:54.674 +07:00 [INF] Hosting environment: Development
+2024-10-22 19:13:54.676 +07:00 [INF] Content root path: C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth
+2024-10-22 19:13:54.690 +07:00 [DBG] Hosting started
+2024-10-22 19:13:54.700 +07:00 [DBG] Declare queue: name: user-media-queue, durable, consumer-count: 0 message-count: 0
+2024-10-22 19:13:54.729 +07:00 [DBG] Declare exchange: name: user-media-queue, type: fanout, durable
+2024-10-22 19:13:54.751 +07:00 [DBG] Declare exchange: name: send-notification-media-exchange, type: topic, durable
+2024-10-22 19:13:54.784 +07:00 [DBG] Bind queue: source: user-media-queue, destination: user-media-queue
+2024-10-22 19:13:54.816 +07:00 [DBG] Bind exchange: source: send-notification-media-exchange, destination: user-media-queue, routing-key: user
+2024-10-22 19:13:54.888 +07:00 [DBG] Consumer Ok: "rabbitmq://localhost/capygram/user-media-queue" - amq.ctag-5RUNRb3R5TENH5RidcysUA
+2024-10-22 19:13:54.917 +07:00 [DBG] Endpoint Ready: "rabbitmq://localhost/capygram/user-media-queue"
+2024-10-22 19:13:54.923 +07:00 [INF] Bus started: "rabbitmq://localhost/capygram"
+2024-10-22 19:13:55.054 +07:00 [DBG] Connection id "0HN7IIBVO4DSO" accepted.
+2024-10-22 19:13:55.055 +07:00 [DBG] Connection id "0HN7IIBVO4DSO" started.
+2024-10-22 19:13:55.056 +07:00 [DBG] Connection id "0HN7IIBVO4DSP" accepted.
+2024-10-22 19:13:55.057 +07:00 [DBG] Connection id "0HN7IIBVO4DSP" started.
+2024-10-22 19:13:55.107 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger - null null
+2024-10-22 19:13:55.285 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 19:13:55.309 +07:00 [DBG] No candidates found for the request path '/swagger'
+2024-10-22 19:13:55.310 +07:00 [DBG] Request did not match any endpoints
+2024-10-22 19:13:55.329 +07:00 [DBG] The request path /swagger does not match a supported file type
+2024-10-22 19:13:55.331 +07:00 [WRN] Failed to determine the https port for redirect.
+2024-10-22 19:13:55.333 +07:00 [INF] Start request......!
+2024-10-22 19:13:55.471 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-10-22 19:13:55.477 +07:00 [DBG] Connection id "0HN7IIBVO4DSO" completed keep alive response.
+2024-10-22 19:13:55.479 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger - 404 0 null 380.0796ms
+2024-10-22 19:13:55.480 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5090/swagger, Response status code: 404
+2024-10-22 19:14:59.413 +07:00 [DBG] Connection id "0HN7IIBVO4DSP" received FIN.
+2024-10-22 19:14:59.414 +07:00 [DBG] Connection id "0HN7IIBVO4DSP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 19:14:59.414 +07:00 [DBG] Connection id "0HN7IIBVO4DSP" disconnecting.
+2024-10-22 19:14:59.421 +07:00 [DBG] Connection id "0HN7IIBVO4DSP" stopped.

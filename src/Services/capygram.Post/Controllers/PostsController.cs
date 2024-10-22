@@ -21,8 +21,7 @@ namespace capygram.Post.Controllers
         }
 
         [HttpPost]
-        [Route("Create")]
-        [MustHaveRole("Role:USER")]
+        [Route("Create")]        
         public async Task<IActionResult> CreatePost([FromForm] PostDTO newPost)
         {
             var result = await _postService.CreatePostAsync(newPost);

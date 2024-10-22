@@ -6,7 +6,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/login",
@@ -18,7 +18,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/register",
@@ -30,7 +30,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/logout",
@@ -42,7 +42,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/get-user-by-userID",
@@ -54,7 +54,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/get-user-by-name",
@@ -66,7 +66,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/refresh-token",
@@ -78,7 +78,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/active-account",
@@ -90,7 +90,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/edit",
@@ -102,7 +102,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8087
+          "Port": 5090
         }
       ],
       "UpstreamPathTemplate": "/api/Users/upload-avatar",
@@ -114,7 +114,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8085
+          "Port": 5057
         }
       ],
       "UpstreamPathTemplate": "/api/{Id}/follower",
@@ -126,7 +126,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8085
+          "Port": 5057
         }
       ],
       "UpstreamPathTemplate": "/api/{Id}/following",
@@ -138,7 +138,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8085
+          "Port": 5057
         }
       ],
       "UpstreamPathTemplate": "/api/{id}/follow/{did}",
@@ -150,7 +150,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8085
+          "Port": 5057
         }
       ],
       "UpstreamPathTemplate": "/api/{id}/unfollow/{did}",
@@ -162,7 +162,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8085
+          "Port": 5057
         }
       ],
       "UpstreamPathTemplate": "/api/{Id}/following/count",
@@ -174,7 +174,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8085
+          "Port": 5057
         }
       ],
       "UpstreamPathTemplate": "/api/{Id}/follower/count",
@@ -186,7 +186,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8081
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/Create",
@@ -198,7 +198,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8081
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/Delete/{postId}",
@@ -210,7 +210,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8081
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/Get/{postId}",
@@ -222,7 +222,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8081
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/GetPostsByUserID",
@@ -234,7 +234,7 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8081
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/GetAll?pageSize={pageSize}&pageNumber={pageNumber}",
@@ -246,26 +246,26 @@
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8081
+          "Port": 5106
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/Update",
       "UpstreamHttpMethod": [ "PUT" ]
     },
     {
-      "DownstreamPathTemplate": "/api/Newsfeeds/GetNewsfeed?id={id}&limit={limit}",
+      "DownstreamPathTemplate": "/api/Newsfeeds/GetNewsfeed",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "127.0.0.1",
-          "Port": 8086
+          "Port": 5115
         }
       ],
-      "UpstreamPathTemplate": "/api/Newsfeeds/GetNewsfeed?id={id}&limit={limit}",
+      "UpstreamPathTemplate": "/api/Posts/Update",
       "UpstreamHttpMethod": [ "GET" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://127.0.0.1:8088"
+    "BaseUrl": "http://127.0.0.1:5062"
   }
 }

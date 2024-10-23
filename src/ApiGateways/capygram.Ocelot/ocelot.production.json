@@ -266,7 +266,7 @@
     },
     {
       "DownstreamPathTemplate": "/chathub",
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "ws",
       "DownstreamHostAndPorts": [
         {
           "Host": "capygram-chat",
@@ -274,7 +274,7 @@
         }
       ],
       "UpstreamPathTemplate": "/chathub",
-      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
     },
     {
       "DownstreamPathTemplate": "/api/Chat/messages/{userId}",

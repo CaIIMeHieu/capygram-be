@@ -265,6 +265,18 @@
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
+      "DownstreamPathTemplate": "/chathub",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "capygram-chat",
+          "Port": 8083
+        }
+      ],
+      "UpstreamPathTemplate": "/chathub",
+      "UpstreamHttpMethod": [ "GET", "POST", "OPTIONS" ]
+    },
+    {
       "DownstreamPathTemplate": "/api/Chat/messages/{userId}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [

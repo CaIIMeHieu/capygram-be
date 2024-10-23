@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:5173", "https://sd-gilt.vercel.app")
+            builder.WithOrigins("http://localhost:5173", "https://sd-gilt.vercel.app", "http://192.168.33.10:8088")
                    .AllowAnyHeader()
                    .AllowAnyMethod()
                    .AllowCredentials();
@@ -43,6 +43,7 @@ app.UseSwaggerUI(c =>
 //}
 
 app.UseHttpsRedirection();
+app.UseRouting();
 app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 app.MapHub<ChatHub>("/chathub",options =>

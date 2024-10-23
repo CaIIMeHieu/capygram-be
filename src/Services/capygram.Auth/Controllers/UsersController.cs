@@ -34,7 +34,7 @@ namespace capygram.Auth.Controllers
             return Ok(result); 
         }
         [HttpPost("logout")]
-        [MustHaveRole("Role:USER")]
+        //[MustHaveRole("Role:USER")]
         [ValidationModel]
         public async Task<IActionResult> Logout(Guid Id)
         {

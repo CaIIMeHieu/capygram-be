@@ -88,7 +88,8 @@ namespace capygram.Auth.Controllers
         public async Task<IActionResult> UpdateAvatar( [FromForm] List<IFormFile> fileToUpload , [FromForm] Guid userId )
         {
             var result = await _userServices.UploadAvatar(fileToUpload, userId);
-            return Ok(result);
+            var user = await _userServices.GetUserByUserID(userId);
+            return Ok(user);
         }
     }
 }

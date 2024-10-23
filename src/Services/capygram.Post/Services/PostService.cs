@@ -34,6 +34,7 @@ namespace capygram.Post.Services
             post.UserName = newPosts.UserName;
             post.UserId = newPosts.UserId;
             post.Likes = newPosts.Likes;
+            post.UserAvartar = newPosts.UserAvartar;
             #endregion
             await _postRepositories.CreatePostAsync(post);
             //message to media service to upload image

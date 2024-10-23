@@ -10,6 +10,7 @@ namespace capygram.Post.Domain.Model
         public int Likes { get; set; }
         public string UserName { get; set; }   
         public string Content { get; set; }
+        public string UserAvartar { get; set; }
         public Guid UserId { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdateAt { get; set; }

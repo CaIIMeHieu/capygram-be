@@ -18,7 +18,7 @@ namespace capygram.Newsfeed.UseCase.Command
         }
         public async Task Handle(PostCreatedNotification request, CancellationToken cancellationToken)
         {
-            var list_follower = await _externalService.GetExternalDataListAsync<UserChangedNotificationDto>($"localhost:8085/api/{request.Data.UserId}/follower");
+            var list_follower = await _externalService.GetExternalDataListAsync<UserChangedNotificationDto>($"capygram-graph:8085/api/{request.Data.UserId}/follower");
             if (list_follower != null )
             {
                 foreach (var follower in list_follower)

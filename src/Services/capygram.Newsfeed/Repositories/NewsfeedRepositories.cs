@@ -14,7 +14,6 @@ namespace capygram.Newsfeed.Repositories
     {
         private INewsfeedContext _context;
         private IExternalService _externalService;
-        private static int page = 1;
         public NewsfeedRepositories( INewsfeedContext context , IExternalService externalService ) {
             _context = context;
             _externalService = externalService;
@@ -69,14 +68,11 @@ namespace capygram.Newsfeed.Repositories
                 posts.Add(post);
                 }    
             }
-            //
-            page += 1;
             var pagination = new PaginationDTO<PostDBDTO>
             {
                 Data = posts,
                 total = (int)totalPosts,
                 limit = limit,
-                page = page
             };
 
             return pagination;

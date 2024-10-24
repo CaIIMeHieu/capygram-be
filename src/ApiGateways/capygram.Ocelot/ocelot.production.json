@@ -285,7 +285,7 @@
           "Port": 8083
         }
       ],
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ] 
     },
     {
       "DownstreamPathTemplate": "/api/Chat/messages/{userId}",

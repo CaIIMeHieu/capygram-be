@@ -265,8 +265,8 @@
       "UpstreamHttpMethod": [ "GET" ]
     },
     {
-      "UpstreamPathTemplate": "/",
-      "DownstreamPathTemplate": "/ws",
+      "UpstreamPathTemplate": "/chathub",
+      "DownstreamPathTemplate": "/chathub",
       "DownstreamScheme": "ws",
       "DownstreamHostAndPorts": [
         {

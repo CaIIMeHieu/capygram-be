@@ -1,6 +1,7 @@
 using capygram.Ocelot.DependencyInjection.Extentions;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Ocelot.Values;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOcelot(configuration);
+builder.Services.AddSignalR();
 
 var app = builder.Build();
 
@@ -42,6 +44,7 @@ app.UseHttpsRedirection();
 //app.UseAuthentication();
 
 app.UseCors("AllowSpecificOrigin");
+app.UseWebSockets();
 app.UseOcelot().Wait();
 
 //app.UseAuthorization();

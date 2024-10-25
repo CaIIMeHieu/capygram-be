@@ -264,20 +264,9 @@
       "UpstreamPathTemplate": "/api/Newsfeeds/GetNewsfeed?id={id}&limit={limit}",
       "UpstreamHttpMethod": [ "GET" ]
     },
-    //{
-    //  "UpstreamPathTemplate": "/chathub",
-    //  "DownstreamPathTemplate": "/chathub",
-    //  "DownstreamScheme": "ws",
-    //  "DownstreamHostAndPorts": [
-    //    {
-    //      "Host": "capygram-chat",
-    //      "Port": 8083
-    //    }
-    //  ]
-    //},
     {
-      "DownstreamPathTemplate": "/chathub",
-      "UpstreamPathTemplate": "/chathub",
+      "DownstreamPathTemplate": "/chathub/{everything}",
+      "UpstreamPathTemplate": "/chathub/{everything}",
       "DownstreamScheme": "ws",
       "DownstreamHostAndPorts": [
         {
@@ -285,7 +274,7 @@
           "Port": 8083
         }
       ],
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ] 
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ]
     },
     {
       "DownstreamPathTemplate": "/api/Chat/messages/{userId}",

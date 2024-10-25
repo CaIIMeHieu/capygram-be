@@ -129,7 +129,6 @@ namespace capygram.Auth.Services
             {
                 return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Logout successful");
             }
-            
         }
 
 

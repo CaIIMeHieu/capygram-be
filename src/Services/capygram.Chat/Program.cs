@@ -15,7 +15,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         builder =>
         {
-            builder.WithOrigins("http://localhost:5173", "https://sd-gilt.vercel.app", "http://192.168.33.10:8088")
+            builder.WithOrigins("http://localhost:5173", "https://capygram-seven.vercel.app/", "http://192.168.33.10:8088")
                    .AllowAnyHeader()
                    .AllowAnyMethod()
                    .AllowCredentials();

@@ -230,11 +230,11 @@
     },
     {
       "DownstreamPathTemplate": "/api/Posts/GetAll?pageSize={pageSize}&pageNumber={pageNumber}",
-      "DownstreamScheme": "https",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "capygram-post",
-          "Port": 8091
+          "Port": 8081
         }
       ],
       "UpstreamPathTemplate": "/api/Posts/GetAll?pageSize={pageSize}&pageNumber={pageNumber}",

@@ -290,6 +290,6 @@
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "https://9af1-113-185-55-65.ngrok-free.app"
+    "BaseUrl": "http://capygram-gateway:8088"
   }
 }

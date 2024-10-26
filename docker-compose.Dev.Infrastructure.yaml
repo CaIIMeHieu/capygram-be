@@ -19,6 +19,7 @@ services:
       - ~/.aspnet/https/aspnetapp.pfx:/https/aspnetapp.pfx:ro
     networks:
       - capygram-be-cicd_default
+    user: "1000:1000"
     depends_on:
       - rabbitmq
       - neo4j

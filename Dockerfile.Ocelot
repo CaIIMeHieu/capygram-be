@@ -6,8 +6,8 @@ WORKDIR /app
 EXPOSE 8088
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+USER root
 ARG BUILD_CONFIGURATION=Release
-USER 1000
 WORKDIR /src
 COPY ["src/ApiGateways/capygram.Ocelot/capygram.Ocelot.csproj", "src/ApiGateways/capygram.Ocelot/"]
 COPY ["src/Services/capygram.Common/capygram.Common.csproj", "src/Services/capygram.Common/"]

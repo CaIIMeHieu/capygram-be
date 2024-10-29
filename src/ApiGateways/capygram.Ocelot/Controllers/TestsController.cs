@@ -1,12 +1,6 @@
-using capygram.Auth.Domain.Repositories;
-using capygram.Auth.Services;
 using capygram.Common.DTOs.Post;
-using capygram.Common.DTOs.User;
-using capygram.Common.Filters;
-using capygram.Common.Identity;
 using capygram.Common.Services;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace capygram.Auth.Controllers

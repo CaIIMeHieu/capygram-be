@@ -43,11 +43,11 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
+//app.UseAuthentication();
 app.UseCors("AllowSpecificOrigin");
 app.UseWebSockets();
 app.UseOcelot().Wait();
-app.UseAuthorization();
+//app.UseAuthorization();
 
 app.MapControllers();
 

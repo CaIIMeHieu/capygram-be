@@ -3,7 +3,7 @@ using capygram.Common.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace capygram.Auth.Controllers
+namespace capygram.Ocelot.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

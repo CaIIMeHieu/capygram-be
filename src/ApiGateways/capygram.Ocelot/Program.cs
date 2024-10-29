@@ -1,4 +1,5 @@
 using capygram.Ocelot.DependencyInjection.Extentions;
+using capygram.Common.DependencyInjection.Extensions;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using Ocelot.Values;
@@ -24,6 +25,7 @@ builder.Services.AddControllers();
 //builder.Services.AddJwtAuthentication(builder.Configuration);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpRequestService();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOcelot(configuration);
 builder.Services.AddSignalR();
@@ -43,11 +45,11 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-//app.UseAuthentication();
+app.UseAuthentication();
 app.UseCors("AllowSpecificOrigin");
 app.UseWebSockets();
 app.UseOcelot().Wait();
-//app.UseAuthorization();
+app.UseAuthorization();
 
 app.MapControllers();
 

@@ -62,7 +62,7 @@ namespace capygram.Newsfeed.Repositories
             var posts = new List<PostDBDTO>();
             foreach( var postId in newsfeeds )
             {
-                var post = await _externalService.GetExternalDataAsync<PostDBDTO>($"localhost:8081/api/Posts/Get/{postId}");
+                var post = await _externalService.GetExternalDataAsync<PostDBDTO>($"post:8081/api/Posts/Get/{postId}");
                 if(post != null)
                 {
                 posts.Add(post);

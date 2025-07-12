@@ -275,7 +275,32 @@
       ],
       "UpstreamPathTemplate": "/api/Chat/messages/{userId}",
       "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/chathub/{everything}",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "capygram-chat",
+          "Port": 8083
+        }
+      ],
+      "UpstreamPathTemplate": "/chathub/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/chathub",
+      "DownstreamScheme": "ws",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "capygram-chat",
+          "Port": 8083
+        }
+      ],
+      "UpstreamPathTemplate": "/chathub",
+      "UpstreamHttpMethod": [ "GET", "POST" ]
     }
+  ],
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://127.0.0.1:8088"

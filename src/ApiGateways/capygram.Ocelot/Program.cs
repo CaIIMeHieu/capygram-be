@@ -43,10 +43,11 @@ app.UseHttpsRedirection();
 //app.UseAuthentication();
 
 app.UseCors("AllowSpecificOrigin");
-app.UseOcelot().Wait();
+app.UseWebSockets();
+await app.UseOcelot();
 
 //app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+await app.RunAsync();

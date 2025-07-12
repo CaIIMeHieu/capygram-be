@@ -1,0 +1,33 @@
+CREATE KEYSPACE IF NOT EXISTS capygram 
+WITH REPLICATION = {
+    'class': 'SimpleStrategy',
+    'replication_factor': 1
+};
+
+USE capygram;
+
+# Tạo bảng Messages
+CREATE TABLE messages (
+    id UUID PRIMARY KEY,
+    sender UUID,
+    receiver UUID,
+    content TEXT,
+    created_at TIMESTAMP,
+    is_sender_deleted BOOLEAN,
+    is_receiver_deleted BOOLEAN
+);
+
+# Tạo bảng Newsfeed
+CREATE TABLE newsfeed (
+    id UUID PRIMARY KEY,
+    postid UUID,
+    userid UUID,
+    createdat TIMESTAMP
+);
+
+# Index cho Messages để query theo sender và receiver
+CREATE INDEX ON messages (sender);
+CREATE INDEX ON messages (receiver);
+
+# Index cho Newsfeed để query theo userid
+CREATE INDEX ON newsfeed (userid);

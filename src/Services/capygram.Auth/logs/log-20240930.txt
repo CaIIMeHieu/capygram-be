@@ -87,7 +87,7 @@
 2024-09-30 01:33:48.228 +07:00 [WRN] Failed to determine the https port for redirect.
 2024-09-30 01:33:48.229 +07:00 [INF] Start request......!
 2024-09-30 01:33:48.250 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:33:48.251 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:33:48.251 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:33:48.251 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:33:48.251 +07:00 [DBG] The request is a preflight request.
 2024-09-30 01:33:48.252 +07:00 [DBG] Connection id "0HN70MITGIFMA" completed keep alive response.
@@ -99,7 +99,7 @@
 2024-09-30 01:33:48.257 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 01:33:48.257 +07:00 [INF] Start request......!
 2024-09-30 01:33:48.258 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:33:48.258 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:33:48.258 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:33:48.258 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:33:48.260 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-09-30 01:33:48.272 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -148,7 +148,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu
 2024-09-30 01:33:51.741 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 01:33:51.742 +07:00 [INF] Start request......!
 2024-09-30 01:33:51.743 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:33:51.744 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:33:51.744 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:33:51.744 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:33:51.744 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-09-30 01:33:51.744 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -196,7 +196,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.470 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 01:34:01.470 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.470 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:34:01.470 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.470 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.470 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.470 +07:00 [DBG] The request is a preflight request.
 2024-09-30 01:34:01.471 +07:00 [DBG] Connection id "0HN70MITGIFMA" completed keep alive response.
@@ -208,7 +208,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.472 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 01:34:01.472 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.473 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:34:01.473 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.473 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.473 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.473 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-09-30 01:34:01.473 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -245,7 +245,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.578 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 01:34:01.578 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.581 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:34:01.581 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.581 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.581 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.581 +07:00 [DBG] The request is a preflight request.
 2024-09-30 01:34:01.581 +07:00 [DBG] Connection id "0HN70MITGIFMA" completed keep alive response.
@@ -258,7 +258,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.583 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.606 +07:00 [DBG] Successfully validated the token.
 2024-09-30 01:34:01.607 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-09-30 01:34:01.608 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.608 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.608 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.608 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 01:34:01.611 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -291,7 +291,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.891 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 01:34:01.891 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.891 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 01:34:01.891 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.891 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.891 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.891 +07:00 [DBG] The request is a preflight request.
 2024-09-30 01:34:01.891 +07:00 [DBG] Connection id "0HN70MITGIFMB" accepted.
@@ -306,7 +306,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.892 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.893 +07:00 [DBG] Successfully validated the token.
 2024-09-30 01:34:01.894 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-09-30 01:34:01.894 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.894 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.894 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.894 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 01:34:01.894 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
@@ -325,7 +325,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.895 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
 2024-09-30 01:34:01.895 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 01:34:01.895 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
-2024-09-30 01:34:01.896 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.896 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.896 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 01:34:01.896 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.896 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
@@ -337,7 +337,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.896 +07:00 [INF] Start request......!
 2024-09-30 01:34:01.897 +07:00 [DBG] Successfully validated the token.
 2024-09-30 01:34:01.897 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-09-30 01:34:01.897 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.897 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.897 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
 2024-09-30 01:34:01.897 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.898 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -388,7 +388,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.920 +07:00 [INF] Executed action capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth) in 24.4556ms
 2024-09-30 01:34:01.920 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
 2024-09-30 01:34:01.920 +07:00 [INF] Executed endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
-2024-09-30 01:34:01.920 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.920 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.920 +07:00 [DBG] Connection id "0HN70MITGIFMB" completed keep alive response.
 2024-09-30 01:34:01.920 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.920 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - null null
@@ -408,7 +408,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-09-30 01:34:01.922 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
 2024-09-30 01:34:01.922 +07:00 [DBG] Successfully validated the token.
 2024-09-30 01:34:01.922 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-09-30 01:34:01.922 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 01:34:01.922 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 01:34:01.922 +07:00 [INF] CORS policy execution successful.
 2024-09-30 01:34:01.922 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 01:34:01.922 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -637,10 +637,10 @@ MassTransit.RabbitMqConnectionException: Broker unreachable: guest@localhost:567
 2024-09-30 18:09:35.368 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:09:35.368 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:09:35.368 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:09:35.369 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:35.369 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:35.369 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:35.369 +07:00 [INF] CORS policy execution successful.
@@ -681,8 +681,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:09:35.447 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:09:35 AM'.
 2024-09-30 18:09:35.447 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:09:35 AM'.
-2024-09-30 18:09:35.447 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:09:35.447 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:35.447 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:09:35.447 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:35.447 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:35.448 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:35.450 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -738,7 +738,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:09:35.537 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:09:35 AM'.
-2024-09-30 18:09:35.538 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:35.538 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:35.538 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:35.538 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:09:35.539 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -788,7 +788,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:09:35.647 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:09:35 AM'.
-2024-09-30 18:09:35.647 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:35.647 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:35.648 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:35.648 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:09:35.649 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -847,7 +847,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:09:59.204 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:09:59.205 +07:00 [INF] Start request......!
 2024-09-30 18:09:59.205 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:09:59.205 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:59.205 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:59.205 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:59.205 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:09:59.206 +07:00 [DBG] Connection id "0HN7181DJK05I" completed keep alive response.
@@ -860,7 +860,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:09:59.207 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:09:59.207 +07:00 [INF] Start request......!
 2024-09-30 18:09:59.208 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:09:59.208 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:59.208 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:59.208 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:59.208 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:09:59.208 +07:00 [DBG] Connection id "0HN7181DJK05J" completed keep alive response.
@@ -877,7 +877,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:09:59.212 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:09:59 AM'.
-2024-09-30 18:09:59.212 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:59.212 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:59.212 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:59.212 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:09:59.213 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -916,7 +916,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:09:59.227 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:09:59 AM'.
-2024-09-30 18:09:59.228 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:09:59.228 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:09:59.228 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:09:59.228 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:09:59.228 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -954,10 +954,10 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:01.479 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:10:01.479 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:01.479 +07:00 [INF] Start request......!
-2024-09-30 18:10:01.480 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:01.480 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:01.480 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:01.480 +07:00 [INF] CORS policy execution successful.
-2024-09-30 18:10:01.480 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:01.480 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:01.480 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:10:01.480 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:01.480 +07:00 [DBG] The request is a preflight request.
@@ -977,7 +977,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:01.493 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:01 AM'.
-2024-09-30 18:10:01.493 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:01.493 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:01.493 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:01.494 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:01.494 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1016,7 +1016,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:01.513 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:01 AM'.
-2024-09-30 18:10:01.513 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:01.513 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:01.513 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:01.514 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:01.519 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1055,7 +1055,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:02.683 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:02 AM'.
-2024-09-30 18:10:02.683 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:02.683 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:02.683 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:02.683 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:02.683 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1094,7 +1094,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:02.694 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:02 AM'.
-2024-09-30 18:10:02.695 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:02.695 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:02.695 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:02.695 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:02.695 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1132,12 +1132,12 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:03.899 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:10:03.899 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:03.899 +07:00 [INF] Start request......!
-2024-09-30 18:10:03.904 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:03.904 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:03.904 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:03.904 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:10:03.904 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:03.904 +07:00 [DBG] Connection id "0HN7181DJK05I" completed keep alive response.
-2024-09-30 18:10:03.904 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:03.904 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:03.905 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - 204 null null 8.2215ms
 2024-09-30 18:10:03.905 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:03.905 +07:00 [DBG] The request is a preflight request.
@@ -1155,7 +1155,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:03.910 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:03 AM'.
-2024-09-30 18:10:03.910 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:03.910 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:03.910 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:03.910 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:03.910 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1194,7 +1194,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:03.922 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:03 AM'.
-2024-09-30 18:10:03.923 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:03.923 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:03.923 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:03.923 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:03.924 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1233,7 +1233,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:05.887 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:05 AM'.
-2024-09-30 18:10:05.887 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:05.887 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:05.888 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:05.888 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:05.888 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1272,7 +1272,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:05.900 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:05 AM'.
-2024-09-30 18:10:05.900 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:05.900 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:05.900 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:05.901 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:05.901 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1307,7 +1307,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:09.864 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:09.864 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:10:09.864 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-09-30 18:10:09.864 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.864 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.866 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:09.866 +07:00 [DBG] Connection id "0HN7181DJK05K" accepted.
 2024-09-30 18:10:09.865 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
@@ -1317,7 +1317,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:09.868 +07:00 [INF] Start request......!
 2024-09-30 18:10:09.868 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:09.867 +07:00 [DBG] Connection id "0HN7181DJK05K" started.
-2024-09-30 18:10:09.868 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.868 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.868 +07:00 [DBG] Connection id "0HN7181DJK05J" completed keep alive response.
 2024-09-30 18:10:09.869 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:09.869 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - 204 null null 6.7118ms
@@ -1336,10 +1336,10 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:09.870 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:10:09.871 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:09.871 +07:00 [INF] Start request......!
-2024-09-30 18:10:09.871 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.871 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.871 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:10:09.871 +07:00 [INF] CORS policy execution successful.
-2024-09-30 18:10:09.871 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.871 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.871 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:10:09.871 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
 2024-09-30 18:10:09.871 +07:00 [INF] CORS policy execution successful.
@@ -1371,8 +1371,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:09.878 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:09 AM'.
 2024-09-30 18:10:09.880 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:09 AM'.
-2024-09-30 18:10:09.880 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:10:09.881 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.880 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:10:09.881 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.881 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:09.885 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:09.882 +07:00 [INF] CORS policy execution successful.
@@ -1440,7 +1440,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:09.918 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
 2024-09-30 18:10:09.919 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:09 AM'.
 2024-09-30 18:10:09.919 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-09-30 18:10:09.919 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.919 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.920 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:10:09.920 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:09.920 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1460,7 +1460,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:10:09.922 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
 2024-09-30 18:10:09.923 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:09 AM'.
 2024-09-30 18:10:09.923 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
-2024-09-30 18:10:09.924 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:09.924 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:09.924 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:09.924 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:09.924 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1517,7 +1517,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:12.067 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:12 AM'.
-2024-09-30 18:10:12.068 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:12.068 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:12.069 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:12.069 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:12.069 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1556,7 +1556,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:10:12.084 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:10:12 AM'.
-2024-09-30 18:10:12.085 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:10:12.085 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:10:12.085 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:10:12.085 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:10:12.085 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1610,7 +1610,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:35.089 +07:00 [DBG] Connection id "0HN7181DJK05N" started.
 2024-09-30 18:11:35.089 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:11:35.089 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
-2024-09-30 18:11:35.090 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:35.090 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:35.090 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:11:35.090 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:35.090 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
@@ -1620,7 +1620,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:35.091 +07:00 [INF] Start request......!
 2024-09-30 18:11:35.091 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 3.5481ms
 2024-09-30 18:11:35.091 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:11:35.091 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:35.091 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:35.091 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:35.092 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:11:35.092 +07:00 [DBG] Connection id "0HN7181DJK05N" completed keep alive response.
@@ -1637,7 +1637,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:11:35.104 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:35 AM'.
-2024-09-30 18:11:35.104 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:35.104 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:35.104 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:35.104 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:11:35.105 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1676,7 +1676,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:11:35.121 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:35 AM'.
-2024-09-30 18:11:35.121 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:35.121 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:35.122 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:35.122 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:11:35.122 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1719,7 +1719,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:37.629 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:11:37.628 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:11:37.629 +07:00 [INF] Start request......!
-2024-09-30 18:11:37.629 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:37.629 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:37.629 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-09-30 18:11:37.629 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:37.630 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
@@ -1735,9 +1735,9 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:37.633 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:11:37.631 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:37 AM'.
 2024-09-30 18:11:37.635 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
-2024-09-30 18:11:37.635 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:37.635 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:37.635 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-09-30 18:11:37.635 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:37.635 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:37.635 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:37.635 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:11:37.636 +07:00 [INF] CORS policy execution successful.
@@ -1758,7 +1758,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:37.640 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:37 AM'.
 2024-09-30 18:11:37.640 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
 2024-09-30 18:11:37.641 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
-2024-09-30 18:11:37.640 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:37.640 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:37.642 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
 2024-09-30 18:11:37.642 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:37.642 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
@@ -1822,7 +1822,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:37.662 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:11:37.662 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:11:37.662 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 200 null application/json; charset=utf-8 44.2825ms
-2024-09-30 18:11:37.662 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:37.662 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:37.663 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:11:37.664 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:37.664 +07:00 [INF] Start request......!
@@ -1836,7 +1836,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:11:37.666 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
 2024-09-30 18:11:37.667 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:37 AM'.
 2024-09-30 18:11:37.667 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
-2024-09-30 18:11:37.667 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:37.667 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:37.667 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
 2024-09-30 18:11:37.667 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:37.667 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
@@ -1897,7 +1897,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:11:39.126 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:39 AM'.
-2024-09-30 18:11:39.127 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:39.127 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:39.127 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:39.127 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:11:39.127 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1936,7 +1936,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:11:39.138 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:11:39 AM'.
-2024-09-30 18:11:39.138 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:11:39.138 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:11:39.138 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:11:39.138 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:11:39.139 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1983,7 +1983,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:13:06.687 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:13:06.687 +07:00 [INF] Start request......!
 2024-09-30 18:13:06.688 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:13:06.688 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:13:06.688 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:13:06.688 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:13:06.688 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:13:06.688 +07:00 [DBG] Connection id "0HN7181DJK05P" completed keep alive response.
@@ -1994,7 +1994,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:13:06.692 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:13:06.692 +07:00 [INF] Start request......!
 2024-09-30 18:13:06.693 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:13:06.693 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:13:06.693 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:13:06.693 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:13:06.693 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:13:06.694 +07:00 [DBG] Connection id "0HN7181DJK05P" completed keep alive response.
@@ -2013,7 +2013,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:13:06.703 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:13:06 AM'.
-2024-09-30 18:13:06.703 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:13:06.703 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:13:06.704 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:13:06.704 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:13:06.704 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2052,7 +2052,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:13:06.721 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:13:06 AM'.
-2024-09-30 18:13:06.722 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:13:06.722 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:13:06.722 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:13:06.722 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:13:06.728 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2095,7 +2095,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:19:33.702 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:19:33.702 +07:00 [INF] Start request......!
 2024-09-30 18:19:33.703 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:19:33.703 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:33.703 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:33.703 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:33.704 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:19:33.704 +07:00 [DBG] Connection id "0HN7181DJK05R" completed keep alive response.
@@ -2112,7 +2112,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:19:33.713 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:33 AM'.
-2024-09-30 18:19:33.714 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:33.714 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:33.714 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:33.715 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:19:33.715 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2145,7 +2145,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:19:44.700 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:19:44.700 +07:00 [INF] Start request......!
 2024-09-30 18:19:44.700 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:19:44.701 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:44.701 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:44.701 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:44.701 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:19:44.701 +07:00 [DBG] Connection id "0HN7181DJK05R" completed keep alive response.
@@ -2158,7 +2158,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:19:44.707 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:19:44.707 +07:00 [INF] Start request......!
 2024-09-30 18:19:44.708 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:19:44.708 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:44.708 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:44.708 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:44.708 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:19:44.709 +07:00 [DBG] Connection id "0HN7181DJK05R" completed keep alive response.
@@ -2183,12 +2183,12 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
-2024-09-30 18:19:44.726 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:44.726 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:44.728 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:19:44.741 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:44 AM'.
 2024-09-30 18:19:44.746 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:44.746 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
-2024-09-30 18:19:44.747 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:44.747 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:44.747 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:19:44.748 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:19:44.749 +07:00 [INF] CORS policy execution successful.
@@ -2207,7 +2207,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:19:44.771 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
 2024-09-30 18:19:44.773 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:44 AM'.
 2024-09-30 18:19:44.774 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
-2024-09-30 18:19:44.774 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:44.774 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:44.774 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
 2024-09-30 18:19:44.775 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:44.775 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
@@ -2279,8 +2279,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:19:44.820 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:44 AM'.
 2024-09-30 18:19:44.820 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:44 AM'.
-2024-09-30 18:19:44.820 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:19:44.820 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:44.820 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:19:44.820 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:44.820 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:44.821 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:44.821 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2346,7 +2346,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:19:48.663 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:48 AM'.
-2024-09-30 18:19:48.664 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:48.664 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:48.665 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:48.666 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:19:48.666 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2385,7 +2385,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:19:48.694 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:19:48 AM'.
-2024-09-30 18:19:48.694 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:19:48.694 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:19:48.694 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:19:48.696 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:19:48.696 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2429,7 +2429,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:23:15.706 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:23:15.706 +07:00 [INF] Start request......!
 2024-09-30 18:23:15.707 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:23:15.707 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:23:15.707 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:23:15.707 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:23:15.707 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:23:15.708 +07:00 [DBG] Connection id "0HN7181DJK05U" completed keep alive response.
@@ -2442,7 +2442,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:23:15.712 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:23:15.712 +07:00 [INF] Start request......!
 2024-09-30 18:23:15.713 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:23:15.713 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:23:15.713 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:23:15.713 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:23:15.713 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:23:15.713 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
@@ -2459,7 +2459,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:23:15.718 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:23:15 AM'.
-2024-09-30 18:23:15.720 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:23:15.720 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:23:15.720 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:23:15.720 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:23:15.720 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2498,7 +2498,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:23:15.906 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:23:15 AM'.
-2024-09-30 18:23:15.908 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:23:15.908 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:23:15.908 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:23:15.908 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:23:15.909 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2548,10 +2548,10 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:24:34.720 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:24:34.720 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:24:34.720 +07:00 [INF] Start request......!
-2024-09-30 18:24:34.720 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:34.720 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:34.720 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:24:34.720 +07:00 [INF] CORS policy execution successful.
-2024-09-30 18:24:34.721 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:34.721 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:34.721 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:24:34.721 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:34.721 +07:00 [DBG] Connection id "0HN7181DJK060" completed keep alive response.
@@ -2577,7 +2577,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:24:34.732 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:24:34.734 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:34 AM'.
 2024-09-30 18:24:34.734 +07:00 [INF] Start request......!
-2024-09-30 18:24:34.734 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:34.734 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:34.735 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:34.735 +07:00 [INF] Failed to validate the token.
 Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:34 AM'.
@@ -2587,7 +2587,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:24:34.735 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:24:34.736 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:34 AM'.
 2024-09-30 18:24:34.736 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
-2024-09-30 18:24:34.736 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:34.736 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:34.737 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
 2024-09-30 18:24:34.737 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:34.737 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
@@ -2666,8 +2666,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:24:34.920 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:34 AM'.
 2024-09-30 18:24:34.920 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:34 AM'.
-2024-09-30 18:24:34.921 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:24:34.921 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:34.921 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:24:34.921 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:34.921 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:34.921 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:34.921 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2727,7 +2727,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:24:39.913 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:24:39.913 +07:00 [INF] Start request......!
 2024-09-30 18:24:39.914 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:24:39.914 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:39.914 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:39.914 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:39.915 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:24:39.915 +07:00 [DBG] Connection id "0HN7181DJK063" completed keep alive response.
@@ -2738,7 +2738,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:24:39.918 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:24:39.918 +07:00 [INF] Start request......!
 2024-09-30 18:24:39.918 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:24:39.918 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:39.918 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:39.919 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:39.919 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:24:39.919 +07:00 [DBG] Connection id "0HN7181DJK062" completed keep alive response.
@@ -2755,7 +2755,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:24:39.924 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:39 AM'.
-2024-09-30 18:24:39.924 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:39.924 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:39.924 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:39.924 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:24:39.925 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2794,7 +2794,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:24:40.092 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:24:40 AM'.
-2024-09-30 18:24:40.092 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:24:40.092 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:24:40.092 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:24:40.092 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:24:40.093 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2827,7 +2827,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:25:08.167 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:25:08.167 +07:00 [INF] Start request......!
 2024-09-30 18:25:08.168 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:25:08.168 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:25:08.168 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:25:08.168 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:25:08.168 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:25:08.168 +07:00 [DBG] Connection id "0HN7181DJK062" completed keep alive response.
@@ -2838,7 +2838,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:25:08.173 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:25:08.173 +07:00 [INF] Start request......!
 2024-09-30 18:25:08.173 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:25:08.174 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:25:08.174 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:25:08.174 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:25:08.174 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:25:08.174 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
@@ -2855,7 +2855,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:25:08.181 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:25:08 AM'.
-2024-09-30 18:25:08.182 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:25:08.182 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:25:08.185 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:25:08.185 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:25:08.186 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2894,7 +2894,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:25:08.351 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:25:08 AM'.
-2024-09-30 18:25:08.351 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:25:08.351 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:25:08.351 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:25:08.352 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:25:08.352 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -2947,7 +2947,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:27:18.511 +07:00 [DBG] Connection id "0HN7181DJK065" accepted.
 2024-09-30 18:27:18.512 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:27:18.512 +07:00 [DBG] Connection id "0HN7181DJK065" started.
-2024-09-30 18:27:18.514 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:18.514 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:18.514 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:18.514 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:27:18.515 +07:00 [DBG] The request is a preflight request.
@@ -2958,7 +2958,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:27:18.516 +07:00 [DBG] Connection id "0HN7181DJK064" completed keep alive response.
 2024-09-30 18:27:18.520 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:27:18.520 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 17.4134ms
-2024-09-30 18:27:18.520 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:18.520 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:18.522 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:18.524 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:27:18.525 +07:00 [DBG] Connection id "0HN7181DJK065" completed keep alive response.
@@ -2975,7 +2975,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:27:18.532 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:27:18 AM'.
-2024-09-30 18:27:18.532 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:18.532 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:18.532 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:18.533 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:27:18.533 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3014,7 +3014,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:27:18.699 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:27:18 AM'.
-2024-09-30 18:27:18.701 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:18.701 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:18.702 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:18.702 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:27:18.702 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3047,7 +3047,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:27:27.234 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:27:27.234 +07:00 [INF] Start request......!
 2024-09-30 18:27:27.235 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:27:27.235 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:27.235 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:27.235 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:27.235 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:27:27.235 +07:00 [DBG] Connection id "0HN7181DJK065" completed keep alive response.
@@ -3058,7 +3058,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:27:27.241 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:27:27.242 +07:00 [INF] Start request......!
 2024-09-30 18:27:27.242 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:27:27.242 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:27.242 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:27.246 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:27.246 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:27:27.246 +07:00 [DBG] The request is a preflight request.
@@ -3075,7 +3075,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:27:27.253 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:27:27 AM'.
-2024-09-30 18:27:27.254 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:27.254 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:27.254 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:27.254 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:27:27.255 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3114,7 +3114,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:27:27.416 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:27:27 AM'.
-2024-09-30 18:27:27.416 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:27:27.416 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:27:27.417 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:27:27.417 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:27:27.418 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3151,12 +3151,12 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:28:02.136 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-09-30 18:28:02.136 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:28:02.136 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
-2024-09-30 18:28:02.136 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.136 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.137 +07:00 [INF] Start request......!
 2024-09-30 18:28:02.137 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:02.137 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:28:02.137 +07:00 [DBG] The request is a preflight request.
-2024-09-30 18:28:02.137 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.137 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.138 +07:00 [DBG] Connection id "0HN7181DJK065" completed keep alive response.
 2024-09-30 18:28:02.138 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:02.138 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - 204 null null 3.6967ms
@@ -3182,11 +3182,11 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:28:02.157 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:28:02.156 +07:00 [INF] Start request......!
 2024-09-30 18:28:02.157 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:28:02.158 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.158 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.158 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:28:02.158 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:28:02.158 +07:00 [INF] CORS policy execution successful.
-2024-09-30 18:28:02.158 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.158 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.158 +07:00 [INF] Start request......!
 2024-09-30 18:28:02.159 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:28:02.159 +07:00 [INF] CORS policy execution successful.
@@ -3202,7 +3202,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:28:02.161 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - 204 null null 18.2231ms
 2024-09-30 18:28:02.164 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:28:02.166 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:28:02 AM'.
-2024-09-30 18:28:02.168 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.168 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.167 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:28:02.168 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:02.170 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3223,7 +3223,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:28:02.178 +07:00 [DBG] Executing controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
 2024-09-30 18:28:02.180 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:28:02 AM'.
-2024-09-30 18:28:02.181 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.181 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.182 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:02.182 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:28:02.182 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3292,8 +3292,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:28:02.366 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:28:02 AM'.
 2024-09-30 18:28:02.367 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:28:02 AM'.
-2024-09-30 18:28:02.368 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:28:02.368 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:02.368 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:28:02.368 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:02.368 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:02.368 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:02.369 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3353,7 +3353,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:28:11.159 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:28:11.159 +07:00 [INF] Start request......!
 2024-09-30 18:28:11.159 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:28:11.160 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:11.160 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:11.160 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:11.160 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:28:11.160 +07:00 [DBG] The request is a preflight request.
@@ -3364,7 +3364,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:28:11.162 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:28:11.162 +07:00 [INF] Start request......!
 2024-09-30 18:28:11.162 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:28:11.166 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:11.166 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:11.168 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:11.168 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:28:11.171 +07:00 [DBG] Connection id "0HN7181DJK066" completed keep alive response.
@@ -3381,7 +3381,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:28:11.179 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:28:11 AM'.
-2024-09-30 18:28:11.180 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:11.180 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:11.180 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:11.180 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:28:11.181 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3420,7 +3420,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:28:11.356 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:28:11 AM'.
-2024-09-30 18:28:11.357 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:28:11.357 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:28:11.357 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:28:11.357 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:28:11.358 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3453,7 +3453,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:29:10.217 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:29:10.217 +07:00 [INF] Start request......!
 2024-09-30 18:29:10.218 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:29:10.218 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:29:10.218 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:29:10.218 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:29:10.218 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:29:10.219 +07:00 [DBG] Connection id "0HN7181DJK066" completed keep alive response.
@@ -3470,7 +3470,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:29:10.226 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:29:10 AM'.
-2024-09-30 18:29:10.227 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:29:10.227 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:29:10.227 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:29:10.228 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:29:10.228 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3509,7 +3509,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:29:10.414 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:29:10 AM'.
-2024-09-30 18:29:10.414 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:29:10.414 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:29:10.414 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:29:10.415 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:29:10.415 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3557,7 +3557,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:17.130 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:17.130 +07:00 [INF] Start request......!
 2024-09-30 18:33:17.130 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:17.130 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.130 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.129 +07:00 [DBG] Connection id "0HN7181DJK069" started.
 2024-09-30 18:33:17.129 +07:00 [DBG] Connection id "0HN7181DJK06A" accepted.
 2024-09-30 18:33:17.131 +07:00 [INF] CORS policy execution successful.
@@ -3582,12 +3582,12 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:17.134 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:33:17.134 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
 2024-09-30 18:33:17.135 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:17.136 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.136 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.136 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:17.136 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:17.136 +07:00 [DBG] Connection id "0HN7181DJK06A" completed keep alive response.
 2024-09-30 18:33:17.137 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 4.829ms
-2024-09-30 18:33:17.135 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.135 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.136 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:33:17.135 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-09-30 18:33:17.138 +07:00 [INF] CORS policy execution successful.
@@ -3600,7 +3600,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:17.139 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:17.140 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:33:17.140 +07:00 [INF] Start request......!
-2024-09-30 18:33:17.140 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.140 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.141 +07:00 [INF] Failed to validate the token.
 Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:17 AM'.
    at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
@@ -3612,7 +3612,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:17.146 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:33:17.146 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:17.148 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-09-30 18:33:17.146 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.146 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.148 +07:00 [DBG] Connection id "0HN7181DJK06B" completed keep alive response.
 2024-09-30 18:33:17.148 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:33:17.149 +07:00 [INF] CORS policy execution successful.
@@ -3637,7 +3637,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:17.158 +07:00 [DBG] Attempting to bind parameter 'UserID' of type 'System.Guid' ...
 2024-09-30 18:33:17.162 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:17 AM'.
 2024-09-30 18:33:17.162 +07:00 [DBG] Attempting to bind parameter 'UserID' of type 'System.Guid' using the name 'UserID' in request data ...
-2024-09-30 18:33:17.164 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.164 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.164 +07:00 [DBG] Done attempting to bind parameter 'UserID' of type 'System.Guid'.
 2024-09-30 18:33:17.165 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:17.165 +07:00 [DBG] Done attempting to bind parameter 'UserID' of type 'System.Guid'.
@@ -3703,8 +3703,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:17.195 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:17 AM'.
 2024-09-30 18:33:17.198 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:17 AM'.
-2024-09-30 18:33:17.198 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 18:33:17.198 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:17.198 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 18:33:17.198 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:17.198 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:17.199 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:17.199 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3764,7 +3764,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:25.555 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:25.555 +07:00 [INF] Start request......!
 2024-09-30 18:33:25.556 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:25.556 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:25.556 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:25.556 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - null null
 2024-09-30 18:33:25.556 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:25.556 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
@@ -3775,7 +3775,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:25.557 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - 204 null null 3.2351ms
 2024-09-30 18:33:25.557 +07:00 [INF] Start request......!
 2024-09-30 18:33:25.558 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:25.558 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:25.558 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:25.558 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:25.559 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:25.559 +07:00 [DBG] Connection id "0HN7181DJK068" completed keep alive response.
@@ -3792,7 +3792,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:25.574 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:25 AM'.
-2024-09-30 18:33:25.574 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:25.574 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:25.575 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:25.575 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:25.575 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3831,7 +3831,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:25.593 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:25 AM'.
-2024-09-30 18:33:25.593 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:25.593 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:25.594 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:25.594 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:25.594 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3864,7 +3864,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:45.469 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:45.469 +07:00 [INF] Start request......!
 2024-09-30 18:33:45.469 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:45.470 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:45.470 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:45.470 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:45.470 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:45.471 +07:00 [DBG] Connection id "0HN7181DJK06B" completed keep alive response.
@@ -3875,7 +3875,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:45.476 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:45.476 +07:00 [INF] Start request......!
 2024-09-30 18:33:45.476 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:45.476 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:45.476 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:45.477 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:45.477 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:45.477 +07:00 [DBG] Connection id "0HN7181DJK068" completed keep alive response.
@@ -3892,7 +3892,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:45.507 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:45 AM'.
-2024-09-30 18:33:45.507 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:45.507 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:45.508 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:45.508 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:45.508 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3931,7 +3931,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:45.532 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:45 AM'.
-2024-09-30 18:33:45.532 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:45.532 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:45.532 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:45.532 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:45.533 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3967,14 +3967,14 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:54.520 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 18:33:54.520 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:33:54.520 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
-2024-09-30 18:33:54.520 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:54.520 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:54.520 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:54.520 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:54.520 +07:00 [INF] Start request......!
 2024-09-30 18:33:54.520 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:54.521 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:33:54.521 +07:00 [DBG] Connection id "0HN7181DJK06B" completed keep alive response.
-2024-09-30 18:33:54.521 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:54.521 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:54.522 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=ba7fb9f9-f6c0-4aca-9c83-db6f548824fb - 204 null null 4.4188ms
 2024-09-30 18:33:54.522 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:54.523 +07:00 [DBG] The request is a preflight request.
@@ -3992,7 +3992,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:54.528 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:54 AM'.
-2024-09-30 18:33:54.528 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:54.528 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:54.528 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:54.528 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:54.529 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4031,7 +4031,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:54.551 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:54 AM'.
-2024-09-30 18:33:54.553 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:54.553 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:54.553 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:54.554 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:54.554 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4064,7 +4064,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:56.109 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:56.109 +07:00 [INF] Start request......!
 2024-09-30 18:33:56.109 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:56.109 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:56.109 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:56.110 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:56.110 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:56.110 +07:00 [DBG] Connection id "0HN7181DJK06B" completed keep alive response.
@@ -4075,7 +4075,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:56.112 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:56.112 +07:00 [INF] Start request......!
 2024-09-30 18:33:56.112 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:56.112 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:56.112 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:56.113 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:56.113 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:56.113 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
@@ -4092,7 +4092,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:56.118 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:56 AM'.
-2024-09-30 18:33:56.118 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:56.118 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:56.118 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:56.119 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:56.119 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4131,7 +4131,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:56.139 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:56 AM'.
-2024-09-30 18:33:56.140 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:56.140 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:56.141 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:56.141 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:56.142 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4170,7 +4170,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:57.311 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:57 AM'.
-2024-09-30 18:33:57.312 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:57.312 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:57.312 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:57.312 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:57.312 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4209,7 +4209,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:57.330 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:57 AM'.
-2024-09-30 18:33:57.330 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:57.330 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:57.330 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:57.331 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:57.331 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4242,7 +4242,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:58.282 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:33:58.283 +07:00 [INF] Start request......!
 2024-09-30 18:33:58.283 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:33:58.283 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:58.283 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:58.283 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:58.283 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:33:58.284 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - null null
@@ -4258,7 +4258,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:33:58.288 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:58.288 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:33:58.288 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
-2024-09-30 18:33:58.288 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:58.288 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:58.288 +07:00 [INF] Start request......!
 2024-09-30 18:33:58.288 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:58.289 +07:00 [DBG] The request is a preflight request.
@@ -4270,7 +4270,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:58.289 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - 204 null null 5.5513ms
 2024-09-30 18:33:58.290 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:58 AM'.
-2024-09-30 18:33:58.290 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:58.290 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:58.290 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:58.291 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:58.291 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4309,7 +4309,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:33:58.308 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:33:58 AM'.
-2024-09-30 18:33:58.309 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:33:58.309 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:33:58.309 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:33:58.309 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:33:58.310 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4342,7 +4342,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:34:22.638 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 18:34:22.639 +07:00 [INF] Start request......!
 2024-09-30 18:34:22.639 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:34:22.639 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.639 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.639 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.640 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:34:22.640 +07:00 [DBG] Connection id "0HN7181DJK068" completed keep alive response.
@@ -4355,7 +4355,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:34:22.642 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - null null
 2024-09-30 18:34:22.642 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:34:22.642 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-09-30 18:34:22.642 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.642 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.642 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-09-30 18:34:22.643 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.643 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
@@ -4364,7 +4364,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:34:22.643 +07:00 [DBG] Connection id "0HN7181DJK06B" completed keep alive response.
 2024-09-30 18:34:22.643 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 18:34:22.643 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 2.6927ms
-2024-09-30 18:34:22.644 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.644 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.644 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.644 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:34:22.644 +07:00 [DBG] The request is a preflight request.
@@ -4375,7 +4375,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:34:22.645 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=undefined - 204 null null 3.2695ms
 2024-09-30 18:34:22.645 +07:00 [INF] Start request......!
 2024-09-30 18:34:22.646 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 18:34:22.646 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.646 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.646 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.646 +07:00 [DBG] The request is a preflight request.
 2024-09-30 18:34:22.647 +07:00 [DBG] Connection id "0HN7181DJK06A" completed keep alive response.
@@ -4392,7 +4392,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:34:22.651 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:34:22 AM'.
-2024-09-30 18:34:22.651 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.651 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.651 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.651 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-09-30 18:34:22.651 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4416,7 +4416,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:34:22.656 +07:00 [DBG] Executed controller factory for controller capygram.Auth.Controllers.UsersController (capygram.Auth)
 2024-09-30 18:34:22.657 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:34:22 AM'.
 2024-09-30 18:34:22.657 +07:00 [DBG] Attempting to bind parameter 'UserID' of type 'System.Guid' ...
-2024-09-30 18:34:22.657 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.657 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.657 +07:00 [DBG] Attempting to bind parameter 'UserID' of type 'System.Guid' using the name 'UserID' in request data ...
 2024-09-30 18:34:22.657 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.658 +07:00 [DBG] Done attempting to bind parameter 'UserID' of type 'System.Guid'.
@@ -4464,7 +4464,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 18:34:22.677 +07:00 [DBG] No information found on request to perform content negotiation.
 2024-09-30 18:34:22.678 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:34:22 AM'.
 2024-09-30 18:34:22.678 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
-2024-09-30 18:34:22.678 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.678 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.679 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.679 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
 2024-09-30 18:34:22.679 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4511,7 +4511,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-09-30 18:34:22.708 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 11:34:22 AM'.
-2024-09-30 18:34:22.710 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 18:34:22.710 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 18:34:22.710 +07:00 [INF] CORS policy execution successful.
 2024-09-30 18:34:22.710 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 18:34:22.711 +07:00 [INF] Route matched with {action = "GetUserByUserID", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByUserID(System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4566,8 +4566,8 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 19:46:19.275 +07:00 [INF] Start request......!
 2024-09-30 19:46:19.276 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 19:46:19.276 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-09-30 19:46:19.277 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 19:46:19.277 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 19:46:19.277 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 19:46:19.277 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 19:46:19.277 +07:00 [INF] CORS policy execution successful.
 2024-09-30 19:46:19.278 +07:00 [INF] CORS policy execution successful.
 2024-09-30 19:46:19.278 +07:00 [DBG] The request is a preflight request.
@@ -4602,7 +4602,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 19:46:19.310 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-09-30 19:46:19.310 +07:00 [INF] Start request......!
 2024-09-30 19:46:19.311 +07:00 [INF] Start request......!
-2024-09-30 19:46:19.311 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 19:46:19.311 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 19:46:19.312 +07:00 [INF] Start request......!
 2024-09-30 19:46:19.316 +07:00 [INF] Failed to validate the token.
 Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 12:46:19 PM'.
@@ -4620,9 +4620,9 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 19:46:19.328 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 12:46:19 PM'.
 2024-09-30 19:46:19.314 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-09-30 19:46:19.325 +07:00 [DBG] Connection id "0HN7181DJK06F" completed keep alive response.
-2024-09-30 19:46:19.328 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 19:46:19.328 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-09-30 19:46:19.329 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 19:46:19.328 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 19:46:19.328 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-09-30 19:46:19.329 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 19:46:19.329 +07:00 [INF] CORS policy execution successful.
 2024-09-30 19:46:19.329 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 36.0255ms
 2024-09-30 19:46:19.330 +07:00 [INF] CORS policy execution successful.
@@ -4696,7 +4696,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 19:46:19.388 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
 2024-09-30 19:46:19.390 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 12:46:19 PM'.
 2024-09-30 19:46:19.390 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
-2024-09-30 19:46:19.391 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 19:46:19.391 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 19:46:19.391 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-09-30 19:46:19.391 +07:00 [INF] CORS policy execution successful.
 2024-09-30 19:46:19.391 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
@@ -4712,7 +4712,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-09-30 19:46:19.393 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
 2024-09-30 19:46:19.394 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '28/09/2024 8:25:52 AM', Current time (UTC): '30/09/2024 12:46:19 PM'.
 2024-09-30 19:46:19.395 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
-2024-09-30 19:46:19.395 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-09-30 19:46:19.395 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-09-30 19:46:19.395 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
 2024-09-30 19:46:19.395 +07:00 [INF] CORS policy execution successful.
 2024-09-30 19:46:19.396 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]

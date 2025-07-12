@@ -399,8 +399,8 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 2024-08-10 15:32:47.902 +07:00 [INF] Start request......!
 2024-08-10 15:32:47.904 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:32:47.904 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:32:47.907 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-08-10 15:32:47.907 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:32:47.907 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-08-10 15:32:47.907 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:32:47.908 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:47.908 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:47.910 +07:00 [DBG] The request is a preflight request.
@@ -429,7 +429,7 @@ Number of keys in Configuration: '0'.
 Exceptions caught:
  '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
 token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
-2024-08-10 15:32:47.925 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:32:47.925 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:32:47.926 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:47.926 +07:00 [DBG] Policy authentication schemes  did not succeed
 2024-08-10 15:32:47.926 +07:00 [INF] Authorization failed. Fail() was explicitly called.
@@ -467,7 +467,7 @@ Number of keys in Configuration: '0'.
 Exceptions caught:
  '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
 token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
-2024-08-10 15:32:50.529 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:32:50.529 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:32:50.529 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:50.530 +07:00 [DBG] Policy authentication schemes  did not succeed
 2024-08-10 15:32:50.530 +07:00 [INF] Authorization failed. Fail() was explicitly called.
@@ -477,7 +477,7 @@ token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hid
 2024-08-10 15:32:50.531 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:32:50.531 +07:00 [INF] Start request......!
 2024-08-10 15:32:50.538 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:32:51.682 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:32:51.682 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:32:51.683 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:51.683 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:32:51.684 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -503,7 +503,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:32:51.698 +07:00 [INF] Start request......!
 2024-08-10 15:32:51.698 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=123abcde - 500 null application/json 1171.6923ms
 2024-08-10 15:32:51.698 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:32:51.699 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:32:51.699 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:32:51.699 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:51.699 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.RefreshToken (capygram.Auth)'
 2024-08-10 15:32:51.701 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/api/Users/refresh-token - application/json 225
@@ -513,7 +513,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:32:51.702 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:32:51.702 +07:00 [INF] Start request......!
 2024-08-10 15:32:51.702 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:32:51.702 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:32:51.702 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:32:51.703 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:32:51.703 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.RefreshToken (capygram.Auth)'
 2024-08-10 15:32:51.703 +07:00 [INF] Route matched with {action = "RefreshToken", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(capygram.Common.DTOs.User.UserRefreshTokenDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -582,7 +582,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:33:36.221 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=123abcde - null null
 2024-08-10 15:33:36.221 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:33:36.223 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-08-10 15:33:36.223 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:36.223 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:36.223 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-08-10 15:33:36.223 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:33:36.223 +07:00 [INF] CORS policy execution successful.
@@ -590,7 +590,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:33:36.224 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:33:36.224 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:33:36.224 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
-2024-08-10 15:33:36.224 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:36.224 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:36.225 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:33:36.225 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:33:36.225 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=123abcde - 204 null null 14.9014ms
@@ -616,7 +616,7 @@ Number of keys in Configuration: '0'.
 Exceptions caught:
  '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
 token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
-2024-08-10 15:33:36.233 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:36.233 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:36.233 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:33:36.233 +07:00 [DBG] Policy authentication schemes  did not succeed
 2024-08-10 15:33:36.233 +07:00 [INF] Authorization failed. Fail() was explicitly called.
@@ -654,7 +654,7 @@ Number of keys in Configuration: '0'.
 Exceptions caught:
  '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
 token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
-2024-08-10 15:33:44.449 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:44.449 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:44.449 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:33:44.449 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/refresh-token - null null
 2024-08-10 15:33:44.449 +07:00 [DBG] Policy authentication schemes  did not succeed
@@ -664,7 +664,7 @@ token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hid
 2024-08-10 15:33:44.451 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:33:44.451 +07:00 [INF] Start request......!
 2024-08-10 15:33:44.451 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:33:44.460 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:44.460 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:45.412 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:33:45.413 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:33:45.414 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -690,7 +690,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:33:45.462 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=123abcde - 500 null application/json 1017.7108ms
 2024-08-10 15:33:45.462 +07:00 [INF] Start request......!
 2024-08-10 15:33:45.462 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:33:45.462 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:45.462 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:45.462 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:33:45.463 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.RefreshToken (capygram.Auth)'
 2024-08-10 15:33:45.463 +07:00 [INF] Route matched with {action = "RefreshToken", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(capygram.Common.DTOs.User.UserRefreshTokenDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -729,7 +729,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:33:45.475 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:33:45.475 +07:00 [INF] Start request......!
 2024-08-10 15:33:45.475 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:33:45.475 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:33:45.475 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:33:45.476 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:33:45.476 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.RefreshToken (capygram.Auth)'
 2024-08-10 15:33:45.476 +07:00 [INF] Route matched with {action = "RefreshToken", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RefreshToken(capygram.Common.DTOs.User.UserRefreshTokenDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -767,7 +767,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:25.179 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:38:25.179 +07:00 [INF] Start request......!
 2024-08-10 15:38:25.179 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:38:25.179 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:25.179 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:25.179 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:25.179 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:38:25.180 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -779,7 +779,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:25.184 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:38:25.184 +07:00 [INF] Start request......!
 2024-08-10 15:38:25.184 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:38:25.185 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:25.185 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:25.185 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:25.185 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 15:38:25.185 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -816,7 +816,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:25.359 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:38:25.359 +07:00 [INF] Start request......!
 2024-08-10 15:38:25.359 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:38:25.359 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:25.359 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:25.359 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:25.359 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:38:25.360 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -829,7 +829,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:25.362 +07:00 [INF] Start request......!
 2024-08-10 15:38:25.363 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:38:25.363 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:38:25.363 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:25.363 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:25.363 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:25.364 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:38:25.364 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -865,7 +865,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:25.623 +07:00 [INF] Start request......!
 2024-08-10 15:38:25.624 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:38:25.624 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:38:25.624 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:25.624 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:25.624 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:25.624 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:38:25.625 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -901,7 +901,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:25.791 +07:00 [INF] Start request......!
 2024-08-10 15:38:25.792 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:38:25.792 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:38:25.792 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:25.792 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:25.792 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:25.793 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:38:25.793 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -935,7 +935,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:32.093 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:38:32.093 +07:00 [INF] Start request......!
 2024-08-10 15:38:32.093 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:38:32.093 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:32.093 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:32.094 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:32.094 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:38:32.094 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -946,7 +946,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:32.099 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:38:32.099 +07:00 [INF] Start request......!
 2024-08-10 15:38:32.099 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:38:32.100 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:32.100 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:32.100 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:32.100 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:38:32.100 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -959,7 +959,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:32.107 +07:00 [INF] Start request......!
 2024-08-10 15:38:32.107 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:38:32.107 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:38:32.107 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:32.107 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:32.107 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:32.108 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:38:32.108 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -995,7 +995,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:38:32.280 +07:00 [INF] Start request......!
 2024-08-10 15:38:32.280 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:38:32.280 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:38:32.281 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:38:32.281 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:38:32.281 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:38:32.281 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:38:32.281 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1035,8 +1035,8 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:42:45.487 +07:00 [INF] Start request......!
 2024-08-10 15:42:45.487 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:42:45.487 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:42:45.487 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-08-10 15:42:45.487 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:42:45.487 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-08-10 15:42:45.487 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:42:45.487 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:42:45.487 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:42:45.487 +07:00 [DBG] The request is a preflight request.
@@ -1053,7 +1053,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:42:45.499 +07:00 [INF] Start request......!
 2024-08-10 15:42:45.499 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:42:45.500 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:42:45.500 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:42:45.500 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:42:45.500 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:42:45.500 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:42:45.500 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1089,7 +1089,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:42:45.513 +07:00 [INF] Start request......!
 2024-08-10 15:42:45.513 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:42:45.513 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:42:45.513 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:42:45.513 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:42:45.514 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:42:45.514 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:42:45.514 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1123,7 +1123,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:17.769 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:17.769 +07:00 [INF] Start request......!
 2024-08-10 15:44:17.769 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:17.769 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:17.769 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:17.769 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:17.769 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:17.770 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -1135,7 +1135,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:17.772 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:17.772 +07:00 [INF] Start request......!
 2024-08-10 15:44:17.772 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:17.773 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:17.773 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:17.773 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:17.773 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Register (capygram.Auth)'
 2024-08-10 15:44:17.773 +07:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(capygram.Common.DTOs.User.UserRegisterDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1173,7 +1173,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:47.185 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:47.185 +07:00 [INF] Start request......!
 2024-08-10 15:44:47.185 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:47.186 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:47.186 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:47.186 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:47.186 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:47.186 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -1185,7 +1185,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:47.188 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:47.188 +07:00 [INF] Start request......!
 2024-08-10 15:44:47.188 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:47.188 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:47.188 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:47.188 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:47.189 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.ActiveAccount (capygram.Auth)'
 2024-08-10 15:44:47.189 +07:00 [INF] Route matched with {action = "ActiveAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ActiveAccount(capygram.Common.DTOs.User.UserRegisterDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1223,7 +1223,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:49.497 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:49.498 +07:00 [INF] Start request......!
 2024-08-10 15:44:49.498 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:49.498 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:49.498 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:49.498 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:49.498 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:49.498 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -1235,7 +1235,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:49.500 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:49.500 +07:00 [INF] Start request......!
 2024-08-10 15:44:49.500 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:49.500 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:49.500 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:49.501 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:49.501 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 15:44:49.501 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -1272,7 +1272,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:49.526 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:49.526 +07:00 [INF] Start request......!
 2024-08-10 15:44:49.526 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:49.526 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:49.526 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:49.527 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:49.527 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:49.527 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -1285,7 +1285,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:49.529 +07:00 [INF] Start request......!
 2024-08-10 15:44:49.529 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:49.529 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:49.529 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:49.529 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:49.529 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:49.530 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:49.530 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1321,7 +1321,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:49.580 +07:00 [INF] Start request......!
 2024-08-10 15:44:49.581 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:49.581 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:49.581 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:49.581 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:49.581 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:49.582 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:49.582 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1357,7 +1357,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:49.593 +07:00 [INF] Start request......!
 2024-08-10 15:44:49.594 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:49.594 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:49.594 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:49.594 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:49.594 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:49.595 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:49.595 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1391,7 +1391,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:56.822 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:56.822 +07:00 [INF] Start request......!
 2024-08-10 15:44:56.822 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:56.822 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:56.822 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:56.822 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:56.822 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:56.822 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1404,7 +1404,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:56.824 +07:00 [INF] Start request......!
 2024-08-10 15:44:56.825 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:56.825 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:56.825 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:56.825 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:56.825 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:56.825 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:56.825 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -1438,7 +1438,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:56.880 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:56.880 +07:00 [INF] Start request......!
 2024-08-10 15:44:56.880 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:56.880 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:56.880 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:56.880 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:56.880 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:56.881 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1451,7 +1451,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:56.882 +07:00 [INF] Start request......!
 2024-08-10 15:44:56.883 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:56.883 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:56.883 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:56.883 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:56.883 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:56.883 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:56.883 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -1485,7 +1485,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:56.991 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:56.991 +07:00 [INF] Start request......!
 2024-08-10 15:44:56.991 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:56.991 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:56.991 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:56.991 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:56.991 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:56.991 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1498,7 +1498,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:56.993 +07:00 [INF] Start request......!
 2024-08-10 15:44:56.993 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:56.994 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:56.994 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:56.994 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:56.994 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:56.994 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:56.994 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -1532,7 +1532,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:57.102 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:44:57.102 +07:00 [INF] Start request......!
 2024-08-10 15:44:57.102 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:44:57.102 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:57.102 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:57.102 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:57.102 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:44:57.103 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1545,7 +1545,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:44:57.104 +07:00 [INF] Start request......!
 2024-08-10 15:44:57.105 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:44:57.105 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:44:57.105 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:44:57.105 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:44:57.105 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:44:57.105 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:44:57.105 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -1579,7 +1579,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:04.366 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:04.366 +07:00 [INF] Start request......!
 2024-08-10 15:45:04.366 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:04.366 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:04.366 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:04.366 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:04.366 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:04.367 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1590,7 +1590,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:04.368 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:04.368 +07:00 [INF] Start request......!
 2024-08-10 15:45:04.368 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:04.368 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:04.368 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:04.368 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:04.368 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:04.369 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -1603,7 +1603,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:04.381 +07:00 [INF] Start request......!
 2024-08-10 15:45:04.382 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:04.382 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:04.382 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:04.382 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:04.382 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:04.382 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:04.382 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1639,7 +1639,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:04.396 +07:00 [INF] Start request......!
 2024-08-10 15:45:04.396 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:04.397 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:04.397 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:04.397 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:04.397 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:04.397 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:04.397 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1675,7 +1675,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:09.005 +07:00 [INF] Start request......!
 2024-08-10 15:45:09.006 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:09.007 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:09.007 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:09.007 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:09.007 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:09.007 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:09.007 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1711,7 +1711,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:09.023 +07:00 [INF] Start request......!
 2024-08-10 15:45:09.024 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:09.024 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:09.024 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:09.024 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:09.025 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:09.025 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:09.025 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1745,7 +1745,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:11.969 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:11.969 +07:00 [INF] Start request......!
 2024-08-10 15:45:11.969 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:11.969 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:11.969 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:11.969 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:11.970 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:11.970 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -1756,7 +1756,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:11.974 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:11.974 +07:00 [INF] Start request......!
 2024-08-10 15:45:11.974 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:11.974 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:11.974 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:11.974 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:11.974 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:11.974 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1769,7 +1769,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:11.991 +07:00 [INF] Start request......!
 2024-08-10 15:45:11.992 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:11.992 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:11.992 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:11.992 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:11.992 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:11.992 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:11.992 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1805,7 +1805,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:12.005 +07:00 [INF] Start request......!
 2024-08-10 15:45:12.005 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:12.005 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:12.006 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:12.006 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:12.006 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:12.006 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:12.006 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1841,7 +1841,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:16.040 +07:00 [INF] Start request......!
 2024-08-10 15:45:16.040 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:16.040 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:16.040 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:16.040 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:16.041 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:16.041 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:16.041 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1877,7 +1877,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:16.051 +07:00 [INF] Start request......!
 2024-08-10 15:45:16.052 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:16.052 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:16.052 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:16.052 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:16.052 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:16.052 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:16.052 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -1911,7 +1911,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.385 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:18.385 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.385 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:18.385 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.385 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.386 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.386 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:18.387 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1924,7 +1924,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.389 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.389 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:18.390 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:18.390 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.390 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.390 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.390 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:18.390 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -1958,7 +1958,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.543 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:18.543 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.543 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:18.543 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.543 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.544 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.544 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:18.544 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -1971,7 +1971,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.547 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.547 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:18.547 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:18.547 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.547 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.547 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.547 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:18.548 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2005,7 +2005,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.657 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:18.657 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.657 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:18.657 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.657 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.658 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.658 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:18.658 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2018,7 +2018,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.660 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.660 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:18.660 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:18.660 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.660 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.660 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.661 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:18.661 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2052,7 +2052,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.769 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:18.769 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.769 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:18.769 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.769 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.769 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.769 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:18.769 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2065,7 +2065,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:18.771 +07:00 [INF] Start request......!
 2024-08-10 15:45:18.771 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:18.771 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:18.771 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:18.771 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:18.771 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:18.772 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:18.772 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2104,10 +2104,10 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:20.405 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:20.405 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:45:20.405 +07:00 [INF] Start request......!
-2024-08-10 15:45:20.405 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:20.405 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:20.405 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:45:20.405 +07:00 [INF] CORS policy execution successful.
-2024-08-10 15:45:20.405 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:20.405 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:20.405 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:20.405 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:20.406 +07:00 [DBG] The request is a preflight request.
@@ -2123,7 +2123,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:20.417 +07:00 [INF] Start request......!
 2024-08-10 15:45:20.417 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:20.418 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:20.418 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:20.418 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:20.418 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:20.418 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:20.418 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2159,7 +2159,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:20.430 +07:00 [INF] Start request......!
 2024-08-10 15:45:20.430 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:20.431 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:20.431 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:20.431 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:20.431 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:20.431 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:20.431 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2193,7 +2193,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:36.135 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:36.135 +07:00 [INF] Start request......!
 2024-08-10 15:45:36.135 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:36.135 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:36.135 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:36.136 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:36.136 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:36.136 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2204,7 +2204,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:36.137 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:36.138 +07:00 [INF] Start request......!
 2024-08-10 15:45:36.138 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:36.138 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:36.138 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:36.138 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:36.138 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:36.138 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2217,7 +2217,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:36.146 +07:00 [INF] Start request......!
 2024-08-10 15:45:36.146 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:36.147 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:36.147 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:36.147 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:36.147 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:36.148 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:36.148 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2253,7 +2253,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:36.159 +07:00 [INF] Start request......!
 2024-08-10 15:45:36.159 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:36.160 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:36.160 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:36.160 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:36.160 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:36.160 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:36.160 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2287,7 +2287,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:45.167 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:45.167 +07:00 [INF] Start request......!
 2024-08-10 15:45:45.167 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:45.167 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:45.167 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:45.167 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:45.168 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:45.168 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2300,7 +2300,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:45.170 +07:00 [INF] Start request......!
 2024-08-10 15:45:45.170 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:45.170 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:45.171 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:45.171 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:45.171 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:45.171 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:45.171 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2334,7 +2334,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:45.316 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:45.316 +07:00 [INF] Start request......!
 2024-08-10 15:45:45.316 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:45.316 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:45.316 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:45.316 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:45.316 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:45.316 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2347,7 +2347,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:45.318 +07:00 [INF] Start request......!
 2024-08-10 15:45:45.319 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:45.319 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:45.319 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:45.319 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:45.319 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:45.319 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:45.319 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2381,7 +2381,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:45.450 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:45.450 +07:00 [INF] Start request......!
 2024-08-10 15:45:45.450 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:45.451 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:45.451 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:45.451 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:45.451 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:45.451 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2394,7 +2394,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:45.453 +07:00 [INF] Start request......!
 2024-08-10 15:45:45.453 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:45.453 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:45.453 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:45.453 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:45.453 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:45.453 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:45.454 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2428,7 +2428,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:46.111 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:46.111 +07:00 [INF] Start request......!
 2024-08-10 15:45:46.111 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:46.111 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:46.111 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:46.111 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:46.112 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:46.112 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2441,7 +2441,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:46.114 +07:00 [INF] Start request......!
 2024-08-10 15:45:46.114 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:46.114 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:46.115 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:46.115 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:46.115 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:46.115 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:46.115 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2475,7 +2475,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:48.456 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:48.456 +07:00 [INF] Start request......!
 2024-08-10 15:45:48.456 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:48.456 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:48.456 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:48.456 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:48.456 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:48.456 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2488,7 +2488,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:48.459 +07:00 [INF] Start request......!
 2024-08-10 15:45:48.459 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:48.459 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:48.459 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:48.459 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:48.459 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:48.459 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:48.459 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2522,7 +2522,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:51.454 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:51.454 +07:00 [INF] Start request......!
 2024-08-10 15:45:51.454 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:51.455 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:51.455 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:51.455 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:51.455 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:51.455 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2535,7 +2535,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:51.457 +07:00 [INF] Start request......!
 2024-08-10 15:45:51.457 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:51.457 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:51.457 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:51.457 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:51.457 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:51.457 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:51.458 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2569,7 +2569,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:54.047 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:54.047 +07:00 [INF] Start request......!
 2024-08-10 15:45:54.048 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:54.048 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:54.048 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:54.048 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:54.048 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:54.048 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
@@ -2580,7 +2580,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:54.049 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:45:54.049 +07:00 [INF] Start request......!
 2024-08-10 15:45:54.049 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:45:54.049 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:54.049 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:54.049 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:54.049 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:45:54.050 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2593,7 +2593,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:54.055 +07:00 [INF] Start request......!
 2024-08-10 15:45:54.055 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:54.055 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:54.056 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:54.056 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:54.056 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:54.056 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:54.056 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2629,7 +2629,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:45:54.067 +07:00 [INF] Start request......!
 2024-08-10 15:45:54.068 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:45:54.068 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:45:54.068 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:45:54.068 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:45:54.068 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:45:54.068 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:45:54.068 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2665,7 +2665,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:27.533 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c17c8ca8-5823-4ee5-8339-3b8913253632 - null null
 2024-08-10 15:48:27.533 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:48:27.534 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-08-10 15:48:27.534 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:27.534 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:27.534 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-08-10 15:48:27.534 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:27.535 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
@@ -2674,7 +2674,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:27.535 +07:00 [DBG] Connection id "0HN5P1VB1R5R9" completed keep alive response.
 2024-08-10 15:48:27.535 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:48:27.535 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c17c8ca8-5823-4ee5-8339-3b8913253632 - 204 null null 2.407ms
-2024-08-10 15:48:27.535 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:27.535 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:27.537 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:27.538 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:48:27.539 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2687,7 +2687,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:27.548 +07:00 [INF] Start request......!
 2024-08-10 15:48:27.548 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:27.548 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:27.549 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:27.549 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:27.549 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:27.549 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:27.549 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2723,7 +2723,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:27.561 +07:00 [INF] Start request......!
 2024-08-10 15:48:27.561 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:27.561 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:27.562 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:27.562 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:27.562 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:27.562 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:27.563 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2759,7 +2759,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:29.652 +07:00 [INF] Start request......!
 2024-08-10 15:48:29.653 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:29.656 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:29.657 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:29.657 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:29.658 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:29.664 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:29.667 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2795,7 +2795,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:29.713 +07:00 [INF] Start request......!
 2024-08-10 15:48:29.714 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:29.714 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:29.714 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:29.714 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:29.714 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:29.715 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:29.715 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -2829,7 +2829,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.559 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:48:35.559 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.559 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:48:35.559 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.559 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.559 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.559 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:48:35.559 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2842,7 +2842,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.562 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.562 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:35.562 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:35.562 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.562 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.562 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.563 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:35.563 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2876,7 +2876,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.722 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:48:35.722 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.722 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:48:35.722 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.722 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.722 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.722 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:48:35.722 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2889,7 +2889,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.724 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.725 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:35.725 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:35.725 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.725 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.725 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.725 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:35.725 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2923,7 +2923,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.823 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:48:35.823 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.823 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:48:35.823 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.823 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.825 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.825 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:48:35.825 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2936,7 +2936,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.827 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.828 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:35.828 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:35.828 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.828 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.828 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.828 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:35.828 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -2970,7 +2970,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.945 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 15:48:35.945 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.945 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:48:35.945 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.945 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.945 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.945 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:48:35.946 +07:00 [DBG] Connection id "0HN5P1VB1R5R8" completed keep alive response.
@@ -2983,7 +2983,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:35.948 +07:00 [INF] Start request......!
 2024-08-10 15:48:35.948 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:35.948 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:35.948 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:35.948 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:35.948 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:35.949 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:35.949 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -3023,8 +3023,8 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:37.292 +07:00 [INF] Start request......!
 2024-08-10 15:48:37.293 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 15:48:37.293 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:48:37.293 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-08-10 15:48:37.293 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:37.293 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-08-10 15:48:37.293 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:37.293 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:37.293 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:37.293 +07:00 [DBG] The request is a preflight request.
@@ -3041,7 +3041,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:37.311 +07:00 [INF] Start request......!
 2024-08-10 15:48:37.311 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:37.312 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:37.312 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:37.312 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:37.312 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:37.312 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:37.312 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3077,7 +3077,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:48:37.323 +07:00 [INF] Start request......!
 2024-08-10 15:48:37.323 +07:00 [DBG] Successfully validated the token.
 2024-08-10 15:48:37.323 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 15:48:37.324 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:48:37.324 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:48:37.324 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:48:37.324 +07:00 [DBG] Authorization was successful.
 2024-08-10 15:48:37.324 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3123,7 +3123,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:56:44.147 +07:00 [INF] Start request......!
 2024-08-10 15:56:44.147 +07:00 [DBG] Connection id "0HN5P1VB1R5RB" started.
 2024-08-10 15:56:44.147 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:56:44.147 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:56:44.147 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:56:44.147 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c17c8ca8-5823-4ee5-8339-3b8913253632 - null null
 2024-08-10 15:56:44.147 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:56:44.148 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
@@ -3134,7 +3134,7 @@ capygram.Common.Exceptions.UnAuthorizedExeption: User is not authenticated
 2024-08-10 15:56:44.148 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c17c8ca8-5823-4ee5-8339-3b8913253632 - 204 null null 5.2085ms
 2024-08-10 15:56:44.148 +07:00 [INF] Start request......!
 2024-08-10 15:56:44.148 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 15:56:44.149 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:56:44.149 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:56:44.149 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:56:44.149 +07:00 [DBG] The request is a preflight request.
 2024-08-10 15:56:44.149 +07:00 [DBG] Connection id "0HN5P1VB1R5RB" completed keep alive response.
@@ -3151,7 +3151,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
    at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
 2024-08-10 15:56:44.189 +07:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/08/2024 8:47:49 AM', Current time (UTC): '10/08/2024 8:56:44 AM'.
-2024-08-10 15:56:44.190 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 15:56:44.190 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 15:56:44.190 +07:00 [INF] CORS policy execution successful.
 2024-08-10 15:56:44.190 +07:00 [DBG] Policy authentication schemes  did not succeed
 2024-08-10 15:56:44.190 +07:00 [INF] Authorization failed. Fail() was explicitly called.
@@ -3236,7 +3236,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-08-10 16:00:00.764 +07:00 [WRN] Failed to determine the https port for redirect.
 2024-08-10 16:00:00.766 +07:00 [INF] Start request......!
 2024-08-10 16:00:00.824 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:00:00.826 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:00:00.826 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:00:00.826 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:00:00.827 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:00:00.828 +07:00 [DBG] Connection id "0HN5P3AEPT924" completed keep alive response.
@@ -3248,7 +3248,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-08-10 16:00:00.836 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:00:00.836 +07:00 [INF] Start request......!
 2024-08-10 16:00:00.838 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:00:00.841 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:00:00.841 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:00:00.841 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:00:00.845 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Register (capygram.Auth)'
 2024-08-10 16:00:00.865 +07:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(capygram.Common.DTOs.User.UserRegisterDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3289,7 +3289,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-08-10 16:01:49.459 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:01:49.460 +07:00 [INF] Start request......!
 2024-08-10 16:01:49.461 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:01:49.462 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:01:49.462 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:01:49.462 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:01:49.462 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:01:49.462 +07:00 [DBG] Connection id "0HN5P3AEPT924" completed keep alive response.
@@ -3301,7 +3301,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-08-10 16:01:49.465 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:01:49.465 +07:00 [INF] Start request......!
 2024-08-10 16:01:49.465 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:01:49.465 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:01:49.465 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:01:49.466 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:01:49.466 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.ActiveAccount (capygram.Auth)'
 2024-08-10 16:01:49.470 +07:00 [INF] Route matched with {action = "ActiveAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ActiveAccount(capygram.Common.DTOs.User.UserRegisterDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3342,7 +3342,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-08-10 16:02:21.768 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:21.768 +07:00 [INF] Start request......!
 2024-08-10 16:02:21.768 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:21.768 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:21.768 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:21.768 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:21.769 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:02:21.769 +07:00 [DBG] Connection id "0HN5P3AEPT924" completed keep alive response.
@@ -3354,7 +3354,7 @@ Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime
 2024-08-10 16:02:21.773 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:21.773 +07:00 [INF] Start request......!
 2024-08-10 16:02:21.773 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:21.774 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:21.774 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:21.774 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:21.774 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 16:02:21.777 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3402,7 +3402,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:28.802 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:28.802 +07:00 [INF] Start request......!
 2024-08-10 16:02:28.803 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:28.803 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:28.803 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:28.803 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:28.803 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:02:28.803 +07:00 [DBG] Connection id "0HN5P3AEPT924" completed keep alive response.
@@ -3414,7 +3414,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:28.806 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:28.806 +07:00 [INF] Start request......!
 2024-08-10 16:02:28.806 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:28.806 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:28.806 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:28.806 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:28.806 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 16:02:28.807 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3462,7 +3462,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:36.858 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:36.858 +07:00 [INF] Start request......!
 2024-08-10 16:02:36.858 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:36.859 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:36.859 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:36.859 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:36.859 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:02:36.859 +07:00 [DBG] Connection id "0HN5P3AEPT924" completed keep alive response.
@@ -3474,7 +3474,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:36.862 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:36.862 +07:00 [INF] Start request......!
 2024-08-10 16:02:36.862 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:36.862 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:36.862 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:36.863 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:36.863 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 16:02:36.863 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3511,7 +3511,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:37.039 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:02:37.039 +07:00 [INF] Start request......!
 2024-08-10 16:02:37.043 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:02:37.043 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:37.043 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:37.043 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:37.043 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:02:37.044 +07:00 [DBG] Connection id "0HN5P3AEPT924" completed keep alive response.
@@ -3524,7 +3524,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:37.046 +07:00 [INF] Start request......!
 2024-08-10 16:02:37.088 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:02:37.090 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:02:37.090 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:37.090 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:37.090 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:37.096 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:02:37.096 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3560,7 +3560,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:37.252 +07:00 [INF] Start request......!
 2024-08-10 16:02:37.253 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:02:37.253 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:02:37.254 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:37.254 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:37.254 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:37.257 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:02:37.257 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3598,7 +3598,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:02:37.428 +07:00 [INF] Start request......!
 2024-08-10 16:02:37.429 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:02:37.429 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:02:37.429 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:02:37.429 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:02:37.429 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:02:37.430 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:02:37.430 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3634,7 +3634,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:03:29.656 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:03:29.656 +07:00 [INF] Start request......!
 2024-08-10 16:03:29.656 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:03:29.657 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:03:29.657 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:03:29.657 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:03:29.657 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:03:29.657 +07:00 [DBG] Connection id "0HN5P3AEPT926" completed keep alive response.
@@ -3646,7 +3646,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:03:29.659 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:03:29.660 +07:00 [INF] Start request......!
 2024-08-10 16:03:29.660 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:03:29.660 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:03:29.660 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:03:29.660 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:03:29.660 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Register (capygram.Auth)'
 2024-08-10 16:03:29.660 +07:00 [INF] Route matched with {action = "Register", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(capygram.Common.DTOs.User.UserRegisterDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3692,7 +3692,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:03:43.150 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:03:43.150 +07:00 [INF] Start request......!
 2024-08-10 16:03:43.150 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:03:43.150 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:03:43.150 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:03:43.150 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:03:43.151 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:03:43.151 +07:00 [DBG] Connection id "0HN5P3AEPT926" completed keep alive response.
@@ -3704,7 +3704,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:03:43.153 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:03:43.153 +07:00 [INF] Start request......!
 2024-08-10 16:03:43.153 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:03:43.153 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:03:43.153 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:03:43.153 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:03:43.153 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.ActiveAccount (capygram.Auth)'
 2024-08-10 16:03:43.154 +07:00 [INF] Route matched with {action = "ActiveAccount", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ActiveAccount(capygram.Common.DTOs.User.UserRegisterDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3742,7 +3742,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:03:48.747 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:03:48.748 +07:00 [INF] Start request......!
 2024-08-10 16:03:48.748 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:03:48.748 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:03:48.748 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:03:48.748 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:03:48.748 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:03:48.748 +07:00 [DBG] Connection id "0HN5P3AEPT926" completed keep alive response.
@@ -3754,7 +3754,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu1
 2024-08-10 16:03:48.751 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:03:48.751 +07:00 [INF] Start request......!
 2024-08-10 16:03:48.751 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:03:48.751 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:03:48.751 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:03:48.751 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:03:48.751 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 16:03:48.751 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3802,7 +3802,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:06.510 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:06.510 +07:00 [INF] Start request......!
 2024-08-10 16:04:06.510 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:06.510 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:06.510 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:06.511 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:06.511 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:06.511 +07:00 [DBG] Connection id "0HN5P3AEPT926" completed keep alive response.
@@ -3814,7 +3814,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:06.513 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:06.513 +07:00 [INF] Start request......!
 2024-08-10 16:04:06.513 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:06.513 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:06.513 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:06.514 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:06.514 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.Login (capygram.Auth)'
 2024-08-10 16:04:06.514 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(capygram.Common.DTOs.User.UserAuthenticationDto) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -3851,7 +3851,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:06.541 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:06.541 +07:00 [INF] Start request......!
 2024-08-10 16:04:06.541 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:06.541 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:06.541 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:06.541 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:06.541 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:06.541 +07:00 [DBG] Connection id "0HN5P3AEPT926" completed keep alive response.
@@ -3864,7 +3864,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:06.543 +07:00 [INF] Start request......!
 2024-08-10 16:04:06.543 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:06.544 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:06.544 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:06.544 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:06.544 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:06.544 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:06.544 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3900,7 +3900,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:06.575 +07:00 [INF] Start request......!
 2024-08-10 16:04:06.576 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:06.576 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:06.576 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:06.576 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:06.576 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:06.577 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:06.577 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3938,7 +3938,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:06.588 +07:00 [INF] Start request......!
 2024-08-10 16:04:06.588 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:06.588 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:06.588 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:06.588 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:06.589 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:06.589 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:06.589 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -3972,7 +3972,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.115 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:20.115 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.115 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:20.115 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.115 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.115 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.115 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:20.116 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -3985,7 +3985,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.118 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.119 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:20.119 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:20.119 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.119 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.119 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.119 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:20.119 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -4019,7 +4019,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.273 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:20.274 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.274 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:20.274 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.274 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.274 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.274 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:20.274 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -4032,7 +4032,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.276 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.276 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:20.276 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:20.276 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.276 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.276 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.276 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:20.277 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -4066,7 +4066,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.378 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:20.378 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.378 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:20.378 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.378 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.378 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.378 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:20.378 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -4079,7 +4079,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.380 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.381 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:20.381 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:20.381 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.381 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.381 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.381 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:20.381 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -4113,7 +4113,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.495 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:20.495 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.496 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:20.496 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.496 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.496 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.496 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:20.496 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -4126,7 +4126,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:20.498 +07:00 [INF] Start request......!
 2024-08-10 16:04:20.498 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:20.499 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:20.499 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:20.499 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:20.499 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:20.499 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:20.499 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -4160,7 +4160,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:21.174 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:21.174 +07:00 [INF] Start request......!
 2024-08-10 16:04:21.174 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:21.174 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:21.174 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:21.174 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:21.174 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:21.175 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -4173,7 +4173,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:21.177 +07:00 [INF] Start request......!
 2024-08-10 16:04:21.177 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:21.177 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:21.177 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:21.177 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:21.177 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:21.177 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:21.177 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByName (capygram.Auth)'
@@ -4207,7 +4207,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:23.419 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:23.419 +07:00 [INF] Start request......!
 2024-08-10 16:04:23.419 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:23.419 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:23.419 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:23.419 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:23.420 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:23.420 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -4218,7 +4218,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:23.420 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:04:23.421 +07:00 [INF] Start request......!
 2024-08-10 16:04:23.421 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:04:23.421 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:23.421 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:23.421 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:23.421 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:04:23.421 +07:00 [DBG] Connection id "0HN5P3AEPT926" completed keep alive response.
@@ -4231,7 +4231,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:23.429 +07:00 [INF] Start request......!
 2024-08-10 16:04:23.430 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:23.430 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:23.430 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:23.430 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:23.430 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:23.430 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:23.430 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4267,7 +4267,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:04:23.441 +07:00 [INF] Start request......!
 2024-08-10 16:04:23.441 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:04:23.441 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:04:23.442 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:04:23.442 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:04:23.442 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:04:23.442 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:04:23.442 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4307,8 +4307,8 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:34.762 +07:00 [INF] Start request......!
 2024-08-10 16:05:34.763 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 16:05:34.763 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:05:34.763 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-08-10 16:05:34.763 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:34.763 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-08-10 16:05:34.763 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:34.764 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:34.764 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:34.764 +07:00 [DBG] The request is a preflight request.
@@ -4325,7 +4325,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:34.774 +07:00 [INF] Start request......!
 2024-08-10 16:05:34.774 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:34.774 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:34.775 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:34.775 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:34.775 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:34.775 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:34.776 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4361,7 +4361,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:34.787 +07:00 [INF] Start request......!
 2024-08-10 16:05:34.791 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:34.795 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:34.796 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:34.796 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:34.800 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:34.805 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:34.806 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4397,7 +4397,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:38.150 +07:00 [INF] Start request......!
 2024-08-10 16:05:38.151 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:38.151 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:38.151 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:38.151 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:38.151 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:38.152 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:38.152 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4433,7 +4433,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:38.163 +07:00 [INF] Start request......!
 2024-08-10 16:05:38.164 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:38.164 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:38.164 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:38.164 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:38.164 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:38.164 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:38.165 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4469,7 +4469,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:38.867 +07:00 [INF] Start request......!
 2024-08-10 16:05:38.868 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:38.868 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:38.868 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:38.868 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:38.868 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:38.869 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:38.869 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4505,7 +4505,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:38.879 +07:00 [INF] Start request......!
 2024-08-10 16:05:38.880 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:38.880 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:38.880 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:38.880 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:38.880 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:38.880 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:38.880 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4541,7 +4541,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:39.703 +07:00 [INF] Start request......!
 2024-08-10 16:05:39.703 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:39.703 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:39.704 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:39.704 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:39.704 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:39.704 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:39.704 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4577,7 +4577,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:39.717 +07:00 [INF] Start request......!
 2024-08-10 16:05:39.717 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:39.718 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:39.718 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:39.718 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:39.718 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:39.718 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:05:39.718 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4611,7 +4611,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:49.775 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:05:49.775 +07:00 [INF] Start request......!
 2024-08-10 16:05:49.775 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:05:49.775 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:49.775 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:49.775 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:49.775 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:05:49.776 +07:00 [DBG] Connection id "0HN5P3AEPT927" completed keep alive response.
@@ -4624,7 +4624,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:05:49.780 +07:00 [INF] Start request......!
 2024-08-10 16:05:49.780 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:05:49.780 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:05:49.780 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:05:49.780 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:05:49.780 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:05:49.780 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.UpdateAvatar (capygram.Auth)'
 2024-08-10 16:05:49.785 +07:00 [INF] Route matched with {action = "UpdateAvatar", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateAvatar(System.Collections.Generic.List`1[Microsoft.AspNetCore.Http.IFormFile], System.Guid) on controller capygram.Auth.Controllers.UsersController (capygram.Auth).
@@ -4671,7 +4671,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.629 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:06:25.629 +07:00 [INF] Start request......!
 2024-08-10 16:06:25.629 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:06:25.630 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.630 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.630 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-08-10 16:06:25.630 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:25.630 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
@@ -4683,7 +4683,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.631 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 16:06:25.631 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/edit - 204 null null 4.901ms
 2024-08-10 16:06:25.633 +07:00 [DBG] Connection id "0HN5P3AEPT92A" accepted.
-2024-08-10 16:06:25.631 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.631 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.634 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:25.634 +07:00 [DBG] Connection id "0HN5P3AEPT928" started.
 2024-08-10 16:06:25.634 +07:00 [DBG] The request is a preflight request.
@@ -4703,11 +4703,11 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.639 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 16:06:25.639 +07:00 [INF] Start request......!
 2024-08-10 16:06:25.639 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
-2024-08-10 16:06:25.639 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.639 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.639 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 16:06:25.641 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:25.639 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
-2024-08-10 16:06:25.641 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.641 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.641 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:06:25.641 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:06:25.641 +07:00 [INF] CORS policy execution successful.
@@ -4716,7 +4716,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.642 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 16:06:25.642 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:06:25.643 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 8.894ms
-2024-08-10 16:06:25.643 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.643 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.643 +07:00 [DBG] Connection id "0HN5P3AEPT925" completed keep alive response.
 2024-08-10 16:06:25.643 +07:00 [DBG] Connection id "0HN5P3AEPT92C" accepted.
 2024-08-10 16:06:25.643 +07:00 [INF] CORS policy execution successful.
@@ -4752,14 +4752,14 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.652 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
 2024-08-10 16:06:25.650 +07:00 [INF] Start request......!
 2024-08-10 16:06:25.652 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:06:25.652 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.652 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.652 +07:00 [DBG] Connection id "0HN5P3AEPT92E" accepted.
 2024-08-10 16:06:25.650 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.UpdateProfile (capygram.Auth)' with route pattern 'api/Users/edit' is valid for the request path '/api/Users/edit'
 2024-08-10 16:06:25.652 +07:00 [INF] Start request......!
 2024-08-10 16:06:25.652 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:06:25.653 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.653 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.653 +07:00 [INF] CORS policy execution successful.
-2024-08-10 16:06:25.652 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.652 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.654 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - null null
 2024-08-10 16:06:25.654 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:06:25.654 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Users/get-user-by-userID'
@@ -4769,7 +4769,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.654 +07:00 [DBG] Connection id "0HN5P3AEPT929" completed keep alive response.
 2024-08-10 16:06:25.655 +07:00 [DBG] The request is a preflight request.
 2024-08-10 16:06:25.655 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
-2024-08-10 16:06:25.655 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.655 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.654 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:25.653 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.UpdateProfile (capygram.Auth)'
 2024-08-10 16:06:25.656 +07:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=c43d8a04-fbf7-401d-9cad-7bf8f72b6f99 - 204 null null 11.0192ms
@@ -4797,9 +4797,9 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.661 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
 2024-08-10 16:06:25.660 +07:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
 2024-08-10 16:06:25.661 +07:00 [DBG] Connection id "0HN5P3AEPT92E" started.
-2024-08-10 16:06:25.663 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.663 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.663 +07:00 [DBG] Endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)' with route pattern 'api/Users/get-user-by-userID' is valid for the request path '/api/Users/get-user-by-userID'
-2024-08-10 16:06:25.663 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.663 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.666 +07:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5090/api/Users/get-user-by-userID?UserID=60505739-77fd-459d-bb4f-2c053e603525 - null null
 2024-08-10 16:06:25.666 +07:00 [DBG] Request matched endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-08-10 16:06:25.666 +07:00 [INF] CORS policy execution successful.
@@ -4823,8 +4823,8 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.669 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
 2024-08-10 16:06:25.670 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
 2024-08-10 16:06:25.670 +07:00 [INF] Start request......!
-2024-08-10 16:06:25.670 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-08-10 16:06:25.670 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.670 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-08-10 16:06:25.670 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.670 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
 2024-08-10 16:06:25.671 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:25.671 +07:00 [INF] CORS policy execution successful.
@@ -4832,7 +4832,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:25.671 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
 2024-08-10 16:06:25.671 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:25.671 +07:00 [DBG] The request is a preflight request.
-2024-08-10 16:06:25.671 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:25.671 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:25.671 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
 2024-08-10 16:06:25.672 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
 2024-08-10 16:06:25.672 +07:00 [DBG] Connection id "0HN5P3AEPT92D" completed keep alive response.
@@ -4900,7 +4900,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.322 +07:00 [DBG] Bind exchange: source: user-changed-notification, destination: inotification
 2024-08-10 16:06:27.323 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.323 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.324 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.324 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.324 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.324 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.324 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4948,7 +4948,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.365 +07:00 [INF] Start request......!
 2024-08-10 16:06:27.366 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.366 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.366 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.366 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.366 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.366 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.367 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -4985,7 +4985,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.372 +07:00 [DBG] Done attempting to validate the bound parameter 'UserID' of type 'System.Guid'.
 2024-08-10 16:06:27.373 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.373 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.373 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.373 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.373 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.373 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.374 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5031,7 +5031,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.392 +07:00 [INF] Start request......!
 2024-08-10 16:06:27.392 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.392 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.392 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.392 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.392 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.392 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.392 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5067,7 +5067,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.405 +07:00 [INF] Start request......!
 2024-08-10 16:06:27.405 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.405 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.405 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.405 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.405 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.406 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.406 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5103,7 +5103,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.533 +07:00 [INF] Start request......!
 2024-08-10 16:06:27.533 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.533 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.534 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.534 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.534 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.534 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.534 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5139,7 +5139,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.700 +07:00 [INF] Start request......!
 2024-08-10 16:06:27.700 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.701 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.701 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.701 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.701 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.701 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.701 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5175,7 +5175,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:06:27.869 +07:00 [INF] Start request......!
 2024-08-10 16:06:27.869 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:06:27.870 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:06:27.870 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:06:27.870 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:06:27.870 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:06:27.870 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:06:27.870 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5215,8 +5215,8 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:07:05.094 +07:00 [INF] Start request......!
 2024-08-10 16:07:05.096 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
 2024-08-10 16:07:05.097 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
-2024-08-10 16:07:05.097 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
-2024-08-10 16:07:05.097 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:07:05.097 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
+2024-08-10 16:07:05.097 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:07:05.097 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:07:05.098 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:07:05.098 +07:00 [DBG] The request is a preflight request.
@@ -5233,7 +5233,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:07:05.103 +07:00 [INF] Start request......!
 2024-08-10 16:07:05.104 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:07:05.104 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:07:05.105 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:07:05.105 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:07:05.105 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:07:05.105 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:07:05.105 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
@@ -5269,7 +5269,7 @@ capygram.Common.Exceptions.NotFoundException: User not found by user name: Hieu0
 2024-08-10 16:07:05.274 +07:00 [INF] Start request......!
 2024-08-10 16:07:05.274 +07:00 [DBG] Successfully validated the token.
 2024-08-10 16:07:05.274 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
-2024-08-10 16:07:05.274 +07:00 [DBG] The request has an origin header: 'http://localhost:5173'.
+2024-08-10 16:07:05.274 +07:00 [DBG] The request has an origin header: 'https://capygram-seven.vercel.app'.
 2024-08-10 16:07:05.275 +07:00 [INF] CORS policy execution successful.
 2024-08-10 16:07:05.275 +07:00 [DBG] Authorization was successful.
 2024-08-10 16:07:05.275 +07:00 [INF] Executing endpoint 'capygram.Auth.Controllers.UsersController.GetUserByUserID (capygram.Auth)'
